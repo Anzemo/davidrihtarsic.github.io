@@ -1,50 +1,9 @@
-#README
-mogoče bo to taprva stran...
+# A simple sidebar template
 
-## readme more
-člkj ačsdlkjfčalks djčlaks jdfčalksd jfa
-čalk sjčflka jsdčflkj 
+[![License](https://poser.pugx.org/trevsewell/simplest-sidebar/license)](https://github.com/trevsewell/simplest-sidebar/blob/master/LICENSE)
 
-# PROJECTS
+I've tried to keep it as simple as possible using the least html markup and Javascript as possible.
 
-* [RobDuino-v2](https://davidrihtarsic.github.io/RobDuino/)
+## Demo
 
-# LUNKS
-* [this link](https://davidrihtarsic.github.io/another_file.html)
-
-# CODE
-
-```c++
-void loop ()
-{
-  if (TipkaC4.down()){
-    i = i<<1;
-    if (i>255) i = 1;
-  }
-  if (TipkaC5.down()){
-    i = i>>1;
-    if (i<1) i = 128;
-  }
-  PORTD = i;
-  delay(200);
-}
-```
-člkj ačsdlkjfčalks djčlaks jdfčalksd jfa
-čalk sjčflka jsdčflkj člkj ačsdlkjfčalks djčlaks jdfčalksd jfa
-čalk sjčflka jsdčflkj člkj ačsdlkjfčalks djčlaks jdfčalksd jfa
-čalk sjčflka jsdčflkj člkj ačsdlkjfčalks djčlaks jdfčalksd jfa
-čalk sjčflka jsdčflkj člkj ačsdlkjfčalks djčlaks jdfčalksd jfa
-čalk sjčflka jsdčflkj člkj ačsdlkjfčalks djčlaks jdfčalksd jfa
-čalk sjčflka jsdčflkj člkj ačsdlkjfčalks djčlaks jdfčalksd jfa
-čalk sjčflka jsdčflkj člkj ačsdlkjfčalks djčlaks jdfčalksd jfa
-čalk sjčflka jsdčflkj člkj ačsdlkjfčalks djčlaks jdfčalksd jfa
-čalk sjčflka jsdčflkj člkj ačsdlkjfčalks djčlaks jdfčalksd jfa
-čalk sjčflka jsdčflkj 
-
-# For the end
-
-člkj ačsdlkjfčalks djčlaks jdfčalksd jfa
-čalk sjčflka jsdčflkj člkj ačsdlkjfčalks djčlaks jdfčalksd jfa
-čalk sjčflka jsdčflkj člkj ačsdlkjfčalks djčlaks jdfčalksd jfa
-čalk sjčflka jsdčflkj člkj ačsdlkjfčalks djčlaks jdfčalksd jfa
-čalk sjčflka jsdčflkj 
+You can view the demo on [Github Pages](https://trevsewell.github.io/simplest-sidebar/).
