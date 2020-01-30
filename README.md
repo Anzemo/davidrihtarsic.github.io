@@ -15,7 +15,7 @@ mogoče bo to taprva stran...
 # CODE
 
 ```c++
-void loop()
+void loop ()
 {
   if (TipkaC4.down()){
     i = i<<1;
