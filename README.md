@@ -11,3 +11,21 @@ mogoče bo to taprva stran...
 
 # LUNKS
 * [this link](https://davidrihtarsic.github.io/another_file.html)
+
+# CODE
+
+```c++
+void loop()
+{
+  if (TipkaC4.down()){
+    i = i<<1;
+    if (i>255) i = 1;
+  }
+  if (TipkaC5.down()){
+    i = i>>1;
+    if (i<1) i = 128;
+  }
+  PORTD = i;
+  delay(200);
+}
+```
