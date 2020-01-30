@@ -10,4 +10,4 @@ mogoče bo to taprva stran...
 * [RobDuino-v2](https://davidrihtarsic.github.io/RobDuino/)
 
 # LUNKS
-* [this link](https://davidrihtarsic.github.io/another_file.md)
+* [this link](https://davidrihtarsic.github.io/another_file.html)
