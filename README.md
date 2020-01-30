@@ -1,6 +1,3 @@
----
-title:" Naslov strani"
----
 #README
 mogoče bo to taprva stran...
 
