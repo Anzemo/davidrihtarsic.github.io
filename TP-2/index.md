@@ -2,5 +2,5 @@
 has_children: true
 ---
 
-# Tehniški praktikum
+# TP-2
 Se izvaja v 
