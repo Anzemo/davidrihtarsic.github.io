@@ -14,4 +14,11 @@ if (a == 33){
 }
 ```
 
+# ROBOTIKA
+robotika se izvaja za študente ...
+
+| asdf | število |
+|------|---------|
+| test | res     |
+
 
