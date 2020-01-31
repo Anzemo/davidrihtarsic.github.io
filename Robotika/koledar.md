@@ -1,7 +1,3 @@
----
-parent: ROBOTIKA
----
-
 # Koledar
 
 čalskdjf člaksdjfčlaksj df
