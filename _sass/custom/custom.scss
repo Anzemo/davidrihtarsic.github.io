@@ -3,22 +3,15 @@
 ////
 blockquote { 
     position: relative;
-  	border-left: 20px solid #aaa;
-    border-right: 20px solid #aaa;
-    background-color: #eee;
+    border-left: 20px solid $grey-dk-000;
+    border-right: 20px solid $grey-dk-000;
+    background-color: $code-background-color;
     border-radius: 20px;
     font-weight: 300;
     font-family: 'Noto Sans', sans-serif;
     padding: 20px;
     margin: 20px;
 }
-
-////
-//// C++ highlitening
-////
-.highlight .nf { color: #FF0000; } // name.function //
-.highlight .c { color: #f00; } // comment //
-.c { color: #f00; } // comment //
 
 ////
 //// Typography
