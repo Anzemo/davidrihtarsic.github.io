@@ -16,10 +16,11 @@ figure.highlight {
   margin-bottom: 0;
   -webkit-overflow-scrolling: touch;
   background-color: $code-background-color;
+  font-weight: 300;
 
   code {
     padding: 0;
-    border: 3px solid;
+    border: 0;
   }
 }
 
