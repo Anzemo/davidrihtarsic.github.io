@@ -116,6 +116,15 @@ $border-radius: 14px;
 //$header-height: 60px;
 //$search-results-width: 500px;
 
+blockquote { 
+    padding: 0.2em 0.15em;
+    font-weight: 400;
+    background-color: #EEEEEE;
+    border: 1px solid #000000;
+    border-radius: 14px;
+}
+
+
 ////
 //// Media queries in pixels
 ////
