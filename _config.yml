@@ -1,6 +1,11 @@
 title: "David Rihtaršič"
 # tema od gihtuba
-theme: jekyll-theme-minimal
+# ne znam narediti navigation
+#theme: jekyll-theme-minimal
+
+# thema minimal-mistakes
+remote_theme             : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 #remote_theme: jekyll/jekyll
 
