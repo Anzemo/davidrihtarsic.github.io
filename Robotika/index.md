@@ -4,6 +4,10 @@ nav_order: 2
 ---
 
 # ROBOTIKA
+
+- TOC
+{:toc}
+
 Pa še en tekst člkaj sdčlkfj ačslkdfj časlkdj fčalsk jdf
 as čdlkfjačsldkjf čalskdj fčalskjdf čalskdjf asčalks jdfčlaksj df
 ačlskdj fčlaksjdf 
