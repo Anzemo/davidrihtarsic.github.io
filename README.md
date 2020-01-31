@@ -9,7 +9,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 in  poizkusimo  še notes
 
 > **Pomni**
-> ---
+>
 > kako zgledajo notaes...
 > če je kaj razlike. Potem verjetno je tole vse skupaj v
 > isti vrstici kolikor pač gre in mogoče moram narediti tisti p, da gre v novo vrsto/br
