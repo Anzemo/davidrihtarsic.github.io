@@ -1,7 +1,3 @@
----
-nav_order: 1
----
-
 # Home
 1. TOC
 {:toc}
