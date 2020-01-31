@@ -20,7 +20,7 @@ if (a == 33){
 ```
 # Uporabne povezave
 
-[RobDuino]( https://davidrihtarsic.github.io/RobDuino/ )
+[RobDuino]( https://davidrihtarsic.github.io/RobDuino/ ){:target="_blank"}
 
 # ROBOTIKA
 robotika se izvaja za študente ...
