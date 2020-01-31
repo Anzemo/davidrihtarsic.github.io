@@ -4,13 +4,13 @@ title: "David Rihtaršič"
 remote_theme: pmarsceill/just-the-docs
 #color_scheme: "dark"
 search_enabled: true
-logo: "https://avatars3.githubusercontent.com/u/26739491?s=460&v=4"
+logo: "https://avatars3.githubusercontent.com/u/26739491?s=200&v=4"
 aux_links:
-  "Just the Docs on GitHub":
-    - "//github.com/pmarsceill/just-the-docs"
-  "Pa še en link":
-    - "//github.com/pmarsceill/just-the-docs"
-footer_content: "Copyright &copy; 2017-2019 Patrick Marsceill. Distributed by an <a href=\"https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt\">MIT license.</a>"
+  "DRTI":
+    - "www.drti.si"
+  "PEF":
+    - "www.pef.uni-lj.si"
+footer_content: "..."
 
 
 # tema od gihtuba
