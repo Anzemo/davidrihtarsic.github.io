@@ -3,6 +3,7 @@
 ////
 blockquote { 
     position: relative;
+    border: 1px solid $grey-dk-000;
     border-left: 20px solid $grey-dk-000;
     border-right: 20px solid $grey-dk-000;
     background-color: $code-background-color;
