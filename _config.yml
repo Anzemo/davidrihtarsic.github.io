@@ -3,3 +3,11 @@ title: "David Rihtaršič"
 remote_theme: pmarsceill/just-the-docs
 #color_scheme: "dark"
 search_enabled: true
+
+social:
+  - service: github
+    username: sobolevn
+    link: https://github.com/sobolevn
+  - service: twitter
+    username: sobolevn
+    link: https://twitter.com/sobolevn
