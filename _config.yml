@@ -1,6 +1,7 @@
 title: "David Rihtaršič"
 #remote_theme: jekyll/jekyll
-remote_theme: pmarsceill/just-the-docs
+#remote_theme: pmarsceill/just-the-docs
+remote_theme: codeasashu/hcz-jekyll-blog
 #color_scheme: "dark"
 search_enabled: true
 
