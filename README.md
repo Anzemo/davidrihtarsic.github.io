@@ -8,6 +8,11 @@ You can use the [editor on GitHub](https://github.com/pmarsceill/test-jtd/edit/m
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+in  poizkusimo  še notes
+> kako zgledajo notaes...
+> če je kaj razlike. Potem verjetno je tole vse skupaj v isti vrstici kolikor pač gre in mogoče moram narediti tisti p, da gre v novo vrsto<p>
+> in bi to bila nova vrsta.
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
@@ -47,9 +52,6 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
     in je napisam z zamokom
     ali tabulatorjem kaj pa čžš
 
-in  poizkusimo  še notes
-> kako zgledajo notaes...
-> če je kaj razlike
 
 
 !!! note :kaj pa opozolilo če je ok
