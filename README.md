@@ -9,8 +9,11 @@ You can use the [editor on GitHub](https://github.com/pmarsceill/test-jtd/edit/m
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 in  poizkusimo  še notes
+> **Pomni**
+> ---
 > kako zgledajo notaes...
-> če je kaj razlike. Potem verjetno je tole vse skupaj v isti vrstici kolikor pač gre in mogoče moram narediti tisti p, da gre v novo vrsto<p>
+> če je kaj razlike. Potem verjetno je tole vse skupaj v
+> isti vrstici kolikor pač gre in mogoče moram narediti tisti p, da gre v novo vrsto/br
 > in bi to bila nova vrsta.
 
 ### Markdown
