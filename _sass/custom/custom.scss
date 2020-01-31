@@ -1,4 +1,24 @@
 ////
+//// Blockquote (za vaje, opozorila, pomni...)
+////
+blockquote { 
+    position: relative;
+  	border-left: 20px solid #aaa;
+    border-right: 20px solid #aaa;
+    background-color: #eee;
+    border-radius: 20px;
+    font-weight: 300;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 20px;
+    margin: 20px;
+}
+
+////
+//// C++ highlitening
+////
+.highlight .nf { color: #FF0000; } // name.function //
+
+////
 //// Typography
 ////
 
@@ -115,18 +135,6 @@ $border-radius: 14px;
 //$content-width: 800px;
 //$header-height: 60px;
 //$search-results-width: 500px;
-
-blockquote { 
-    position: relative;
-  	border-left: 20px solid #aaa;
-    border-right: 20px solid #aaa;
-    background-color: #eee;
-    border-radius: 20px;
-    font-weight: 300;
-    font-family: 'Noto Sans', sans-serif;
-    padding: 20px;
-    margin: 20px;
-}
 
 ////
 //// Media queries in pixels
