@@ -4,14 +4,14 @@ title: "David Rihtaršič"
 #theme: jekyll-theme-minimal
 
 # thema minimal-mistakes
-remote_theme             : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+#remote_theme             : "mmistakes/minimal-mistakes"
+#minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 #remote_theme: jekyll/jekyll
 
 # thema lepa simple
-#lahko urejaš nivo dokumenta
-#nima postov
-#remote_theme: pmarsceill/just-the-docs
+# lahko urejaš nivo dokumenta
+# nima postov
+remote_theme: pmarsceill/just-the-docs
 #color_scheme: "dark"
-#search_enabled: true
+search_enabled: true
