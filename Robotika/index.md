@@ -18,6 +18,9 @@ if (a == 33){
     run_the_program();
 }
 ```
+# Uporabne povezave
+
+[RobDuino]( https://github.com/davidrihtarsic/RobDuino )
 
 # ROBOTIKA
 robotika se izvaja za študente ...
