@@ -15,7 +15,7 @@ ačlskdj fčlaksjdf
 > **Opozorilo**
 >
 > Meni je to Opozorilo zelo všeč...
-> ---
+> 
 > Kaj pa vi pravite na to?
 
 
