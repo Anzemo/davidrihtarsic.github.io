@@ -117,13 +117,16 @@ $border-radius: 14px;
 //$search-results-width: 500px;
 
 blockquote { 
-    padding: 0.2em 0.15em;
-    font-weight: 400;
-    background-color: #EEEEEE;
-    border: 1px solid #000000;
-    border-radius: 14px;
+    position: relative;
+  	border-left: 20px solid #aaa;
+    border-right: 20px solid #aaa;
+    background-color: #eee;
+    border-radius: 20px;
+    font-weight: 300;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 20px;
+    margin: 20px;
 }
-
 
 ////
 //// Media queries in pixels
