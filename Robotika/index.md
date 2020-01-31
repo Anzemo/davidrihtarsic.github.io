@@ -24,7 +24,7 @@ ačlskdj fčlaksjdf
 ačslkdj fčalsk djfasdflkčj 
 
 ```cpp
-//komentar
+//komentar in še malo
 int var = millis()
 if (a == 33){
     run_the_program();
