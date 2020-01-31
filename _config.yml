@@ -4,7 +4,7 @@ title: "David Rihtaršič"
 remote_theme: pmarsceill/just-the-docs
 #color_scheme: "dark"
 search_enabled: true
-logo: "https://avatars3.githubusercontent.com/u/26739491?s=200&v=4"
+#logo: "https://avatars3.githubusercontent.com/u/26739491?s=200&v=4"
 aux_links:
   "DRTI":
     - "www.drti.si"
