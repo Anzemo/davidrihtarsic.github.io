@@ -1,7 +1,12 @@
+<<<<<<< HEAD
 ## Welcome to GitHub Pages
 <ol>
 {:toc}
 </ol>
+=======
+# Home
+
+>>>>>>> f0eb3c69e4c47cc9e49965c0e0e65f4a18c0ff16
 🚀 🐼
 
 You can use the [editor on GitHub](https://github.com/pmarsceill/test-jtd/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
