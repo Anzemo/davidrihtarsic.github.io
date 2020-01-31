@@ -17,7 +17,8 @@ ačlskdj fčlaksjdf
 ačslkdj fčalsk djfasdflkčj 
 
 ```cpp
-//še en komentar nal drugač
+//še en komentar
+//.c {color...} - še bo kej...
 int var = millis()
 if (a == 33){
     run_the_program();
