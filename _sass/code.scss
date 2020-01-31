@@ -2,18 +2,12 @@
 // Code and syntax highlighting
 //
 // stylelint-disable selector-no-qualifying-type, declaration-block-semicolon-newline-after,declaration-block-single-line-max-declarations, selector-no-type, selector-max-type
-
-code { 
-    position: relative;
-    border: 1px solid $grey-dk-000;
-    border-left: 20px solid $grey-dk-000;
-    border-right: 20px solid $grey-dk-000;
-    background-color: $code-background-color;
-    border-radius: 20px;
-    font-weight: 300;
-    font-family: 'Noto Sans', sans-serif;
-    padding: 20px;
-    margin: 20px;
+code {
+  padding: 0.2em 0.15em;
+  font-weight: 400;
+  background-color: $code-background-color;
+  border: $border $border-color;
+  border-radius: $border-radius;
 }
 
 pre.highlight,
@@ -25,7 +19,7 @@ figure.highlight {
 
   code {
     padding: 0;
-    border: 0;
+    border: 3px solid;
   }
 }
 
