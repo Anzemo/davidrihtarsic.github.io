@@ -52,3 +52,8 @@ in  poizkusimo  še notes
 
 !!! note :kaj pa opozolilo če je ok
 
+Ok to ni bilo nič pa poglejmo, če se da to rešiti z label. Mogoče bi bilo to pametno dati v rdeče...
+{: .label .label-red}
+
+Ok to ni bilo nič pa poglejmo, če se da to rešiti z label. Mogoče bi bilo to pametno dati v rdeče...
+{: .label .label-green}
