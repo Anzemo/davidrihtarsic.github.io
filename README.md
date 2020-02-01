@@ -11,4 +11,4 @@ SI-1113 Ljubljana
 Slovenija  
 
 ## Govorilne ure
-Na govorilne ure se napovejte preko:
+Na govorilne ure se napovejte preko elektronske pošte
