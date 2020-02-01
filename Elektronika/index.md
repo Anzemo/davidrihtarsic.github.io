@@ -1,7 +1,7 @@
 # Elektronika
 
-Ne pozabite preveriti [obvestila]( ./obvestila.md )  
-in terminov [izpitnih rokov]( ./izpitni_roki.md ).
+Ne pozabite preveriti [obvestila]( ./obvestila )  
+in terminov [izpitnih rokov]( ./izpitni_roki ).
 
 ## Izvajanje vaj
 
