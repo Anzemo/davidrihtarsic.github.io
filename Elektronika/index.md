@@ -1,7 +1,6 @@
 # Elektronika
-
-Ne pozabite preveriti [obvestila]( ./obvestila )  
-in terminov [izpitnih rokov]( ./izpitni_roki ).
+ [obvestila]( ./obvestila )
+ [izpitni roki]( ./izpitni_roki ) 
 
 ## Izvajanje vaj
 
