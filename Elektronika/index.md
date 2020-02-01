@@ -1,6 +1,6 @@
 # Elektronika
- [obvestila]( ./obvestila )
- [izpitni roki]( ./izpitni_roki ) 
+` [obvestila]( ./obvestila ) `\t
+` [izpitni roki]( ./izpitni_roki ) `
 
 ## Izvajanje vaj
 
