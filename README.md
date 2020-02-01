@@ -10,4 +10,5 @@ Oddelek za fiziko in tehniko, P060
 SI-1113 Ljubljana  
 Slovenija  
 
-
+## Govorilne ure
+Na govorilne ure se napovejte preko:
