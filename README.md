@@ -5,7 +5,7 @@
 Kardeljeva plošcad 16  
 Oddelek za fiziko in tehniko, P060  
 SI-1113 Ljubljana  
-Slovenija  
+ Slovenija  
 
 > **kabinet:** P-060  
 > **e-mail:** david.rihtarsic [at] uni-lj.si  
