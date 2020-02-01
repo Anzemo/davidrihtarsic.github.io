@@ -28,3 +28,8 @@ Priporočljivo je skripto natisniti in jo imeti pri vajah prisotno. Posebno pozo
 Če študent na kateri vaji izjemoma manjka in je ne opravlja v rednem delu izvajanja, mora študen to vajo nadoknaditi: bodisi v drugi skupini ali pa po dogovoru z asistentom s primernimi simulacijskimi orodji in tako opraviti potrebne meritve.
 Če skupno število točk ne preseže 50% vseh točk, se poročila zavrnejo in študent jih mora ustrezno popraviti ter ponovno oddati na naslednjem roku izpita iz vaj. Oddajanje poročil pri vratarju ni zaželjeno, saj so se nekatera že "izgubila" in za to nismo našli "krivca".
 
+Opravljanje kolokvijev iz elektronike:
+Načeloma se pišeta dva kolokvija in tako vsak pokriva polovico snovi iz vaj
+Kolokvij lahko pišejo le študentje, ki redno (100%) obiskujejo vaje.
+2. kolokvija se študent lahko udeleži le, če je s 1. kolokvijem dosegel vsaj 30% točk.
+Študentu se izpit iz vaj prizna le, če je ocena vsakega kolokvija vsaj 30% in povprečna ocena obeh vsaj 50%.
