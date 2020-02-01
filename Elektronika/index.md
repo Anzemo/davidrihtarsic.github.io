@@ -9,27 +9,26 @@ Vaje iz elektronike potekajo v 1. letniku smeri Ma-Fi, Fi-Te, Fi-Ke. Vaje obsega
 
 ## Obveznosti študentov
 
-Opravljanje izpita iz vaj za elektroniko 1:
-K izpitu iz vaj lahko pristopijo le študentje, ki so obiskovali vaje v več kot 80 %
-Na pisnem delu izpita iz vaj si lahko študent pomaga le s svojimi izdelanimi poročili iz vaj
-Na izpitu so 4 praktične naloge, kjer je potrebno večkrat parametre odčitati iz grafičnih prikazov, ali iz zabeleženih podatkov graf tudi ustvariti, večkrat je potrebno tudi predstaviti napetostne signale v časovni odvisnosti
-Poleg pisnega dela izpita iz vaj študent odda tudi izdelana poročila vaj, kjer se vsaka vaja oceni z 0, 1/2 ali 1 točko.
+Študent mora opraviti:
+- izpit iz vaj,
+- oddati poročila vaj in
+- imeti vsaj 80% prisotnost pri vajah.
 
-## Kolokviji
+### Izpit iz vaj
 
-Izpit iz vaj se bo izvajal tudi v obliki dveh kolokvijev. Kolokvija se lahko udeležite le, če je vaša prisotnost 100%.
+K izpitu iz vaj lahko pristopijo le študentje, ki so obiskovali vaje v več kot 80 %. Na pisnem delu izpita iz vaj si lahko študent pomaga le s **svojimi izdelanimi poročili** iz vaj. Na izpitu so 4 praktične naloge, kjer je potrebno večkrat parametre odčitati iz grafičnih prikazov, ali iz zabeleženih podatkov graf tudi ustvariti, večkrat je potrebno tudi predstaviti napetostne signale v časovni odvisnosti. Poleg pisnega dela izpita iz vaj študent odda tudi izdelana poročila vaj, kjer se vsaka vaja oceni z 0, ¹/₂ ali 1 točko.
 
-## Poročila vaj
+### Kolokviji
 
-Izdelana poročila študent odda na dan 1. kolokvija. Naloge se ocenjujejo po trojiškem sistemu (0, 1/2 in 1 točka). Če je vaja ocenjena z 0 točk, jo mora študent popraviti.
+Študentje, ki redno obiskujejo vaje lahko pristopijo tudi k kolokviju. V semestru se pišeta 2 kolikvija in vsak pokriva polovico snovi iz vaj. Študent se lahko udeleži drugega kolokvija le, če je s 1. kolokvijem dosegel vsaj 30% točk. Ocena iz kolokvija velja kot opravljen izpit le, če je ocena vsakega kolokvija vsaj 30% in povprečna ocena obeh vsaj 50%.
+
+### Poročila vaj
+
+Izdelana poročila študent odda na dan 1. kolokvija. Naloge se ocenjujejo po trojiškem sistemu (0, ¹/₂ in 1 točka). Če je vaja ocenjena z **0 točk**, jo mora študent **popraviti**. Opis vseh nalog za idelavo poročil lahko najdete v skripti iz vaj.
 
 Priporočljivo je skripto natisniti in jo imeti pri vajah prisotno. Posebno pozornost namenite izrisavanju grafov. Graf mora vsebovati: navpično in vodoravno os, njuni enoti in skalo, naslov grafa, mrežne črte naj bodo primerno izbrane. Graf lahko narišete ročno na že pripravljene podlage ali pa si pomagate z računalniškimi programi. Točke na grafu ne smejo biti povezane med seboj z daljico, vendar jim morate dodati ustrezen trend, ki nakazuje fizikalni pojav. Izpolnjene morajo biti vse vaje.
 
+### Nadomeščanje vaj
+
 Če študent na kateri vaji izjemoma manjka in je ne opravlja v rednem delu izvajanja, mora študen to vajo nadoknaditi: bodisi v drugi skupini ali pa po dogovoru z asistentom s primernimi simulacijskimi orodji in tako opraviti potrebne meritve.
 Če skupno število točk ne preseže 50% vseh točk, se poročila zavrnejo in študent jih mora ustrezno popraviti ter ponovno oddati na naslednjem roku izpita iz vaj. Oddajanje poročil pri vratarju ni zaželjeno, saj so se nekatera že "izgubila" in za to nismo našli "krivca".
-
-Opravljanje kolokvijev iz elektronike:
-Načeloma se pišeta dva kolokvija in tako vsak pokriva polovico snovi iz vaj
-Kolokvij lahko pišejo le študentje, ki redno (100%) obiskujejo vaje.
-2. kolokvija se študent lahko udeleži le, če je s 1. kolokvijem dosegel vsaj 30% točk.
-Študentu se izpit iz vaj prizna le, če je ocena vsakega kolokvija vsaj 30% in povprečna ocena obeh vsaj 50%.
