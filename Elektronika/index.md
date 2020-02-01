@@ -1,6 +1,6 @@
 # Elektronika
-` [obvestila]( ./obvestila ) `\t
-` [izpitni roki]( ./izpitni_roki ) `
+[obvestila]( ./obvestila ){: .btn}
+[izpitni roki]( ./izpitni_roki ){: .btn}
 
 ## Izvajanje vaj
 
