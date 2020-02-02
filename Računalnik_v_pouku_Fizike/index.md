@@ -1,4 +1,4 @@
-[../Računalnik_v_pouku_Fizike]( ./index.md )
+[../Računalnik_v_pouku_Fizike]( ./index.html )
 
 # Skripta
 
