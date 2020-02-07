@@ -636,8 +636,6 @@ Controlling the robot {#15}
 1.  \<++\>
 2.  \<++\>
 
-```{=html}
-<!-- -->
 ```cpp
     void setup() {
       pinMode(4, OUTPUT);
@@ -668,6 +666,7 @@ Controlling the robot {#15}
       digitalWrite(5, LOW);
       digitalWrite(4, LOW);
     }
+```
 
 ### 🎓 Summary:
 
