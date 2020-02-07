@@ -49,62 +49,57 @@ Testing the equipment {#1}
 
 #### Basic testing in Arduino IDE
 
--   Connect the Arduino Uno to PC with proper USB cable.\
+-   Connect the Arduino Uno to PC with proper USB cable.  
     `[Arduino Uno]` -\> 🔌 -\> 💻
--   Open Arduino IDE program and open program with:\
+-   Open Arduino IDE program and open program with:  
     `Files ⌥  Examples ⌥ 01. Basics ⌥ Blink.ino`
 -   Make sure that you will set the proper settings (follow the visual
-    instructions). From the menu choose:\
+    instructions). From the menu choose:  
     `Tools`⌥
     1.  `Board:` Arduino/Genuino Uno
     2.  `Port:` COM3
--   To upload the code you can click the icon `Upload`.\
+-   To upload the code you can click the icon `Upload`.  
     If the uploading was successful you will be prompted with the text
-    like:\
-    \
-    `Done uploading.             Sketch uses 970 bytes (3%) of program storage space. Maximum is 32256 bytes.             Global variables use 9 bytes (0%) of dynamic memory, leaving 2039 bytes for local variables. Maximum is 2048 bytes.         `
+    like:  
+```
+Done uploading.  
+Sketch uses 970 bytes (3%) of program storage space. Maximum is 32256 bytes.  
+Global variables use 9 bytes (0%) of dynamic memory, leaving 2039 bytes for local variables. Maximum is 2048 bytes.
+```
 
-<iframe src="https://docs.google.com/presentation/d/1czxI3HaRT38ETXpCCf2FVupa2JRZxE8utKlsW3IncIo/embed?authuser=0&hl=en&size=s&slide=2"
-width="410" height="337" title="Arduino IDE setup" frameborder="0"
-allowfullscreen="true" mozallowfullscreen="true"
-webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/1czxI3HaRT38ETXpCCf2FVupa2JRZxE8utKlsW3IncIo/embed?authuser=0&hl=en&size=s&slide=2" width="410" height="337" title="Arduino IDE setup" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 #### Basic testing in Ardublockly
 
--   Connect the Arduino Uno to PC with proper USB cable.\
+-   Connect the Arduino Uno to PC with proper USB cable.  
     `[Arduino Uno]` -\> 🔌 -\> 💻
--   Run Ardublockly program. Which will be running as localhost and you
-    will be using internet browser as IDE. The addres will be:\
+-   Run Ardublockly program. Which will be running as localhost and you will be using internet browser as IDE. The addres will be:  
     `http://localhost:8000/ardublockly/index.html`
--   In the left corner of the program you can find `[=] menu icon`. From
-    where you can choose (Slide 2 and 3)\
+-   In the left corner of the program you can find `[=] menu icon`. From where you can choose (Slide 2 and 3)  
     `[] Settings`:
-    1.  `Compiler Location:` C:\\Program Files
-        (x86)\\Arduino\\arduino\_debug.exe
+    1.  `Compiler Location:` C:\\Program Files (x86)\\Arduino\\arduino\_debug.exe
     2.  `Arduino Board:` Uno
     3.  `Com port:` COM3
     4.  And press:`[ RETURN ]`
--   Finaly you can press button `PLAY`\
-    And if uploading was successful you will be prompted with the text
-    (Slide 4):\
-    \
-    `Successfully Uploaded Sketch                  WARNING: Error loading hardware folder /home/david/Arduino/hardware/WAV8F                  No valid hardware definitions found in folder WAV8F.                  Sketch uses 444 bytes (1%) of program storage space. Maximum is 32256 bytes.                  Global variables use 9 bytes (0%) of dynamic memory, leaving 2039 bytes for local variables. Maximum is 2048 bytes.`
+-   Finaly you can press button `PLAY` And if uploading was successful you will be prompted with the text (Slide 4):  
+      
+```
+Successfully Uploaded Sketch  
+WARNING: Error loading hardware folder /home/david/Arduino/hardware/WAV8F  
+No valid hardware definitions found in folder WAV8F.  
+Sketch uses 444 bytes (1%) of program storage space. Maximum is 32256 bytes.  
+Global variables use 9 bytes (0%) of dynamic memory, leaving 2039 bytes for local variables. Maximum is 2048 bytes.
+```
 
-<iframe src="https://docs.google.com/presentation/d/17n6aYod3gkHMpdkHESa7lJXx2X5H_ddCX843DhJcOmg/embed?authuser=0&hl=en&size=s&slide=3"
-width="410" height="337" title="Ardublockly setup" frameborder="0"
-allowfullscreen="true" mozallowfullscreen="true"
-webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/17n6aYod3gkHMpdkHESa7lJXx2X5H_ddCX843DhJcOmg/embed?authuser=0&hl=en&size=s&slide=3" width="410" height="337" title="Ardublockly setup" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-### 🎓 Summary:
+> ### 🎓 Summary:  
+> <++>
 
-\<++\>
 
-### 💣 Issues:
-
-#### *Ardublockly returns the Error id 55: Serial port Serial Port unavailable.*
-
-Try to reconect the Arduino board. Wait a moment, check the settings and
-choose the COM port again then try again.\
+> ### 💣 Issues:  
+> **Ardublockly returns the Error id 55: Serial port Serial Port unavailable.**  
+> Try to reconect the Arduino board. Wait a moment, check the settings and choose the COM port again then try again.
 
 ------------------------------------------------------------------------
 
@@ -123,10 +118,7 @@ Hello World in Ardublockly {#2}
 2.  Try to compare and understand the C++ programming code in aside
     window.
 
-<iframe src="https://docs.google.com/presentation/d/1BC5WYt6tLmVa04csT0gHFhqLWAZiRtowicnboajiREs/embed?authuser=0&hl=en&size=s"
-width="410" height="337" title="First Program." frameborder="0"
-allowfullscreen="true" mozallowfullscreen="true"
-webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/1BC5WYt6tLmVa04csT0gHFhqLWAZiRtowicnboajiREs/embed?authuser=0&hl=en&size=s" width="410" height="337" title="First Program." frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ### 🎓 Summary:
 
@@ -134,7 +126,7 @@ webkitallowfullscreen="true"></iframe>
 
 ### 💣 Issues:
 
-\<++\>\
+\<++\>  
 
 ------------------------------------------------------------------------
 
@@ -153,11 +145,7 @@ combinations like: + and -; - and +; - and -; + and +.
 3.  Why does motor not spinning when both connectors are connected to +
     terminal of the battery?
 
-<iframe #1974716262
-src="https://docs.google.com/presentation/d/1Qfc5rweijkqj0otiPTjmi5Ch69kUaB-0SukPASNJl0I/embed?authuser=0&hl=en&size=s"
-width="410" height="337" title="Smer toka skozi motor" frameborder="0"
-allowfullscreen="true" mozallowfullscreen="true"
-webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/1Qfc5rweijkqj0otiPTjmi5Ch69kUaB-0SukPASNJl0I/embed?authuser=0&hl=en&size=s" width="410" height="337" title="Smer toka skozi motor" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ### 🎓 Summary:
 
@@ -168,8 +156,8 @@ current.
 
 #### *When I connect the DC motor to + and - terminals of the battery the motor\'s shaft does not spin.*
 
-Check the voltage of the battery\... battery may be discharged.\
-Check the connectors of the motor\... may be bad.\
+Check the voltage of the battery\... battery may be discharged.  
+Check the connectors of the motor\... may be bad.  
 
 ------------------------------------------------------------------------
 
@@ -188,20 +176,17 @@ Controlling the DC motor with Digital Outputs {#4}
 2.  Try to stop the shaft of the DC motor for a short time and try to
     remember how hard is it?
 
-<iframe src="https://docs.google.com/presentation/d/1PUic5XvpxqC7tHU_rsv6v5LQXwZPLfDbh1ANjloryWc/embed?authuser=0&hl=en&size=s"
-width="410" height="337" title="Controlling DC motor" frameborder="0"
-allowfullscreen="true" mozallowfullscreen="true"
-webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/1PUic5XvpxqC7tHU_rsv6v5LQXwZPLfDbh1ANjloryWc/embed?authuser=0&hl=en&size=s" width="410" height="337" title="Controlling DC motor" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ### 🎓 Summary:
 
 The motor\'s shaft is spinning according to the direction of the
-electric current trough the motor.\
+electric current trough the motor.  
 The torque is weak.
 
 ### 💣 Issues:
 
-\
+  
 
 ------------------------------------------------------------------------
 
@@ -223,25 +208,19 @@ Geared reductor {#5}
 4.  What happened with the produced mechanical power?
 5.  Try to calculate the geared ratio of the reductor.
 
-<iframe src="https://docs.google.com/presentation/d/1p6wyyBvcEfxJHv-0d4haAA1yltinnFbDQR8zmRaIrCY/embed?authuser=0&hl=en&size=s&slide=4"
-width="410" height="337" title="Reductor to motor." frameborder="0"
-allowfullscreen="true" mozallowfullscreen="true"
-webkitallowfullscreen="true"}\
-<iframe src="https://docs.google.com/presentation/d/1ILA4C_gQtkxDirSaMFyUvHl7vHPWDHQ6JsJ5cJysYS4/embed?authuser=0&hl=en&size=s"
-width="410" height="337" title="Gear ratio calculation." frameborder="0"
-allowfullscreen="true" mozallowfullscreen="true"
-webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/1p6wyyBvcEfxJHv-0d4haAA1yltinnFbDQR8zmRaIrCY/embed?authuser=0&hl=en&size=s&slide=4" width="410" height="337" title="Reductor to motor." frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>  
+<iframe src="https://docs.google.com/presentation/d/1ILA4C_gQtkxDirSaMFyUvHl7vHPWDHQ6JsJ5cJysYS4/embed?authuser=0&hl=en&size=s" width="410" height="337" title="Gear ratio calculation." frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ### 🎓 Summary:
 
 #### Gead ratio
 
 The gear ratio describing the ratio between the angular velocity of
-input gear G1 and angular velocity of output gear G2.\
-\$\$ { i=\\frac{\\omega\_1}{\\omega\_2} } \$\$\
+input gear G1 and angular velocity of output gear G2.  
+\$\$ { i=\\frac{\\omega\_1}{\\omega\_2} } \$\$  
 Because each gear moves tooth per tooth and if two touching gears have
 different numbers of teeths their\'s angular velocity will be different.
-In fact the anguar velocity will be inversely proportional.\
+In fact the anguar velocity will be inversely proportional.  
 \$\$ {\\frac{\\omega\_1}{\\omega\_2}=\\frac{N\_2}{N\_1}=i} \$\$
 
 ### 💣 Issues:
@@ -250,7 +229,7 @@ In fact the anguar velocity will be inversely proportional.\
 
 Check if the reductor is all the way connected on the motor. Check if
 the worm gear of the motor is in contact with first gear of the
-roductor.\
+roductor.  
 
 ------------------------------------------------------------------------
 
@@ -270,8 +249,7 @@ Constructing the mobile robot {#6}
 1.  Where do you think is th front side of the robot?
 2.  Are you able to rotate the wheels freely by hand?
 
-<iframe width="410" height="230" frameborder="0"
-src="https://www.youtube.com/embed/bybqvos4xYk"></iframe>
+<iframe width="410" height="230" frameborder="0" src="https://www.youtube.com/embed/bybqvos4xYk"></iframe>
 
 ### 🎓 Summary:
 
@@ -283,7 +261,7 @@ src="https://www.youtube.com/embed/bybqvos4xYk"></iframe>
 
 #### *\<++\>*
 
-\<++\>\
+\<++\>  
 
 ------------------------------------------------------------------------
 
@@ -311,10 +289,7 @@ Controlling the robot {#7}
     robot for specific move?
 2.  How many different moves your robot can make?
 
-<iframe src="https://docs.google.com/presentation/d/1BKoSvriVRVbvONMp2YZ22LsFi3vjijnKhqHtDNi-Pq8/embed?authuser=0&hl=en&size=s&slide=2"
-width="410" height="337" title="Connecting the motors." frameborder="0"
-allowfullscreen="true" mozallowfullscreen="true"
-webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/1BKoSvriVRVbvONMp2YZ22LsFi3vjijnKhqHtDNi-Pq8/embed?authuser=0&hl=en&size=s&slide=2" width="410" height="337" title="Connecting the motors." frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ### 🎓 Summary:
 
@@ -330,7 +305,7 @@ have to set four digital outputs for each move.
 
 Probably you did not set all of the outputs correctly. Remember taht
 some outputs may have remained set in previous output state from taken
-action in previous task.\
+action in previous task.  
 
 ------------------------------------------------------------------------
 
@@ -356,10 +331,7 @@ Programming functions {#8}
     program?
 3.  What happens if the mobile robot run into an obstacle?
 
-<iframe src="https://docs.google.com/presentation/d/1vYOfG0F-8ikE2mFRFNXIlvgsl0ML7iHD8GIIY66T490/embed?authuser=0&hl=en&size=s"
-width="410" height="337" title="Programming functions." frameborder="0"
-allowfullscreen="true" mozallowfullscreen="true"
-webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/1vYOfG0F-8ikE2mFRFNXIlvgsl0ML7iHD8GIIY66T490/embed?authuser=0&hl=en&size=s" width="410" height="337" title="Programming functions." frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ### 🎓 Summary:
 
@@ -371,7 +343,7 @@ webkitallowfullscreen="true"></iframe>
 
 #### *\<++\>*
 
-\<++\>\
+\<++\>  
 
 ------------------------------------------------------------------------
 
@@ -392,10 +364,7 @@ Programming loop - FOR {#9}
 1.  \<++\>
 2.  \<++\>
 
-<iframe src="https://docs.google.com/presentation/d/1ZB7AOIgQeHpEU0Ju1JdFO-02SztUCyBaLifMYyqn400/embed?authuser=0&hl=en&size=s"
-width="410" height="337" title="For loop" frameborder="0"
-allowfullscreen="true" mozallowfullscreen="true"
-webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/1ZB7AOIgQeHpEU0Ju1JdFO-02SztUCyBaLifMYyqn400/embed?authuser=0&hl=en&size=s" width="410" height="337" title="For loop" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ### 🎓 Summary:
 
@@ -407,7 +376,7 @@ webkitallowfullscreen="true"></iframe>
 
 #### *\<++\>*
 
-\<++\>\
+\<++\>  
 
 ------------------------------------------------------------------------
 
@@ -427,10 +396,7 @@ Writing program in C++ {#10}
 1.  \<++\>
 2.  \<++\>
 
-<iframe src="https://docs.google.com/presentation/d/17e2ijvffEE8KIf53N4ZPivBYtuLiJxURd4o8yijqU5g/embed?authuser=0&hl=en&size=s&slide=4"
-width="410" height="337" title="Programming c++" frameborder="0"
-allowfullscreen="true" mozallowfullscreen="true"
-webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/17e2ijvffEE8KIf53N4ZPivBYtuLiJxURd4o8yijqU5g/embed?authuser=0&hl=en&size=s&slide=4" width="410" height="337" title="Programming c++" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ### 🎓 Summary:
 
@@ -442,7 +408,7 @@ webkitallowfullscreen="true"></iframe>
 
 #### *\<++\>*
 
-\<++\>\
+\<++\>  
 
 ------------------------------------------------------------------------
 
@@ -462,8 +428,7 @@ Digital sensors {#11}
 2.  Name the mechanical mechanism where smaller force on one end can
     cause greater force on the other end of the mechanism.
 
-<iframe width="410" height="337" frameborder="0"
-src="https://www.youtube.com/embed/eWldNxh-q2c"></iframe>
+<iframe width="410" height="337" frameborder="0" src="https://www.youtube.com/embed/eWldNxh-q2c"></iframe>
 
 ### Tasks:
 
@@ -484,10 +449,7 @@ in order that are specified in presentation and listed as:
 2.  How many different states are presented with such sensor?
 3.  Name several more examples where digital sensor can take place.
 
-<iframe src="https://docs.google.com/presentation/d/1Sw-3ovX36DYt9zcj6z9gESie3ZJwWLExb9KPddrw9JM/embed?authuser=0&hl=en&size=s"
-width="410" height="337" title="Connecting the key" frameborder="0"
-allowfullscreen="true" mozallowfullscreen="true"
-webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/1Sw-3ovX36DYt9zcj6z9gESie3ZJwWLExb9KPddrw9JM/embed?authuser=0&hl=en&size=s" width="410" height="337" title="Connecting the key" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ### 🎓 Summary:
 
@@ -504,7 +466,7 @@ The output of a digital sensor can be just in two states:
 
 Probably the key or switch is connected wrong and there is short
 connection between the GND and +5V voltage terminals. Unconnect the key
-or switch and verify if the power is back.\
+or switch and verify if the power is back.  
 
 ------------------------------------------------------------------------
 
@@ -526,10 +488,7 @@ Reading digital input {#12}
 1.  Check if the LED on the output terminal D3 is turend ON when the
     bummper is pressed.
 
-<iframe src="https://docs.google.com/presentation/d/1NVtol-a0tmlgl00VwCACQIcAOOty3KYEMSgUFkf8-Aw/embed?authuser=0&hl=en&size=s"
-width="410" height="337" title="Testing Digital Input" frameborder="0"
-allowfullscreen="true" mozallowfullscreen="true"
-webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/1NVtol-a0tmlgl00VwCACQIcAOOty3KYEMSgUFkf8-Aw/embed?authuser=0&hl=en&size=s" width="410" height="337" title="Testing Digital Input" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ### 🎓 Summary:
 
@@ -541,7 +500,7 @@ webkitallowfullscreen="true"></iframe>
 
 #### *\<++\>*
 
-\<++\>\
+\<++\>  
 
 ------------------------------------------------------------------------
 
@@ -564,10 +523,7 @@ S-R-A loop {#13}
     the program in Slide 2)?
 2.  \<++\>
 
-<iframe src="https://docs.google.com/presentation/d/13B5ynixnR7ZRl4__jpnLk7gP8_S3yF2U2zaUpZtax1o/embed?authuser=0&hl=en&size=s"
-width="410" height="337" title="S-R-A Loop" frameborder="0"
-allowfullscreen="true" mozallowfullscreen="true"
-webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/13B5ynixnR7ZRl4__jpnLk7gP8_S3yF2U2zaUpZtax1o/embed?authuser=0&hl=en&size=s" width="410" height="337" title="S-R-A Loop" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ### 🎓 Summary:
 
@@ -580,7 +536,7 @@ S-R-A loop is the most important thing in robotics.
 #### *It seems that the program is not working right \... like it would be ignoring the value of the sensor.*
 
 Probably the S-R-A loop is not actually a loop. Check the program if the
-input is read just onces or is read continuously.\
+input is read just onces or is read continuously.  
 
 ------------------------------------------------------------------------
 
@@ -656,7 +612,7 @@ start with upper case. Some examples should be:
 
 Probably you forgot to put ; (semicolon) at the end of the command. Find
 the row starting with \"**something**\" and look the row above\...
-probably missing \"**;**\".\
+probably missing \"**;**\".  
 
 ------------------------------------------------------------------------
 
@@ -723,7 +679,7 @@ Controlling the robot {#15}
 
 #### *\<++\>*
 
-\<++\>\
+\<++\>  
 
 ------------------------------------------------------------------------
 
@@ -781,7 +737,7 @@ Programming loop - FOR {#16}
 
 #### *\<++\>*
 
-\<++\>\
+\<++\>  
 
 ------------------------------------------------------------------------
 
@@ -845,7 +801,7 @@ It can be expanded into IF-ELSE form:
 
 #### *\<++\>*
 
-\<++\>\
+\<++\>  
 
 ------------------------------------------------------------------------
 
@@ -896,7 +852,7 @@ S-R-A loop {#18}
 
 #### *\<++\>*
 
-\<++\>\
+\<++\>  
 
 ------------------------------------------------------------------------
 
@@ -915,15 +871,11 @@ Reading analog input {#19}
     sensor?
 2.  Find the reasonable value vhere you shuld stop the robot.
 
-<iframe width="410" height="337" frameborder="0"
-src="https://www.youtube.com/embed/ELYsyuhbQfY"></iframe>
+<iframe width="410" height="337" frameborder="0" src="https://www.youtube.com/embed/ELYsyuhbQfY"></iframe>
 
 ------------------------------------------------------------------------
 
-<iframe src="https://docs.google.com/presentation/d/1j4yvBeTajgG9wFb5mw9SUPUTLXjPWNWjOnINUEmyAx8/embed?authuser=0&hl=en&size=s"
-width="410" height="337" title="Conection of distance sensor"
-frameborder="0" allowfullscreen="true" mozallowfullscreen="true"
-webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/1j4yvBeTajgG9wFb5mw9SUPUTLXjPWNWjOnINUEmyAx8/embed?authuser=0&hl=en&size=s" width="410" height="337" title="Conection of distance sensor" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ### 🎓 Summary:
 
@@ -937,7 +889,7 @@ voltage from 0V to 5V is converted to range of numbers from 0 to 1023.
 
 #### *\<++\>*
 
-\<++\>\
+\<++\>  
 
 ------------------------------------------------------------------------
 
@@ -988,7 +940,7 @@ obstacles.
 
 #### *\<++\>*
 
-\<++\>\
+\<++\>  
 
 ------------------------------------------------------------------------
 
@@ -1009,15 +961,11 @@ Light sensor {#21}
     area?
 2.  Calculate the average between those two values.
 
-<iframe width="410" height="337" frameborder="0"
-src="https://www.youtube.com/embed/wEN1e6m1FGY"></iframe>
+<iframe width="410" height="337" frameborder="0" src="https://www.youtube.com/embed/wEN1e6m1FGY"></iframe>
 
 ------------------------------------------------------------------------
 
-<iframe src="https://docs.google.com/presentation/d/1nVl7aVy0qCZ7b6E-bIywXlQZ7PH8LOBB2sb2VxsBKR0/embed?authuser=0&hl=en&size=s"
-width="410" height="337" title="Constructing the light sensor"
-frameborder="0" allowfullscreen="true" mozallowfullscreen="true"
-webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/1nVl7aVy0qCZ7b6E-bIywXlQZ7PH8LOBB2sb2VxsBKR0/embed?authuser=0&hl=en&size=s" width="410" height="337" title="Constructing the light sensor" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ### 🎓 Summary:
 
@@ -1037,7 +985,7 @@ the voltage divider can be calculated as: \$\$ U\_{Out} =
 
 #### *\<++\>*
 
-\<++\>\
+\<++\>  
 
 ------------------------------------------------------------------------
 
@@ -1088,7 +1036,7 @@ Line follower {#22}
 
 #### *\<++\>*
 
-\<++\>\
+\<++\>  
 
 ------------------------------------------------------------------------
 
@@ -1164,23 +1112,23 @@ variable.
 
 A variable definition means that the programmer writes some instructions
 to tell the compiler to create the storage in a memory location. The
-syntax for defining variables is:\
-\
+syntax for defining variables is:  
+  
 
      data_type variable_name;
 
-\
+  
 Here `data_type` means the valid C++ data type which includes int,
 float, double, char, wchar\_t, bool and variable list is the lists of
-variable names to be declared which is separated by commas.\
+variable names to be declared which is separated by commas.  
 Variables are declared in the above example, but none of them has been
 assigned any value. Variables can be initialized, and the initial value
-can be assigned along with their declaration.\
+can be assigned along with their declaration.  
 
      data_type variable_name = value;
 
-\
-Examples:\
+  
+Examples:  
 
      bool is_raining = false;
      int sensor_value = 23;
@@ -1192,9 +1140,9 @@ Examples:\
 
 The easiest way to measure time is to simply count the number of loop\'s
 executions. And if we know how long is one execution of the loop - we
-can easily determine the time lapsed for the whole process.\
-\
-Example:\
+can easily determine the time lapsed for the whole process.  
+  
+Example:  
 
       int t = 0;
       while (t<10){
@@ -1210,9 +1158,9 @@ In the previous example the `while` loop is executed 10 times (t = \[0
 
 More proper way of measuring the time is by using the timer\'s values.
 More on that can be read
-[here](https://www.arduino.cc/reference/en/language/functions/time/millis/).\
-\
-Example:\
+[here](https://www.arduino.cc/reference/en/language/functions/time/millis/).  
+  
+Example:  
 
       unsigned long start_time;
       unsigned long stop_time;
@@ -1230,7 +1178,7 @@ Where the `duration` is the time in milliseconds.
 
 #### *\<++\>*
 
-\<++\>\
+\<++\>  
 
 ------------------------------------------------------------------------
 
@@ -1254,8 +1202,7 @@ Barrier gate construction {#24}
     colleague\'s situation.
 2.  What is disadvantage of time controlled loop.
 
-<iframe width="410" height="337" frameborder="0"
-src="https://www.youtube.com/embed/5_eh7ojNH68"></iframe>
+<iframe width="410" height="337" frameborder="0" src="https://www.youtube.com/embed/5_eh7ojNH68"></iframe>
 
 ------------------------------------------------------------------------
 
@@ -1290,7 +1237,7 @@ src="https://www.youtube.com/embed/5_eh7ojNH68"></iframe>
 
 #### *\<++\>*
 
-\<++\>\
+\<++\>  
 
 ------------------------------------------------------------------------
 
@@ -1310,15 +1257,11 @@ Reference point. {#25}
 1.  Why is detection of reference point important?
 2.  \<++\>
 
-<iframe width="410" height="337" frameborder="0"
-src="https://www.youtube.com/embed/bmgUlj_rP3U"></iframe>
+<iframe width="410" height="337" frameborder="0" src="https://www.youtube.com/embed/bmgUlj_rP3U"></iframe>
 
 ------------------------------------------------------------------------
 
-<iframe src="https://docs.google.com/presentation/d/1JTBdKVBY-znuZVyeCoOIMyx3Ds80OAD6DyzBDHL_dRk/embed?authuser=0&hl=en&size=s"
-width="410" height="337" title="switch connection" frameborder="0"
-allowfullscreen="true" mozallowfullscreen="true"
-webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/1JTBdKVBY-znuZVyeCoOIMyx3Ds80OAD6DyzBDHL_dRk/embed?authuser=0&hl=en&size=s" width="410" height="337" title="switch connection" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ### 🎓 Summary:
 
@@ -1330,7 +1273,7 @@ webkitallowfullscreen="true"></iframe>
 
 #### *\<++\>*
 
-\<++\>\
+\<++\>  
 
 ------------------------------------------------------------------------
 
@@ -1349,8 +1292,7 @@ Reed switch and pull-up resistors {#26}
 2.  How can we turn on the internal pull-up resistor of the
     microcontroller?
 
-<iframe width="410" height="337" frameborder="0"
-src="https://www.youtube.com/embed/3hhu11bBFXc"></iframe>
+<iframe width="410" height="337" frameborder="0" src="https://www.youtube.com/embed/3hhu11bBFXc"></iframe>
 
      [-]void setup() {
           pinMode(7, OUTPUT); //declaration of I/O pins
@@ -1379,7 +1321,7 @@ src="https://www.youtube.com/embed/3hhu11bBFXc"></iframe>
 
 #### *\<++\>*
 
-\<++\>\
+\<++\>  
 
 ------------------------------------------------------------------------
 
@@ -1433,7 +1375,7 @@ On-module Buttons and pull-up resistors {#27}
 
 #### *\<++\>*
 
-\<++\>\
+\<++\>  
 
 ------------------------------------------------------------------------
 
@@ -1486,15 +1428,11 @@ Potentiometer as angle sensor {#28}
     the upper orientation\...
 2.  \... and in lower orientation.
 
-<iframe width="410" height="337" frameborder="0"
-src="https://www.youtube.com/embed/kzLtVWtxVsQ"></iframe>
+<iframe width="410" height="337" frameborder="0" src="https://www.youtube.com/embed/kzLtVWtxVsQ"></iframe>
 
 ------------------------------------------------------------------------
 
-<iframe src="https://docs.google.com/presentation/d/1GgbUhsWBIflvZN1qMDrkh2tXRMLtYGoxHCdt5s_COVg/embed?authuser=0&hl=en&size=s"
-width="410" height="337" title="potenciometer" frameborder="0"
-allowfullscreen="true" mozallowfullscreen="true"
-webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/1GgbUhsWBIflvZN1qMDrkh2tXRMLtYGoxHCdt5s_COVg/embed?authuser=0&hl=en&size=s" width="410" height="337" title="potenciometer" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ### 🎓 Summary:
 
@@ -1506,7 +1444,7 @@ webkitallowfullscreen="true"></iframe>
 
 #### *\<++\>*
 
-\<++\>\
+\<++\>  
 
 ------------------------------------------------------------------------
 
@@ -1535,6 +1473,6 @@ LCD(i2c) {#29}
 
 #### *\<++\>*
 
-\<++\>\
+\<++\>  
 
 ------------------------------------------------------------------------
