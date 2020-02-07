@@ -44,8 +44,7 @@ Robotics Starter Course
 
 ------------------------------------------------------------------------
 
-Testing the equipment {#1}
-=====================
+# TESTING THE EQUIPMENT
 
 ## Basic testing in Arduino IDE
 
@@ -69,7 +68,7 @@ Global variables use 9 bytes (0%) of dynamic memory, leaving 2039 bytes for loca
 
 <iframe src="https://docs.google.com/presentation/d/1czxI3HaRT38ETXpCCf2FVupa2JRZxE8utKlsW3IncIo/embed?authuser=0&hl=en&size=s&slide=2" width="410" height="337" title="Arduino IDE setup" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-#### Basic testing in Ardublockly
+## Basic testing in Ardublockly
 
 -   Connect the Arduino Uno to PC with proper USB cable.  
     `[Arduino Uno]` -\> 🔌 -\> 💻
@@ -95,24 +94,21 @@ Global variables use 9 bytes (0%) of dynamic memory, leaving 2039 bytes for loca
 
 > ### 🎓 Summary:  
 > <++>
-
-
 > ### 💣 Issues:  
 > **Ardublockly returns the Error id 55: Serial port Serial Port unavailable.**  
 > Try to reconect the Arduino board. Wait a moment, check the settings and choose the COM port again then try again.
 
 ------------------------------------------------------------------------
 
-Hello World in Ardublockly {#2}
-==========================
+# HELLO WORLD IN ARDUBLOCKLY
 
-### Task:
+## Task:
 
 -   Make a very simple program like setting the digital output bit D3 to
     logical state 1 or **HIGH**.
 -   Send the program to Arduino controller.
 
-### Questions:
+## Questions:
 
 1.  What is the voltage of the digital output pin D3?
 2.  Try to compare and understand the C++ programming code in aside
@@ -120,13 +116,10 @@ Hello World in Ardublockly {#2}
 
 <iframe src="https://docs.google.com/presentation/d/1BC5WYt6tLmVa04csT0gHFhqLWAZiRtowicnboajiREs/embed?authuser=0&hl=en&size=s" width="410" height="337" title="First Program." frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-### 🎓 Summary:
-
-\<++\>
-
-### 💣 Issues:
-
-\<++\>  
+> ### 🎓 Summary:  
+> <++>
+> ### 💣 Issues:  
+> <++>
 
 ------------------------------------------------------------------------
 
@@ -147,17 +140,15 @@ combinations like: + and -; - and +; - and -; + and +.
 
 <iframe src="https://docs.google.com/presentation/d/1Qfc5rweijkqj0otiPTjmi5Ch69kUaB-0SukPASNJl0I/embed?authuser=0&hl=en&size=s" width="410" height="337" title="Smer toka skozi motor" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-### 🎓 Summary:
-
-The rotation of the DC motor depends on the direction of electric
-current.
-
-### 💣 Issues:
-
-#### *When I connect the DC motor to + and - terminals of the battery the motor\'s shaft does not spin.*
-
-Check the voltage of the battery\... battery may be discharged.  
-Check the connectors of the motor\... may be bad.  
+> ### 🎓 Summary:
+> The rotation of the DC motor depends on the direction of electric
+> current.
+> 
+> ### 💣 Issues:
+> **When I connect the DC motor to + and - terminals of the battery the motor\'s shaft does not spin.**
+> 
+> Check the voltage of the battery... battery may be discharged.  
+> Check the connectors of the motor... may be bad.  
 
 ------------------------------------------------------------------------
 
