@@ -3,7 +3,7 @@ Robotics Starter Course
 
 ------------------------------------------------------------------------
 
-1.  [Testing the equipment](#testing_the_equipment)
+1.  [Testing the equipment](#testing-the-equipment)
 2.  [Hello World in Ardublockly](#2)
 3.  [How DC motor works](#3)
 4.  [Controlling the DC motor with Digital Outputs](#4)
@@ -44,7 +44,7 @@ Robotics Starter Course
 
 ------------------------------------------------------------------------
 
-Testing the equipment {#1}
+Testing the equipment
 ---------------------
 
 #### Basic testing in Arduino IDE
@@ -80,11 +80,11 @@ Global variables use 9 bytes (0%) of dynamic memory, leaving 2039 bytes for loca
 -   Finaly you can press button `PLAY`  And if uploading was successful you will be prompted with the text (Slide 4):  
       
 ```
-    Successfully Uploaded Sketch  
-    WARNING: Error loading hardware folder /home/david/Arduino/hardware/WAV8F  
-    No valid hardware definitions found in folder WAV8F.  
-    Sketch uses 444 bytes (1%) of program storage space. Maximum is 32256 bytes.  
-    Global variables use 9 bytes (0%) of dynamic memory, leaving 2039 bytes for local variables. Maximum is 2048 bytes.
+Successfully Uploaded Sketch  
+WARNING: Error loading hardware folder /home/david/Arduino/hardware/WAV8F  
+No valid hardware definitions found in folder WAV8F.  
+Sketch uses 444 bytes (1%) of program storage space. Maximum is 32256 bytes.  
+Global variables use 9 bytes (0%) of dynamic memory, leaving 2039 bytes for local variables. Maximum is 2048 bytes.
 ```
 
 ### 🎓 Summary:
@@ -99,7 +99,7 @@ Try to reconect the Arduino board. Wait a moment, check the settings and choose 
 
 ------------------------------------------------------------------------
 
-Hello World in Ardublockly {#2}
+Hello World in Ardublockly
 --------------------------
 
 ### Task:
@@ -124,7 +124,7 @@ Hello World in Ardublockly {#2}
 
 ------------------------------------------------------------------------
 
-How DC motor works {#3}
+How DC motor works
 ------------------
 
 ### Task:
@@ -153,7 +153,7 @@ Check the connectors of the motor\... may be bad.
 
 ------------------------------------------------------------------------
 
-Controlling the DC motor with Digital Outputs {#4}
+Controlling the DC motor with Digital Outputs
 ---------------------------------------------
 
 ### Task:
@@ -180,7 +180,7 @@ The torque is weak.
 
 ------------------------------------------------------------------------
 
-Geared reductor {#5}
+Geared reductor
 ---------------
 
 ### Task:
@@ -222,7 +222,7 @@ roductor.
 
 ------------------------------------------------------------------------
 
-Constructing the mobile robot {#6}
+Constructing the mobile robot
 -----------------------------
 
 ### Tasks:
@@ -252,7 +252,7 @@ Constructing the mobile robot {#6}
 
 ------------------------------------------------------------------------
 
-Controlling the robot {#7}
+Controlling the robot
 ---------------------
 
 ### Tasks:
@@ -294,7 +294,7 @@ action in previous task.
 
 ------------------------------------------------------------------------
 
-Programming functions {#8}
+Programming functions
 ---------------------
 
 ### Tasks:
@@ -330,7 +330,7 @@ Programming functions {#8}
 
 ------------------------------------------------------------------------
 
-Programming loop - FOR {#9}
+Programming loop - FOR
 ----------------------
 
 ### Tasks:
@@ -361,7 +361,7 @@ Programming loop - FOR {#9}
 
 ------------------------------------------------------------------------
 
-Writing program in C++ {#10}
+Writing program in C++
 ----------------------
 
 ### Tasks:
@@ -391,7 +391,7 @@ Writing program in C++ {#10}
 
 ------------------------------------------------------------------------
 
-Digital sensors {#11}
+Digital sensors
 ---------------
 
 ### Tasks:
@@ -445,7 +445,7 @@ or switch and verify if the power is back.
 
 ------------------------------------------------------------------------
 
-Reading digital input {#12}
+Reading digital input
 ---------------------
 
 ### Tasks:
@@ -477,7 +477,7 @@ Reading digital input {#12}
 
 ------------------------------------------------------------------------
 
-S-R-A loop {#13}
+S-R-A loop
 ----------
 
 ### Tasks:
@@ -511,7 +511,7 @@ input is read just onces or is read continuously.
 
 ------------------------------------------------------------------------
 
-Hello World in Arduino IDE {#14}
+Hello World in Arduino IDE
 --------------------------
 
 ### Tasks:
@@ -587,7 +587,7 @@ probably missing \"**;**\".
 
 ------------------------------------------------------------------------
 
-Controlling the robot {#15}
+Controlling the robot
 ---------------------
 
 ### Tasks:
@@ -654,7 +654,7 @@ Controlling the robot {#15}
 
 ------------------------------------------------------------------------
 
-Programming loop - FOR {#16}
+Programming loop - FOR
 ----------------------
 
 ### Tasks:
@@ -712,7 +712,7 @@ Programming loop - FOR {#16}
 
 ------------------------------------------------------------------------
 
-Reading digital input {#17}
+Reading digital input
 ---------------------
 
 ### Tasks:
@@ -776,7 +776,7 @@ It can be expanded into IF-ELSE form:
 
 ------------------------------------------------------------------------
 
-S-R-A loop {#18}
+S-R-A loop
 ----------
 
 ### Tasks:
@@ -827,7 +827,7 @@ S-R-A loop {#18}
 
 ------------------------------------------------------------------------
 
-Reading analog input {#19}
+Reading analog input
 --------------------
 
 ### Tasks:
@@ -860,7 +860,7 @@ voltage from 0V to 5V is converted to range of numbers from 0 to 1023.
 
 ------------------------------------------------------------------------
 
-Avoiding obstacles {#20}
+Avoiding obstacles
 ------------------
 
 ### Tasks:
@@ -911,7 +911,7 @@ obstacles.
 
 ------------------------------------------------------------------------
 
-Light sensor {#21}
+Light sensor
 ------------
 
 ### Tasks:
@@ -952,7 +952,7 @@ the voltage divider can be calculated as: \$\$ U\_{Out} =
 
 ------------------------------------------------------------------------
 
-Line follower {#22}
+Line follower
 -------------
 
 ### Tasks:
@@ -1003,7 +1003,7 @@ Line follower {#22}
 
 ------------------------------------------------------------------------
 
-Variables {#23}
+Variables
 ---------
 
 ### Tasks:
@@ -1145,7 +1145,7 @@ Where the `duration` is the time in milliseconds.
 
 ------------------------------------------------------------------------
 
-Barrier gate construction {#24}
+Barrier gate construction
 -------------------------
 
 ### Tasks:
@@ -1202,7 +1202,7 @@ Barrier gate construction {#24}
 
 ------------------------------------------------------------------------
 
-Reference point. {#25}
+Reference point.
 ----------------
 
 ### Tasks:
@@ -1234,7 +1234,7 @@ Reference point. {#25}
 
 ------------------------------------------------------------------------
 
-Reed switch and pull-up resistors {#26}
+Reed switch and pull-up resistors
 ---------------------------------
 
 ### Tasks:
@@ -1283,7 +1283,7 @@ Reed switch and pull-up resistors {#26}
 
 ------------------------------------------------------------------------
 
-On-module Buttons and pull-up resistors {#27}
+On-module Buttons and pull-up resistors
 ---------------------------------------
 
 ### Tasks:
@@ -1337,7 +1337,7 @@ On-module Buttons and pull-up resistors {#27}
 
 ------------------------------------------------------------------------
 
-Potentiometer as angle sensor {#28}
+Potentiometer as angle sensor
 -----------------------------
 
 ### Tasks:
@@ -1402,7 +1402,7 @@ Potentiometer as angle sensor {#28}
 
 ------------------------------------------------------------------------
 
-LCD(i2c) {#29}
+LCD(i2c)
 --------
 
 ### Tasks:
