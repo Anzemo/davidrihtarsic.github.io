@@ -1,5 +1,7 @@
 # ROBOTIKA
-[Učno gradivo]( ./Course/RoboticsStarterCourse_md.html ){: .btn}
+[Učno gradivo (HTML)]( ./Course/RoboticsStarterCoursed.html ){: .btn}{:target="_blank"}
+[Učno gradivo (MD)]( ./Course/RoboticsStarterCourse_md.html ){: .btn}{:target="_blank"}
+
 - TOC
 {:toc}
 
@@ -7,11 +9,9 @@ Pa še en tekst člkaj sdčlkfj ačslkdfj časlkdj fčalsk jdf
 as čdlkfjačsldkjf čalskdj fčalskjdf čalskdjf asčalks jdfčlaksj df
 ačlskdj fčlaksjdf 
 
-> **Opozorilo**
->
-> Meni je to Opozorilo zelo všeč...
-> 
-> Kaj pa vi pravite na to?
+> **Opozorilo**  
+> Ta stran je trenutno v izdelavi in je namenjena testiranju vsebin.  
+> Hvala za razumevenje.
 
 
 ## podnaslov...

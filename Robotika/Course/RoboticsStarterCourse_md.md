@@ -3,7 +3,7 @@ Robotics Starter Course
 
 ------------------------------------------------------------------------
 
-1.  [Testing the equipment](#testing-the-equipment)
+1.  [Testing the equipment](#1)
 2.  [Hello World in Ardublockly](#2)
 3.  [How DC motor works](#3)
 4.  [Controlling the DC motor with Digital Outputs](#4)
@@ -44,50 +44,49 @@ Robotics Starter Course
 
 ------------------------------------------------------------------------
 
-Testing the equipment
----------------------
+Testing the equipment {#1}
+=====================
 
-### Basic testing in Arduino IDE
+#### Basic testing in Arduino IDE
 
--   Connect the Arduino Uno to PC with proper USB cable.  
+-   Connect the Arduino Uno to PC with proper USB cable.\
     `[Arduino Uno]` -\> 🔌 -\> 💻
--   Open Arduino IDE program and open program with:  
+-   Open Arduino IDE program and open program with:\
     `Files ⌥  Examples ⌥ 01. Basics ⌥ Blink.ino`
--   Make sure that you will set the proper settings (follow the visual instructions). From the menu choose:  
+-   Make sure that you will set the proper settings (follow the visual
+    instructions). From the menu choose:\
     `Tools`⌥
     1.  `Board:` Arduino/Genuino Uno
     2.  `Port:` COM3
--   To upload the code you can click the icon `Upload`.If the uploading was successful you will be prompted with the text like:  
+-   To upload the code you can click the icon `Upload`.\
+    If the uploading was successful you will be prompted with the text
+    like:\
+    \
+    `Done uploading.             Sketch uses 970 bytes (3%) of program storage space. Maximum is 32256 bytes.             Global variables use 9 bytes (0%) of dynamic memory, leaving 2039 bytes for local variables. Maximum is 2048 bytes.         `
 
-```
-Done uploading.  
-Sketch uses 970 bytes (3%) of program storage space. Maximum is 32256 bytes.  
-Global variables use 9 bytes (0%) of dynamic memory, leaving 2039 bytes for local variables. Maximum is 2048 bytes.
-```
+![testna slika](https://docs.google.com/presentation/d/1czxI3HaRT38ETXpCCf2FVupa2JRZxE8utKlsW3IncIo/embed?authuser=0&hl=en&size=s&slide=2 "Arduino IDE setup"){width="410"
+height="337"}
 
-<iframe src="https://docs.google.com/presentation/d/1czxI3HaRT38ETXpCCf2FVupa2JRZxE8utKlsW3IncIo/embed?authuser=0&amp;hl=en&amp;size=s&amp;slide=2" width="410" height="337" title="Arduino IDE setup" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+#### Basic testing in Ardublockly
 
-### Basic testing in Ardublockly
-
--   Connect the Arduino Uno to PC with proper USB cable.  
+-   Connect the Arduino Uno to PC with proper USB cable.\
     `[Arduino Uno]` -\> 🔌 -\> 💻
--   Run Ardublockly program. Which will be running as localhost and you will be using internet browser as IDE. The addres will be:  
+-   Run Ardublockly program. Which will be running as localhost and you
+    will be using internet browser as IDE. The addres will be:\
     `http://localhost:8000/ardublockly/index.html`
--   In the left corner of the program you can find `[=] menu icon`. From where you can choose (Slide 2 and 3)  
+-   In the left corner of the program you can find `[=] menu icon`. From
+    where you can choose (Slide 2 and 3)\
     `[] Settings`:
-    1.  `Compiler Location:` C:\\Program Files (x86)\\Arduino\\arduino\_debug.exe
+    1.  `Compiler Location:` C:\\Program Files
+        (x86)\\Arduino\\arduino\_debug.exe
     2.  `Arduino Board:` Uno
     3.  `Com port:` COM3
     4.  And press:`[ RETURN ]`
--   Finaly you can press button `PLAY`  And if uploading was successful you will be prompted with the text (Slide 4):  
-
-```
-Successfully Uploaded Sketch  
-WARNING: Error loading hardware folder /home/david/Arduino/hardware/WAV8F  
-No valid hardware definitions found in folder WAV8F.  
-Sketch uses 444 bytes (1%) of program storage space. Maximum is 32256 bytes.  
-Global variables use 9 bytes (0%) of dynamic memory, leaving 2039 bytes for local variables. Maximum is 2048 bytes.
-```
+-   Finaly you can press button `PLAY`\
+    And if uploading was successful you will be prompted with the text
+    (Slide 4):\
+    \
+    `Successfully Uploaded Sketch                  WARNING: Error loading hardware folder /home/david/Arduino/hardware/WAV8F                  No valid hardware definitions found in folder WAV8F.                  Sketch uses 444 bytes (1%) of program storage space. Maximum is 32256 bytes.                  Global variables use 9 bytes (0%) of dynamic memory, leaving 2039 bytes for local variables. Maximum is 2048 bytes.`
 
 ### 🎓 Summary:
 
@@ -97,12 +96,13 @@ Global variables use 9 bytes (0%) of dynamic memory, leaving 2039 bytes for loca
 
 #### *Ardublockly returns the Error id 55: Serial port Serial Port unavailable.*
 
-Try to reconect the Arduino board. Wait a moment, check the settings and choose the COM port again then try again.  
+Try to reconect the Arduino board. Wait a moment, check the settings and
+choose the COM port again then try again.\
 
 ------------------------------------------------------------------------
 
-Hello World in Ardublockly
---------------------------
+Hello World in Ardublockly {#2}
+==========================
 
 ### Task:
 
@@ -122,12 +122,12 @@ Hello World in Ardublockly
 
 ### 💣 Issues:
 
-\<++\>  
+\<++\>\
 
 ------------------------------------------------------------------------
 
-How DC motor works
-------------------
+How DC motor works {#3}
+==================
 
 ### Task:
 
@@ -150,13 +150,13 @@ current.
 
 #### *When I connect the DC motor to + and - terminals of the battery the motor\'s shaft does not spin.*
 
-Check the voltage of the battery\... battery may be discharged.  
-Check the connectors of the motor\... may be bad.  
+Check the voltage of the battery\... battery may be discharged.\
+Check the connectors of the motor\... may be bad.\
 
 ------------------------------------------------------------------------
 
-Controlling the DC motor with Digital Outputs
----------------------------------------------
+Controlling the DC motor with Digital Outputs {#4}
+=============================================
 
 ### Task:
 
@@ -173,17 +173,17 @@ Controlling the DC motor with Digital Outputs
 ### 🎓 Summary:
 
 The motor\'s shaft is spinning according to the direction of the
-electric current trough the motor.  
+electric current trough the motor.\
 The torque is weak.
 
 ### 💣 Issues:
 
-  
+\
 
 ------------------------------------------------------------------------
 
-Geared reductor
----------------
+Geared reductor {#5}
+===============
 
 ### Task:
 
@@ -200,18 +200,18 @@ Geared reductor
 4.  What happened with the produced mechanical power?
 5.  Try to calculate the geared ratio of the reductor.
 
-  
+\
 
 ### 🎓 Summary:
 
 #### Gead ratio
 
 The gear ratio describing the ratio between the angular velocity of
-input gear G1 and angular velocity of output gear G2.  
-\$\$ { i=\\frac{\\omega\_1}{\\omega\_2} } \$\$  
+input gear G1 and angular velocity of output gear G2.\
+\$\$ { i=\\frac{\\omega\_1}{\\omega\_2} } \$\$\
 Because each gear moves tooth per tooth and if two touching gears have
 different numbers of teeths their\'s angular velocity will be different.
-In fact the anguar velocity will be inversely proportional.  
+In fact the anguar velocity will be inversely proportional.\
 \$\$ {\\frac{\\omega\_1}{\\omega\_2}=\\frac{N\_2}{N\_1}=i} \$\$
 
 ### 💣 Issues:
@@ -220,12 +220,12 @@ In fact the anguar velocity will be inversely proportional.
 
 Check if the reductor is all the way connected on the motor. Check if
 the worm gear of the motor is in contact with first gear of the
-roductor.  
+roductor.\
 
 ------------------------------------------------------------------------
 
-Constructing the mobile robot
------------------------------
+Constructing the mobile robot {#6}
+=============================
 
 ### Tasks:
 
@@ -250,12 +250,12 @@ Constructing the mobile robot
 
 #### *\<++\>*
 
-\<++\>  
+\<++\>\
 
 ------------------------------------------------------------------------
 
-Controlling the robot
----------------------
+Controlling the robot {#7}
+=====================
 
 ### Tasks:
 
@@ -292,12 +292,12 @@ have to set four digital outputs for each move.
 
 Probably you did not set all of the outputs correctly. Remember taht
 some outputs may have remained set in previous output state from taken
-action in previous task.  
+action in previous task.\
 
 ------------------------------------------------------------------------
 
-Programming functions
----------------------
+Programming functions {#8}
+=====================
 
 ### Tasks:
 
@@ -328,12 +328,12 @@ Programming functions
 
 #### *\<++\>*
 
-\<++\>  
+\<++\>\
 
 ------------------------------------------------------------------------
 
-Programming loop - FOR
-----------------------
+Programming loop - FOR {#9}
+======================
 
 ### Tasks:
 
@@ -359,12 +359,12 @@ Programming loop - FOR
 
 #### *\<++\>*
 
-\<++\>  
+\<++\>\
 
 ------------------------------------------------------------------------
 
-Writing program in C++
-----------------------
+Writing program in C++ {#10}
+======================
 
 ### Tasks:
 
@@ -389,12 +389,12 @@ Writing program in C++
 
 #### *\<++\>*
 
-\<++\>  
+\<++\>\
 
 ------------------------------------------------------------------------
 
-Digital sensors
----------------
+Digital sensors {#11}
+===============
 
 ### Tasks:
 
@@ -443,12 +443,12 @@ The output of a digital sensor can be just in two states:
 
 Probably the key or switch is connected wrong and there is short
 connection between the GND and +5V voltage terminals. Unconnect the key
-or switch and verify if the power is back.  
+or switch and verify if the power is back.\
 
 ------------------------------------------------------------------------
 
-Reading digital input
----------------------
+Reading digital input {#12}
+=====================
 
 ### Tasks:
 
@@ -475,12 +475,12 @@ Reading digital input
 
 #### *\<++\>*
 
-\<++\>  
+\<++\>\
 
 ------------------------------------------------------------------------
 
-S-R-A loop
-----------
+S-R-A loop {#13}
+==========
 
 ### Tasks:
 
@@ -509,12 +509,12 @@ S-R-A loop is the most important thing in robotics.
 #### *It seems that the program is not working right \... like it would be ignoring the value of the sensor.*
 
 Probably the S-R-A loop is not actually a loop. Check the program if the
-input is read just onces or is read continuously.  
+input is read just onces or is read continuously.\
 
 ------------------------------------------------------------------------
 
-Hello World in Arduino IDE
---------------------------
+Hello World in Arduino IDE {#14}
+==========================
 
 ### Tasks:
 
@@ -585,12 +585,12 @@ start with upper case. Some examples should be:
 
 Probably you forgot to put ; (semicolon) at the end of the command. Find
 the row starting with \"**something**\" and look the row above\...
-probably missing \"**;**\".  
+probably missing \"**;**\".\
 
 ------------------------------------------------------------------------
 
-Controlling the robot
----------------------
+Controlling the robot {#15}
+=====================
 
 ### Tasks:
 
@@ -652,12 +652,12 @@ Controlling the robot
 
 #### *\<++\>*
 
-\<++\>  
+\<++\>\
 
 ------------------------------------------------------------------------
 
-Programming loop - FOR
-----------------------
+Programming loop - FOR {#16}
+======================
 
 ### Tasks:
 
@@ -710,12 +710,12 @@ Programming loop - FOR
 
 #### *\<++\>*
 
-\<++\>  
+\<++\>\
 
 ------------------------------------------------------------------------
 
-Reading digital input
----------------------
+Reading digital input {#17}
+=====================
 
 ### Tasks:
 
@@ -774,12 +774,12 @@ It can be expanded into IF-ELSE form:
 
 #### *\<++\>*
 
-\<++\>  
+\<++\>\
 
 ------------------------------------------------------------------------
 
-S-R-A loop
-----------
+S-R-A loop {#18}
+==========
 
 ### Tasks:
 
@@ -825,12 +825,12 @@ S-R-A loop
 
 #### *\<++\>*
 
-\<++\>  
+\<++\>\
 
 ------------------------------------------------------------------------
 
-Reading analog input
---------------------
+Reading analog input {#19}
+====================
 
 ### Tasks:
 
@@ -858,12 +858,12 @@ voltage from 0V to 5V is converted to range of numbers from 0 to 1023.
 
 #### *\<++\>*
 
-\<++\>  
+\<++\>\
 
 ------------------------------------------------------------------------
 
-Avoiding obstacles
-------------------
+Avoiding obstacles {#20}
+==================
 
 ### Tasks:
 
@@ -909,12 +909,12 @@ obstacles.
 
 #### *\<++\>*
 
-\<++\>  
+\<++\>\
 
 ------------------------------------------------------------------------
 
-Light sensor
-------------
+Light sensor {#21}
+============
 
 ### Tasks:
 
@@ -950,12 +950,12 @@ the voltage divider can be calculated as: \$\$ U\_{Out} =
 
 #### *\<++\>*
 
-\<++\>  
+\<++\>\
 
 ------------------------------------------------------------------------
 
-Line follower
--------------
+Line follower {#22}
+=============
 
 ### Tasks:
 
@@ -1001,12 +1001,12 @@ Line follower
 
 #### *\<++\>*
 
-\<++\>  
+\<++\>\
 
 ------------------------------------------------------------------------
 
-Variables
----------
+Variables {#23}
+=========
 
 ### Tasks:
 
@@ -1077,23 +1077,23 @@ variable.
 
 A variable definition means that the programmer writes some instructions
 to tell the compiler to create the storage in a memory location. The
-syntax for defining variables is:  
-  
+syntax for defining variables is:\
+\
 
      data_type variable_name;
 
-  
+\
 Here `data_type` means the valid C++ data type which includes int,
 float, double, char, wchar\_t, bool and variable list is the lists of
-variable names to be declared which is separated by commas.  
+variable names to be declared which is separated by commas.\
 Variables are declared in the above example, but none of them has been
 assigned any value. Variables can be initialized, and the initial value
-can be assigned along with their declaration.  
+can be assigned along with their declaration.\
 
      data_type variable_name = value;
 
-  
-Examples:  
+\
+Examples:\
 
      bool is_raining = false;
      int sensor_value = 23;
@@ -1105,9 +1105,9 @@ Examples:
 
 The easiest way to measure time is to simply count the number of loop\'s
 executions. And if we know how long is one execution of the loop - we
-can easily determine the time lapsed for the whole process.  
-  
-Example:  
+can easily determine the time lapsed for the whole process.\
+\
+Example:\
 
       int t = 0;
       while (t<10){
@@ -1123,9 +1123,9 @@ In the previous example the `while` loop is executed 10 times (t = \[0
 
 More proper way of measuring the time is by using the timer\'s values.
 More on that can be read
-[here](https://www.arduino.cc/reference/en/language/functions/time/millis/).  
-  
-Example:  
+[here](https://www.arduino.cc/reference/en/language/functions/time/millis/).\
+\
+Example:\
 
       unsigned long start_time;
       unsigned long stop_time;
@@ -1143,12 +1143,12 @@ Where the `duration` is the time in milliseconds.
 
 #### *\<++\>*
 
-\<++\>  
+\<++\>\
 
 ------------------------------------------------------------------------
 
-Barrier gate construction
--------------------------
+Barrier gate construction {#24}
+=========================
 
 ### Tasks:
 
@@ -1200,12 +1200,12 @@ Barrier gate construction
 
 #### *\<++\>*
 
-\<++\>  
+\<++\>\
 
 ------------------------------------------------------------------------
 
-Reference point.
-----------------
+Reference point. {#25}
+================
 
 ### Tasks:
 
@@ -1232,12 +1232,12 @@ Reference point.
 
 #### *\<++\>*
 
-\<++\>  
+\<++\>\
 
 ------------------------------------------------------------------------
 
-Reed switch and pull-up resistors
----------------------------------
+Reed switch and pull-up resistors {#26}
+=================================
 
 ### Tasks:
 
@@ -1281,12 +1281,12 @@ Reed switch and pull-up resistors
 
 #### *\<++\>*
 
-\<++\>  
+\<++\>\
 
 ------------------------------------------------------------------------
 
-On-module Buttons and pull-up resistors
----------------------------------------
+On-module Buttons and pull-up resistors {#27}
+=======================================
 
 ### Tasks:
 
@@ -1335,12 +1335,12 @@ On-module Buttons and pull-up resistors
 
 #### *\<++\>*
 
-\<++\>  
+\<++\>\
 
 ------------------------------------------------------------------------
 
-Potentiometer as angle sensor
------------------------------
+Potentiometer as angle sensor {#28}
+=============================
 
 ### Tasks:
 
@@ -1400,12 +1400,12 @@ Potentiometer as angle sensor
 
 #### *\<++\>*
 
-\<++\>  
+\<++\>\
 
 ------------------------------------------------------------------------
 
-LCD(i2c)
---------
+LCD(i2c) {#29}
+========
 
 ### Tasks:
 
@@ -1429,6 +1429,6 @@ LCD(i2c)
 
 #### *\<++\>*
 
-\<++\>  
+\<++\>\
 
 ------------------------------------------------------------------------
