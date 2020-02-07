@@ -3,7 +3,7 @@ Robotics Starter Course
 
 ------------------------------------------------------------------------
 
-1.  [Testing the equipment](#1)
+1.  [Testing the equipment](#testing_the_equipment)
 2.  [Hello World in Ardublockly](#2)
 3.  [How DC motor works](#3)
 4.  [Controlling the DC motor with Digital Outputs](#4)
@@ -53,14 +53,11 @@ Testing the equipment {#1}
     `[Arduino Uno]` -\> 🔌 -\> 💻
 -   Open Arduino IDE program and open program with:  
     `Files ⌥  Examples ⌥ 01. Basics ⌥ Blink.ino`
--   Make sure that you will set the proper settings (follow the visual
-    instructions). From the menu choose:  
+-   Make sure that you will set the proper settings (follow the visual instructions). From the menu choose:  
     `Tools`⌥
     1.  `Board:` Arduino/Genuino Uno
     2.  `Port:` COM3
--   To upload the code you can click the icon `Upload`.  
-    If the uploading was successful you will be prompted with the text
-    like:  
+-   To upload the code you can click the icon `Upload`.If the uploading was successful you will be prompted with the text like:  
       
     `Done uploading.             Sketch uses 970 bytes (3%) of program storage space. Maximum is 32256 bytes.             Global variables use 9 bytes (0%) of dynamic memory, leaving 2039 bytes for local variables. Maximum is 2048 bytes.         `
 
@@ -78,7 +75,11 @@ Testing the equipment {#1}
     4.  And press:`[ RETURN ]`
 -   Finaly you can press button `PLAY`  And if uploading was successful you will be prompted with the text (Slide 4):  
       
-    `Successfully Uploaded Sketch                  WARNING: Error loading hardware folder /home/david/Arduino/hardware/WAV8F                  No valid hardware definitions found in folder WAV8F.                  Sketch uses 444 bytes (1%) of program storage space. Maximum is 32256 bytes.                  Global variables use 9 bytes (0%) of dynamic memory, leaving 2039 bytes for local variables. Maximum is 2048 bytes.`
+    `Successfully Uploaded Sketch  
+    WARNING: Error loading hardware folder /home/david/Arduino/hardware/WAV8F  
+    No valid hardware definitions found in folder WAV8F.  
+    Sketch uses 444 bytes (1%) of program storage space. Maximum is 32256 bytes.  
+    Global variables use 9 bytes (0%) of dynamic memory, leaving 2039 bytes for local variables. Maximum is 2048 bytes.`
 
 ### 🎓 Summary:
 
@@ -88,8 +89,7 @@ Testing the equipment {#1}
 
 #### *Ardublockly returns the Error id 55: Serial port Serial Port unavailable.*
 
-Try to reconect the Arduino board. Wait a moment, check the settings and
-choose the COM port again then try again.  
+Try to reconect the Arduino board. Wait a moment, check the settings and choose the COM port again then try again.  
 
 ------------------------------------------------------------------------
 
