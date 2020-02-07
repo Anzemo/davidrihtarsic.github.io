@@ -60,9 +60,9 @@ Testing the equipment {#1}
 -   To upload the code you can click the icon `Upload`.If the uploading was successful you will be prompted with the text like:  
       
 ```
-    Done uploading.  
-    Sketch uses 970 bytes (3%) of program storage space. Maximum is 32256 bytes.  
-    Global variables use 9 bytes (0%) of dynamic memory, leaving 2039 bytes for local variables. Maximum is 2048 bytes.
+Done uploading.  
+Sketch uses 970 bytes (3%) of program storage space. Maximum is 32256 bytes.  
+Global variables use 9 bytes (0%) of dynamic memory, leaving 2039 bytes for local variables. Maximum is 2048 bytes.
 ```
 
 #### Basic testing in Ardublockly
