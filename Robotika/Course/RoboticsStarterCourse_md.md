@@ -65,6 +65,8 @@ Sketch uses 970 bytes (3%) of program storage space. Maximum is 32256 bytes.
 Global variables use 9 bytes (0%) of dynamic memory, leaving 2039 bytes for local variables. Maximum is 2048 bytes.
 ```
 
+<iframe src="https://docs.google.com/presentation/d/1czxI3HaRT38ETXpCCf2FVupa2JRZxE8utKlsW3IncIo/embed?authuser=0&amp;hl=en&amp;size=s&amp;slide=2" width="410" height="337" title="Arduino IDE setup" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 ### Basic testing in Ardublockly
 
 -   Connect the Arduino Uno to PC with proper USB cable.  
