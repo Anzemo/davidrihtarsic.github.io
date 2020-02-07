@@ -47,7 +47,7 @@ Robotics Starter Course
 Testing the equipment {#1}
 =====================
 
-#### Basic testing in Arduino IDE
+## Basic testing in Arduino IDE
 
 -   Connect the Arduino Uno to PC with proper USB cable.  
     `[Arduino Uno]` -\> 🔌 -\> 💻
@@ -638,7 +638,7 @@ Controlling the robot {#15}
 
 ```{=html}
 <!-- -->
-```
+```cpp
     void setup() {
       pinMode(4, OUTPUT);
       pinMode(5, OUTPUT);
@@ -697,35 +697,34 @@ Programming loop - FOR {#16}
 
 ### Questions:
 
-1.  \<++\>
-2.  \<++\>
+1.  <++>
+2.  <++>
 
-```{=html}
-<!-- -->
+```arduino
+   void setup() {
+     pinMode(4, OUTPUT);
+     pinMode(5, OUTPUT);
+     pinMode(6, OUTPUT);
+     pinMode(7, OUTPUT);
+
+     // Funny dancing move.
+     int i = 0;
+     for (i = 0; i < 10; i++) {
+       robotLeft();
+       delay(100);
+       robotRight();
+       delay(100);
+     }
+     robotStop();
+   }
+
+[+]void loop() {
+[+]void robotForward() {
+[+]void robotStop() {
+[+]void robotLeft() {
+[+]void robotRight() {
+[+]void robotBackward() {
 ```
-       void setup() {
-         pinMode(4, OUTPUT);
-         pinMode(5, OUTPUT);
-         pinMode(6, OUTPUT);
-         pinMode(7, OUTPUT);
-
-         // Funny dancing move.
-         int i = 0;
-         for (i = 0; i < 10; i++) {
-           robotLeft();
-           delay(100);
-           robotRight();
-           delay(100);
-         }
-         robotStop();
-       }
-
-    [+]void loop() {
-    [+]void robotForward() {
-    [+]void robotStop() {
-    [+]void robotLeft() {
-    [+]void robotRight() {
-    [+]void robotBackward() {
 
 ### 🎓 Summary:
 
