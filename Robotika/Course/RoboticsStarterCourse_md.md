@@ -90,6 +90,11 @@ webkitallowfullscreen="true"></iframe>
     \
     `Successfully Uploaded Sketch                  WARNING: Error loading hardware folder /home/david/Arduino/hardware/WAV8F                  No valid hardware definitions found in folder WAV8F.                  Sketch uses 444 bytes (1%) of program storage space. Maximum is 32256 bytes.                  Global variables use 9 bytes (0%) of dynamic memory, leaving 2039 bytes for local variables. Maximum is 2048 bytes.`
 
+<iframe src="https://docs.google.com/presentation/d/17n6aYod3gkHMpdkHESa7lJXx2X5H_ddCX843DhJcOmg/embed?authuser=0&hl=en&size=s&slide=3"
+width="410" height="337" title="Ardublockly setup" frameborder="0"
+allowfullscreen="true" mozallowfullscreen="true"
+webkitallowfullscreen="true"></iframe>
+
 ### 🎓 Summary:
 
 \<++\>
@@ -118,6 +123,11 @@ Hello World in Ardublockly {#2}
 2.  Try to compare and understand the C++ programming code in aside
     window.
 
+<iframe src="https://docs.google.com/presentation/d/1BC5WYt6tLmVa04csT0gHFhqLWAZiRtowicnboajiREs/embed?authuser=0&hl=en&size=s"
+width="410" height="337" title="First Program." frameborder="0"
+allowfullscreen="true" mozallowfullscreen="true"
+webkitallowfullscreen="true"></iframe>
+
 ### 🎓 Summary:
 
 \<++\>
@@ -142,6 +152,12 @@ combinations like: + and -; - and +; - and -; + and +.
 2.  In which direction the electric current flow?
 3.  Why does motor not spinning when both connectors are connected to +
     terminal of the battery?
+
+<iframe #1974716262
+src="https://docs.google.com/presentation/d/1Qfc5rweijkqj0otiPTjmi5Ch69kUaB-0SukPASNJl0I/embed?authuser=0&hl=en&size=s"
+width="410" height="337" title="Smer toka skozi motor" frameborder="0"
+allowfullscreen="true" mozallowfullscreen="true"
+webkitallowfullscreen="true"></iframe>
 
 ### 🎓 Summary:
 
@@ -171,6 +187,11 @@ Controlling the DC motor with Digital Outputs {#4}
 1.  For each combination of digital outputs mark the state of the motor.
 2.  Try to stop the shaft of the DC motor for a short time and try to
     remember how hard is it?
+
+<iframe src="https://docs.google.com/presentation/d/1PUic5XvpxqC7tHU_rsv6v5LQXwZPLfDbh1ANjloryWc/embed?authuser=0&hl=en&size=s"
+width="410" height="337" title="Controlling DC motor" frameborder="0"
+allowfullscreen="true" mozallowfullscreen="true"
+webkitallowfullscreen="true"></iframe>
 
 ### 🎓 Summary:
 
@@ -202,7 +223,14 @@ Geared reductor {#5}
 4.  What happened with the produced mechanical power?
 5.  Try to calculate the geared ratio of the reductor.
 
-\
+<iframe src="https://docs.google.com/presentation/d/1p6wyyBvcEfxJHv-0d4haAA1yltinnFbDQR8zmRaIrCY/embed?authuser=0&hl=en&size=s&slide=4"
+width="410" height="337" title="Reductor to motor." frameborder="0"
+allowfullscreen="true" mozallowfullscreen="true"
+webkitallowfullscreen="true"}\
+<iframe src="https://docs.google.com/presentation/d/1ILA4C_gQtkxDirSaMFyUvHl7vHPWDHQ6JsJ5cJysYS4/embed?authuser=0&hl=en&size=s"
+width="410" height="337" title="Gear ratio calculation." frameborder="0"
+allowfullscreen="true" mozallowfullscreen="true"
+webkitallowfullscreen="true"></iframe>
 
 ### 🎓 Summary:
 
@@ -242,6 +270,9 @@ Constructing the mobile robot {#6}
 1.  Where do you think is th front side of the robot?
 2.  Are you able to rotate the wheels freely by hand?
 
+<iframe width="410" height="230" frameborder="0"
+src="https://www.youtube.com/embed/bybqvos4xYk"></iframe>
+
 ### 🎓 Summary:
 
 #### \<++\>
@@ -279,6 +310,11 @@ Controlling the robot {#7}
 1.  How many digital outputs you have to set in order to control the
     robot for specific move?
 2.  How many different moves your robot can make?
+
+<iframe src="https://docs.google.com/presentation/d/1BKoSvriVRVbvONMp2YZ22LsFi3vjijnKhqHtDNi-Pq8/embed?authuser=0&hl=en&size=s&slide=2"
+width="410" height="337" title="Connecting the motors." frameborder="0"
+allowfullscreen="true" mozallowfullscreen="true"
+webkitallowfullscreen="true"></iframe>
 
 ### 🎓 Summary:
 
@@ -320,6 +356,11 @@ Programming functions {#8}
     program?
 3.  What happens if the mobile robot run into an obstacle?
 
+<iframe src="https://docs.google.com/presentation/d/1vYOfG0F-8ikE2mFRFNXIlvgsl0ML7iHD8GIIY66T490/embed?authuser=0&hl=en&size=s"
+width="410" height="337" title="Programming functions." frameborder="0"
+allowfullscreen="true" mozallowfullscreen="true"
+webkitallowfullscreen="true"></iframe>
+
 ### 🎓 Summary:
 
 #### \<++\>
@@ -351,6 +392,11 @@ Programming loop - FOR {#9}
 1.  \<++\>
 2.  \<++\>
 
+<iframe src="https://docs.google.com/presentation/d/1ZB7AOIgQeHpEU0Ju1JdFO-02SztUCyBaLifMYyqn400/embed?authuser=0&hl=en&size=s"
+width="410" height="337" title="For loop" frameborder="0"
+allowfullscreen="true" mozallowfullscreen="true"
+webkitallowfullscreen="true"></iframe>
+
 ### 🎓 Summary:
 
 #### \<++\>
@@ -380,6 +426,11 @@ Writing program in C++ {#10}
 
 1.  \<++\>
 2.  \<++\>
+
+<iframe src="https://docs.google.com/presentation/d/17e2ijvffEE8KIf53N4ZPivBYtuLiJxURd4o8yijqU5g/embed?authuser=0&hl=en&size=s&slide=4"
+width="410" height="337" title="Programming c++" frameborder="0"
+allowfullscreen="true" mozallowfullscreen="true"
+webkitallowfullscreen="true"></iframe>
 
 ### 🎓 Summary:
 
@@ -411,6 +462,9 @@ Digital sensors {#11}
 2.  Name the mechanical mechanism where smaller force on one end can
     cause greater force on the other end of the mechanism.
 
+<iframe width="410" height="337" frameborder="0"
+src="https://www.youtube.com/embed/eWldNxh-q2c"></iframe>
+
 ### Tasks:
 
 The key has three connecting terminals. Each of one is marked with the
@@ -429,6 +483,11 @@ in order that are specified in presentation and listed as:
     NOT) touching the obstacle?
 2.  How many different states are presented with such sensor?
 3.  Name several more examples where digital sensor can take place.
+
+<iframe src="https://docs.google.com/presentation/d/1Sw-3ovX36DYt9zcj6z9gESie3ZJwWLExb9KPddrw9JM/embed?authuser=0&hl=en&size=s"
+width="410" height="337" title="Connecting the key" frameborder="0"
+allowfullscreen="true" mozallowfullscreen="true"
+webkitallowfullscreen="true"></iframe>
 
 ### 🎓 Summary:
 
@@ -467,6 +526,11 @@ Reading digital input {#12}
 1.  Check if the LED on the output terminal D3 is turend ON when the
     bummper is pressed.
 
+<iframe src="https://docs.google.com/presentation/d/1NVtol-a0tmlgl00VwCACQIcAOOty3KYEMSgUFkf8-Aw/embed?authuser=0&hl=en&size=s"
+width="410" height="337" title="Testing Digital Input" frameborder="0"
+allowfullscreen="true" mozallowfullscreen="true"
+webkitallowfullscreen="true"></iframe>
+
 ### 🎓 Summary:
 
 #### \<++\>
@@ -499,6 +563,11 @@ S-R-A loop {#13}
 1.  Would this routine also work in Arduino run first function (check
     the program in Slide 2)?
 2.  \<++\>
+
+<iframe src="https://docs.google.com/presentation/d/13B5ynixnR7ZRl4__jpnLk7gP8_S3yF2U2zaUpZtax1o/embed?authuser=0&hl=en&size=s"
+width="410" height="337" title="S-R-A Loop" frameborder="0"
+allowfullscreen="true" mozallowfullscreen="true"
+webkitallowfullscreen="true"></iframe>
 
 ### 🎓 Summary:
 
@@ -846,7 +915,15 @@ Reading analog input {#19}
     sensor?
 2.  Find the reasonable value vhere you shuld stop the robot.
 
+<iframe width="410" height="337" frameborder="0"
+src="https://www.youtube.com/embed/ELYsyuhbQfY"></iframe>
+
 ------------------------------------------------------------------------
+
+<iframe src="https://docs.google.com/presentation/d/1j4yvBeTajgG9wFb5mw9SUPUTLXjPWNWjOnINUEmyAx8/embed?authuser=0&hl=en&size=s"
+width="410" height="337" title="Conection of distance sensor"
+frameborder="0" allowfullscreen="true" mozallowfullscreen="true"
+webkitallowfullscreen="true"></iframe>
 
 ### 🎓 Summary:
 
@@ -932,7 +1009,15 @@ Light sensor {#21}
     area?
 2.  Calculate the average between those two values.
 
+<iframe width="410" height="337" frameborder="0"
+src="https://www.youtube.com/embed/wEN1e6m1FGY"></iframe>
+
 ------------------------------------------------------------------------
+
+<iframe src="https://docs.google.com/presentation/d/1nVl7aVy0qCZ7b6E-bIywXlQZ7PH8LOBB2sb2VxsBKR0/embed?authuser=0&hl=en&size=s"
+width="410" height="337" title="Constructing the light sensor"
+frameborder="0" allowfullscreen="true" mozallowfullscreen="true"
+webkitallowfullscreen="true"></iframe>
 
 ### 🎓 Summary:
 
@@ -1169,6 +1254,9 @@ Barrier gate construction {#24}
     colleague\'s situation.
 2.  What is disadvantage of time controlled loop.
 
+<iframe width="410" height="337" frameborder="0"
+src="https://www.youtube.com/embed/5_eh7ojNH68"></iframe>
+
 ------------------------------------------------------------------------
 
     [-] void setup() {
@@ -1222,7 +1310,15 @@ Reference point. {#25}
 1.  Why is detection of reference point important?
 2.  \<++\>
 
+<iframe width="410" height="337" frameborder="0"
+src="https://www.youtube.com/embed/bmgUlj_rP3U"></iframe>
+
 ------------------------------------------------------------------------
+
+<iframe src="https://docs.google.com/presentation/d/1JTBdKVBY-znuZVyeCoOIMyx3Ds80OAD6DyzBDHL_dRk/embed?authuser=0&hl=en&size=s"
+width="410" height="337" title="switch connection" frameborder="0"
+allowfullscreen="true" mozallowfullscreen="true"
+webkitallowfullscreen="true"></iframe>
 
 ### 🎓 Summary:
 
@@ -1253,9 +1349,9 @@ Reed switch and pull-up resistors {#26}
 2.  How can we turn on the internal pull-up resistor of the
     microcontroller?
 
-```{=html}
-<!-- -->
-```
+<iframe width="410" height="337" frameborder="0"
+src="https://www.youtube.com/embed/3hhu11bBFXc"></iframe>
+
      [-]void setup() {
           pinMode(7, OUTPUT); //declaration of I/O pins
           pinMode(6, OUTPUT);    
@@ -1390,7 +1486,15 @@ Potentiometer as angle sensor {#28}
     the upper orientation\...
 2.  \... and in lower orientation.
 
+<iframe width="410" height="337" frameborder="0"
+src="https://www.youtube.com/embed/kzLtVWtxVsQ"></iframe>
+
 ------------------------------------------------------------------------
+
+<iframe src="https://docs.google.com/presentation/d/1GgbUhsWBIflvZN1qMDrkh2tXRMLtYGoxHCdt5s_COVg/embed?authuser=0&hl=en&size=s"
+width="410" height="337" title="potenciometer" frameborder="0"
+allowfullscreen="true" mozallowfullscreen="true"
+webkitallowfullscreen="true"></iframe>
 
 ### 🎓 Summary:
 
