@@ -91,7 +91,7 @@ Sketch uses 444 bytes (1%) of program storage space. Maximum is 32256 bytes.
 Global variables use 9 bytes (0%) of dynamic memory, leaving 2039 bytes for local variables. Maximum is 2048 bytes.
 ```
 
-<iframe src="https://docs.google.com/presentation/d/17n6aYod3gkHMpdkHESa7lJXx2X5H_ddCX843DhJcOmg/embed?authuser=0&hl=en&size=s&slide=3" width="410" height="337" title="Ardublockly setup" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/17n6aYod3gkHMpdkHESa7lJXx2X5H_ddCX843DhJcOmg/embed?authuser=0&hl=en&size=s&slide=3" width="410" height="337" align="center" title="Ardublockly setup" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 > ### 🎓 Summary:  
 > <++>
