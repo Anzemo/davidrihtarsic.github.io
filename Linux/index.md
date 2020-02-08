@@ -1,7 +1,8 @@
 LINUX
 =====
 Na tej strani lahko najdete nekaj napotkov za Linux-e...
-{:TOC}
+
+- TOC
 
 INSTALLATION
 ==============
@@ -27,21 +28,25 @@ TERMINAL EMULATOR
 
 ### TERMINATOR
 
+PROGRAMS
+--------
+
 ### RANGER
 
 ### NEOVIM
 
-GENERAL EXPRESSIONS
--------------------
+### DMENU
 
-GREP
-----
+PROGRAM UTILS
+-------------
 
-SED
----
+### GENERAL EXPRESSIONS
 
-AWK
----
+### GREP
+
+### SED
+
+### AWK
 
 PROGRAMS (GUI-like)
 ===================
