@@ -1,7 +1,9 @@
 LINUX
 =====
 Na tej strani lahko najdete nekaj napotkov za Linux-e...  
-[!MyLinuxSetup](./img20-02-08-21-38-49.png)
+
+![MyLinuxSetup](./img20-02-08-21-38-49.png)
+
 - TOC
 {:toc}
 
