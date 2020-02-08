@@ -1,7 +1,7 @@
 LINUX
 =====
-Na tej strani lahko najdete nekaj napotkov za Linux-e...
-
+Na tej strani lahko najdete nekaj napotkov za Linux-e...  
+[!MyLinuxSetup](./img20-02-08-21-38-49.png)
 - TOC
 {:toc}
 
@@ -56,7 +56,12 @@ Za vsak program lahko določimo v katero katero spada in kako ga zaženemo. Te m
 `/usr/share/applications/IME_PROGRAMA.desktop`
 
 katere kategorije so vpisane v vseh programih lahko pogledamo z ukazom:  
-`grep Categories /usr/share/applications/* | sed 's/^.*=//;s/\;/\n/g' | sort | uniq`
+
+```bash
+#! /bin/zsh
+grep Categories /usr/share/applications/* | sed 's/^.*=//;s/\;/\n/g' | sort | uniq
+echo "To je test..."
+```
 
 OFFICE
 ------
@@ -77,5 +82,6 @@ ARDUINO
     `../hardware/WAV8F/boards.txt:lardu_328p.bootloader.file=lgt8fx8p\optiboot_lgt8f328p.hex`
 
 4. ponovno zaženi Arduino IDE in izberi `Tools - Boards - WAVGAT UNO R3`
+
 
 
