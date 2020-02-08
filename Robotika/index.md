@@ -1,6 +1,6 @@
 # ROBOTIKA
 [Učno gradivo (HTML)]( ./Course/RoboticsStarterCourse.html ){: .btn}{:target="_blank"}
-[Učno gradivo (MD)]( ./Course/RoboticsStarterCourse_md.html ){: .btn}{:target="_blank"}
+[Učno gradivo (MD)]( ./Course/RoboticsStarterCourse_md.html ){: .btn}
 
 - TOC
 {:toc}
