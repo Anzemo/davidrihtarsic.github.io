@@ -2,6 +2,7 @@ LINUX
 =====
 Na tej strani lahko najdete nekaj napotkov za Linux-e...
 
+- TOC
 {:toc}
 
 INSTALLATION
