@@ -38,6 +38,12 @@ PROGRAMS
 
 ### NEOVIM
 
+**Avtomatsko popravljanje napak**  
+najprej si zapomnimo mesto kjer smo `ms`, nato s spell-check-erjem najdemo napako `[s`, iz menuja izberemo 1. predlog `1z=` in skočimo nazaj na masto "s" `\`s`
+```bash
+:normal!  ms[s1z=`s<CR>
+```
+
 ### DMENU
 
 PROGRAM UTILS
