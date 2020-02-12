@@ -1,8 +1,32 @@
+---
+title: "Using Linux"
+subtitle: "Learning is always hard work."
+author: "dr. David Rihtaršič"
+date: 2020-02-10 14:16
+classoption: onecolumn 			# [onecolumn, twocolumn]
+titlepage: true
+#fontsize: 12pt
+#geometry: "top=1cm, bottom=1cm, left=1cm, right=1cm"
+#numbersections: true
+documentclass: article 		# [article, book, report]
+#csl: ieee.csl
+#bibliography: bibtex.bib
+lang: sl 				# [sl, en-US, us-GB]
+template: skripta			# [eisvogel, skripta, raw] 
+#listings: true
+eqnPrefix: ""
+figPrefix: ""
+secPrefix: "pogl."
+codeBlockCaptions: true
+lolTitle: "Kazalo Nalog:"
+
+---
+
 LINUX
 =====
-Na tej strani lahko najdete nekaj napotkov za Linux-e...  
+Na tej strani lahko najdete nekaj napotkov za Linux-e...
 
-![MyLinuxSetup](./img20-02-08-21-38-49.png)
+![MyLinuxSetup]( ./image.png)
 
 - TOC
 {:toc}
@@ -12,9 +36,23 @@ INSTALLATION
 
 PACMAN
 ------
+Package manager za ARCH. Nekaj splo/nih ukazov:
+
+|    Akcija   | ukaz                            |
+|:-----------:|---------------------------------|
+| inštalacija | `sudo pacman -S ime_programa`   |
+|   odstrani  | `sudo pacman -Rns ime_programa` |
+|  downgrade  | `sudo pacman ...`               |
+
+Nastavitev pacmana najdeš v datoteki: `/etc/pacman.conf`.
+
+TRIZEN
+------
+Package manager za programe iz AUR repository-ja...
 
 YAY
 ---
+Še en package manager za AUR in ...
 
 TERMINAL (SHELL & PROGRAMS & COMMANDS)
 ========================================
@@ -35,6 +73,14 @@ PROGRAMS
 --------
 
 ### RANGER
+Cool "the best" File manager. Sicer napisan v pythonu, ampak še vedno hiter. Omogoča:
+
+- vim bindings
+- goto directory key shortcuts
+- lahko kličeš svoje skripte
+- preklop v shell (Shift+s)
+- predogled filov: slike, video, programsko kodo
+- ...
 
 ### NEOVIM
 
@@ -46,6 +92,33 @@ najprej si zapomnimo mesto kjer smo `ms`, nato s spell-check-erjem najdemo napak
 ```
 
 ### DMENU
+
+Še en zelo uporaben `SUCKLESS` program. Dmenu je menu, ki prikaže poljuben text, uporabniku nudi izbiro iz menija in izbran text poda kot izhod. Na primer: meni z dvema izbirama bi izgledal takole:
+
+```bash
+echo "Prva moznost\nDruga moznost" | dmenu -l 10
+```
+
+### PANDOC
+Program za pretvorbo dokumentov. Naveč ga uporabljam za pretvorbo iz `MARKDOWN` dokumentov v `PDF` dokumente. Na primer:  
+
+```bash
+pandoc --from markdown -F pandoc-crossref -F pandoc-citeproc --template eisvogel --listings --pdf-engine=xelatex index.md -o index.pdf
+```
+
+V verziji pandoc 2.8 mi niso delale slike...  
+
+- odstraniš grffile iz templata in je ok (menda da delajo na tem...)
+
+**Skripta**  
+Lahko bi v templatu definral različne listingse.
+
+``` vaja
+VAJA: NAPETOSTNI POTENCIALI IN NAPETOST
+Zanima me kako bi zgledalo tole v dokumenti, če bi podajal naloge za študente v taki obliki.
+A je v tem listingsu vsaka vrstica naoisana v novi 
+nrstici.
+```
 
 PROGRAM UTILS
 -------------
@@ -60,6 +133,9 @@ PROGRAM UTILS
 |      ^     | Začetek vrstice                                   |
 |      $     | Konec vrstice                                     |
 |      *     | Predhodni znak se lahko ponovi nikoli ali večkrat |
+
+
+
 
 ### GREP
 
