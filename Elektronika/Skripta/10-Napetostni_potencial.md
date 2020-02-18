@@ -50,5 +50,5 @@ VAJA: Za vse naštete elemente najprej izračunajte kolikšna napetost je na nji
 |    C1   |            |            |
 |    C2   |            |            |
 |    R1   |            |            |
-|   LDR1  |            |            |
+|   LED1  |            |            |
 
