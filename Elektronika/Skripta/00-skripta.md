@@ -1,6 +1,6 @@
 ---
-title: "Skripta za ELEKTRONIKO"
-subtitle: "Ta skripta je namenjena študentom Pedagoške fakultete (UL)"
+title: "ELEKTRONIKA - zbirka vaj"
+subtitle: "Ta zbirka vaj je namenjena študentom Pedagoške fakultete, Univerze v Ljubljani."
 author: "dr. David Rihtaršič"
 date: 2020-02-18 13:11
 classoption: onecolumn 			# [onecolumn, twocolumn]

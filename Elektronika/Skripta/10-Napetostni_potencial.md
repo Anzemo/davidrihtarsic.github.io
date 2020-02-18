@@ -41,8 +41,9 @@ V vezju imamo imamo kar nekaj elektronskih elementov. Na shemi [@fig:Schematic_S
 - svetleča dioda - LED1
 
 ```vaja
-VAJA: Za vse naštete elemente najprej izračunajte kolikčna napetost je na njih, nato pa izračun preverite z inštumentom.
+VAJA: Za vse naštete elemente najprej izračunajte kolikšna napetost je na njih, nato pa izračun preverite z inštumentom.
 ```
+
 | Element | $U_{izr}$[V] | $U_{izm}$[V] |
 |:-------:|------------|------------|
 |    D1   |            |            |
