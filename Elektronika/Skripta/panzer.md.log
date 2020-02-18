@@ -1,0 +1,14 @@
+WARNING: no global style definitions found
+         ----- pandoc read -----
+         running
+         ----- style definitions -----
+         no global definitions loaded
+         ----- document style -----
+         no "style" field found, run only pandoc
+         writer:
+           latex
+         ----- run list -----
+           empty
+         ----- pandoc write -----
+         pandoc writing with options:
+           --listings --pdf-engine=pdflatex

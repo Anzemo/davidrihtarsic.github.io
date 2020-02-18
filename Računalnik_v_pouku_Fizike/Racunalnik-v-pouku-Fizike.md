@@ -8,7 +8,7 @@ titlepage: true
 #fontsize: 12pt
 #geometry: "top=1cm, bottom=1cm, left=1cm, right=1cm"
 numbersections: true
-#documentclass: article 		# [article, book, report]
+documentclass: book 		# [article, book, report]
 #csl: ieee.csl
 bibliography: bibtex.bib
 lang: sl 	# [sl, en-US, us-GB]

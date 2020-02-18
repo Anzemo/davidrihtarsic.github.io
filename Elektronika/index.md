@@ -1,7 +1,7 @@
 # Elektronika
 [obvestila]( ./obvestila ){: .btn}
 [izpitni roki]( ./izpitni_roki ){: .btn}
-[skripta]( ./skripta ){: .btn}
+[skripta]( ./skripta.html ){: .btn}
 
 ## Izvajanje vaj
 
