@@ -24,4 +24,3 @@ lolTitle: "Kazalo Nalog:"
 ---
 
 \tableofcontents
-
