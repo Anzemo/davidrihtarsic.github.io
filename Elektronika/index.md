@@ -2,7 +2,8 @@
 [obvestila]( ./obvestila ){: .btn}
 [izpitni roki]( ./izpitni_roki ){: .btn}
 [skripta]( ./skripta.html ){: .btn}
-[prisotnost]( https://docs.google.com/forms/d/e/1FAIpQLSfkEVjXU0pc3kboPqEBq1AteMlhLy5tkghyQojvdV2ZajE3ZA/viewform?usp=sf_link ){: btn}
+[prisotnost]( https://docs.google.com/forms/d/e/1FAIpQLSfkEVjXU0pc3kboPqEBq1AteMlhLy5tkghyQojvdV2ZajE3ZA/viewform?usp=sf_link ){: .btn}{: _blank}
+
 ## Izvajanje vaj
 
 Vaje iz elektronike potekajo v 1. letniku smeri Ma-Fi, Fi-Te, Fi-Ke. Vaje obsegajo 2LV tedensko. Prisotnost študenta na vajah pa mora biti vsaj 80%, drugače študent ne more pristopiti k izpitu vaj. Da si študent pridobi polno prisotnost, se šteje, da je študent fizično prisoten (50%) in da izpolni nalogo vaje do konca (50%).
