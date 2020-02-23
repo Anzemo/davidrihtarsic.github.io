@@ -11,9 +11,6 @@ WARNING: no global style definitions found
            empty
          ----- pandoc write -----
          pandoc writing with options:
-           --listings --pdf-engine=pdflatex --variable=lang=sl
-ERROR:     !Error producing PDF.
-ERROR:     !! Argument of \lst@next has an extra }.
-ERROR:     !<inserted text> 
-ERROR:     !                \par 
-ERROR:     !l.601 4. 
+           --listings --pdf-engine=pdflatex --variable=lang=sl --variable=listings-no-page-break=true
+ERROR:     ![WARNING] Missing character: There is no ` in font SourceCodePro-Regular-tlf-ts1!
+ERROR:     ![WARNING] Missing character: There is no ` in font SourceCodePro-Regular-tlf-ts1!

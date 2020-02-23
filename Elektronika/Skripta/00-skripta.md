@@ -20,7 +20,7 @@ figPrefix: ""
 secPrefix: "pogl."
 codeBlockCaptions: true
 lolTitle: "Kazalo Nalog:"
-
+listings-no-page-break: true
 ---
 
 \tableofcontents

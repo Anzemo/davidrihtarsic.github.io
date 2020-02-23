@@ -6,7 +6,7 @@ Krmilnik Arduino Nano je relativno cenovno ugoden (cca. 3-5€) in ker je progra
 
 ## Testni program "BLINK.ino"
 
-Preden bomo krmilnik uporabili v našem vezju, ga bomo preizkusili. S programskim orodjem `Arduino IDE` bomo na krmilnik naložili program `blink.ino` in s tem preverili, da vse komponente na krmilniku delujejo pravilno. To je priporočljivo narediti pred vsakim projektom.
+Preden bomo krmilnik uporabili v našem vezju, ga bomo preizkusili. S programskim orodjem "Arduino IDE" bomo na krmilnik naložili program "blink.ino" in s tem preverili, da vse komponente na krmilniku delujejo pravilno. To je priporočljivo narediti pred vsakim projektom.
 
 ```vaja
 VAJA: Preizkus delovanja krmilnika Arduino Nano.  
