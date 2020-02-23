@@ -32,4 +32,3 @@ Priporočljivo je skripto natisniti in jo imeti pri vajah prisotno. Posebno pozo
 ### Nadomeščanje vaj
 
 Če študent na kateri vaji izjemoma manjka in je ne opravlja v rednem delu izvajanja, mora študen to vajo nadoknaditi: bodisi v drugi skupini ali pa po dogovoru z asistentom s primernimi simulacijskimi orodji in tako opraviti potrebne meritve.
-Če skupno število točk ne preseže 50% vseh točk, se poročila zavrnejo in študent jih mora ustrezno popraviti ter ponovno oddati na naslednjem roku izpita iz vaj. Oddajanje poročil pri vratarju ni zaželjeno, saj so se nekatera že "izgubila" in za to nismo našli "krivca".
