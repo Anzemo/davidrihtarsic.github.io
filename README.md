@@ -12,5 +12,5 @@ Slovenija
 > **telefon:** +386 1 5892 236  
 
 ## Govorilne ure
-Na govorilne ure se napovejte preko elektronske pošte.
+Na govorilne ure se napovejte preko elektronske pošte. Preglejte moj urnik in predlagajte termin, ki je cca 30 min pred izvedbo vaj.
 
