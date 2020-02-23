@@ -53,12 +53,14 @@ Priključite  tudi upor in LED na priključek `13`.
 
 Vezje bomo preoblikovali tako, da bo delovalo kot semafor na cestnem križišču. Uporabili bomo tri LED svetila različnih barv in preoblikovali program.
 
+![Shema vezave treh LED na krmilnik Arduino Nano.](./slike/20-Model-semaforja.png){#fig:20-Model-semaforja.png}
+
+![Ter shema vezave na prototipni ploščici.](./slike/20-model-semaforja-fritzing.png){#fig:20-model-semaforja-fritzing.png}
+
 ```vaja
 VAJA: Model semaforja.  
-Preoblikujte vezje po shemi, ki je prikazana na naslednji sliki. In uporabite naslednji program ter ga ustrezno preoblikujte. Program, ki zagotavlja podobno delovanje kot pri sestnem semaforju dokumentirajte in komentirajte uporabljenej programske stavke (t.j. programske ukaze).
+Preoblikujte vezje po shemi, ki je prikazana na sliki [@fig:20-Model-semaforja.png]. In uporabite naslednji program ter ga ustrezno preoblikujte. Program, ki zagotavlja podobno delovanje kot pri sestnem semaforju dokumentirajte in komentirajte uporabljenej programske stavke (t.j. programske ukaze).
 ```
-
-![Shema vezave treh LED na krmilnik Arduino Nano.](./slike/20-Model-semaforja.png){#fig:20-Model-semaforja.png}
 
 Preskustite naslednji program in ga ustrezno preoblikujte.
 
