@@ -54,7 +54,7 @@ Vezje bomo preoblikovali tako, da bo delovalo kot semafor na cestnem križišču
 ![Ter shema vezave na prototipni ploščici.](./slike/20-model-semaforja-fritzing.png){#fig:20-model-semaforja-fritzing.png}
 
 > VAJA: MODEL SEMAFORJA.  
-> Preoblikujte vezje po shemi [@fig:20-Model-semaforja.png] in uporabite naslednji program ter ga ustrezno preoblikujte. Program, ki zagotavlja podobno delovanje, kot pri cestnem semaforju dokumentirajte in komentirajte uporabljenej programske stavke (t.j. programske ukaze).
+> Preoblikujte vezje po shemi [@fig:20-Model-semaforja.png] in uporabite naslednji program ter ga ustrezno preoblikujte. Program, ki zagotavlja podobno delovanje, kot pri cestnem semaforju dokumentirajte in komentirajte uporabljene programske stavke (t.j. programske ukaze).
 
 > Vsak programski stavek morate zaključiti s podpičjem **;**.
 
