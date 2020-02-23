@@ -1,10 +1,5 @@
 ## Barvno kodiranje upornosti
 
-Upornosti na uporih so bravno kodirane in sicer:
+Upornosti na uporih so bravno kodirane kot jih prikazuje naslednja slika [@fig:Resistor-Color-Codes.png]
 
-0. - črna,
-1. - rjava,
-2. - rdeča,
-3. - oranžna,
-4. - rumena,
-
+![Bravno kodiranje vrednosti uporov.](./slike/Resistor-Color-Codes.png){#fig:Resistor-Color-Codes.png}
