@@ -8,15 +8,13 @@ Krmilnik Arduino Nano je relativno cenovno ugoden (cca. 3-5€) in ker je progra
 
 Preden bomo krmilnik uporabili v našem vezju, ga bomo preizkusili. S programskim orodjem "Arduino IDE" bomo na krmilnik naložili program "blink.ino" in s tem preverili, da vse komponente na krmilniku delujejo pravilno. To je priporočljivo narediti pred vsakim projektom.
 
-```vaja
-VAJA: Preizkus delovanja krmilnika Arduino Nano.  
-1. Krmilnik Arduino Nano povežite z računalnikom preko USB povezave,  
-2. zaženite program Arduino IDE in ga pravilno nastavite:  
-  - Tools -> Processor  : Arduino Nano,  
-  - Tools -> Port       : USB2  
-3. Odprite primer 01-BLINK.ino in  
-4. prenesite program na krmilnik.
-```
+> VAJA: PREIZKUS KRMILNIKA ARDUINO NANO.  
+> 1. Krmilnik Arduino Nano povežite z računalnikom preko USB povezave,  
+> 2. zaženite program Arduino IDE in ga pravilno nastavite:  
+>   - Tools -> Processor  : Arduino Nano,  
+>   - Tools -> Port       : USB2  
+> 3. Odprite primer 01-BLINK.ino in  
+> 4. prenesite program na krmilnik.
 
 Program je napisan v programskem jeziku C++, ki uporablja nekaj funkcij za lažje rokovanje s krmilnikom.
 
@@ -39,11 +37,9 @@ void loop() {
 
 Krmilnik Arduino Nano lahko vstavimo tudi v prototipno ploščico in ga napajamo z zunanjim napajanjem.
 
-```vaja
-VAJA: Uporaba krmilnika Arduino Nano na prototipni ploščici.  
-Vstavite krmilnik Arduino Nano v prototipno ploščico in ga povežite kot prikazuje naslednja shema.  
-Priključite  tudi upor in LED na priključek `13`.
-```
+> VAJA: VEZAVA KRMILNIKA ARDUINO NANO NA PROTOTIPNI PLOŠČICI.  
+> Vstavite krmilnik Arduino Nano v prototipno ploščico in ga povežite kot prikazuje naslednja shema.  
+> Priključite  tudi upor in LED na priključek `13`.
 
 ![Priključitev napajanja in dodatne LED na izhodni priključek.](./slike/20-Nano-Blink.png){#fig:20-Nano-Blink.png}
 
@@ -57,10 +53,10 @@ Vezje bomo preoblikovali tako, da bo delovalo kot semafor na cestnem križišču
 
 ![Ter shema vezave na prototipni ploščici.](./slike/20-model-semaforja-fritzing.png){#fig:20-model-semaforja-fritzing.png}
 
-```vaja
-VAJA: Model semaforja.  
-Preoblikujte vezje po shemi, ki je prikazana na sliki [@fig:20-Model-semaforja.png]. In uporabite naslednji program ter ga ustrezno preoblikujte. Program, ki zagotavlja podobno delovanje kot pri sestnem semaforju dokumentirajte in komentirajte uporabljenej programske stavke (t.j. programske ukaze).
-```
+> VAJA: MODEL SEMAFORJA.  
+> Preoblikujte vezje po shemi [@fig:20-Model-semaforja.png] in uporabite naslednji program ter ga ustrezno preoblikujte. Program, ki zagotavlja podobno delovanje, kot pri cestnem semaforju dokumentirajte in komentirajte uporabljenej programske stavke (t.j. programske ukaze).
+
+> Vsak programski stavek morate zaključiti s podpičjem **;**.
 
 Preskustite naslednji program in ga ustrezno preoblikujte.
 
@@ -103,11 +99,9 @@ $$ I_R = \frac{U_R}{R} $$
 
 > Če ne vemo kolikšno upornost ima element (tako kot je to v primeru LED), si največkrat pomagamo z izračunom toka skozi drug zaporedno vezan element. Kajti v tem primeru je tok isti.
 
-```vaja
-VAJA: Električni tok skozi elemente.  
-Izračunajte kolikšen električni tok teče skozi elemente R1, R2, R3, LED1, LED2 in LED3 ter preverite kakšne so električne omejitve tega elementa.
-Izračunajte tudi električno moč, ki se troši na tem elementu.
-```
+> VAJA: IZRAČUNAJTE ELEKTRIČNI TOK  
+> Izračunajte kolikšen električni tok teče skozi elemente R1, R2, R3, LED1, LED2 in LED3 ter preverite kakšne so električne omejitve tega elementa.
+> Izračunajte tudi električno moč, ki se troši na tem elementu.
 
 | Element | U [V] | I [V] | P[W] |
 |:-------:|-------|-------|------|
