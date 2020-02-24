@@ -103,7 +103,7 @@ $$ I_R = \frac{U_R}{R} $$
 > Izračunajte kolikšen električni tok teče skozi elemente R1, R2, R3, LED1, LED2 in LED3 ter preverite kakšne so električne omejitve tega elementa.
 > Izračunajte tudi električno moč, ki se troši na tem elementu.
 
-| Element | U [V] | I [V] | P[W] |
+| Element | U [V] | I [mA]| P[W] |
 |:-------:|-------|-------|------|
 |    R1   |       |       |      |
 |    R2   |       |       |      |
