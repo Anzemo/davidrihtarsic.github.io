@@ -14,6 +14,7 @@ book: true
 bibliography: bibtex.bib
 lang: sl 				# [sl, en-US, us-GB]
 template: skripta			# [eisvogel, skripta, raw] 
+table-use-row-colors: true
 listings: true
 eqnPrefix: ""
 figPrefix: ""

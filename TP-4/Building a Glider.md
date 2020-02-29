@@ -1,4 +1,4 @@
-# HOW AN AIRPLANE FLY
+# FORCES ON AIRPLANE
 
 In general the phisics of aerodinamics in flighing is quite complicated. But basicaly we can come down to 4 main forces that are present in the airplane flight.
 
@@ -84,63 +84,150 @@ However this phenomena can not be overlooked. Since we have two different air ma
 
 
 # DRAG
-- How to to reduce drag?
+
+The force that resists the movement of the glider through the air is called drag. Two different types of drag combine to form total drag: parasite and induced. 
 
 ## Parasite drag
 
-Drag caused by any aircraft surface that deflects or interferes with the smooth airflow around the airplane.
-- Surface finish
+Drag caused by any aircraft surface that deflects or interferes with the smooth airflow around the airplane. In that respect we must mention two different types: form drag and skin friction.
+
+**Form drag**
+
+Form drag results from the turbulent wake caused by the separation of airflow from the surface of a structure. Any object moving through the air in front of it out of the way. This causes a buildup of pressure in front of the object. Similarly, the object leaves a low-pressure void in its wake. This difference in pressure between the front and back surfaces of the object results in the force called form drag. **Form drag can be reduced by reducing the object’s cross-sectional area or by streamlining it** [@u2013glider].
+
+**Skin Friction Drag**
+
+Skin friction drag is caused by the roughness of the glider’s surfaces. Even though the surfaces may appear smooth, they may be quite rough when viewed under a microscope. This roughness allows a thin layer of air to cling to the surface and create small eddies or areas of lower pressure that contribute to drag.
+
+- If the changes in pressure are small and continues the laminar air flow is present where each layer of air passing smoothly in the same direction as it's neighbours.
+- If changes in pressure are to big and sudden the turbulent air flow is induced, meaning that air molecule changing direction and colliding with each other an also with airplane skin. Thus, **turbulent layers generate 5 to 10 times more skin than laminar airflow** [@u2013glider].
 
 ## Induced drag
 
 Drag that is the consequence of developing lift with a finite-span wing. It can be represented by a vector that results from the difference between total and vertical lift.
+Induced drag is generated as the wing is driven through the air to develop the difference in air pressures that we call lift. As the higher pressure air on the lower surface of the airfoil curves around the end of the wing and fills in the lower pressure area on the upper surface, the lift is lost, yet the energy to produce the different pressures is still expended.
 
 ![Induced drag caused by air pressure difference [@u2013glider].](./slike/Induced-drag.png){#fig:Induced-drag.png}
 
-- Difference in  pressure
+The difference in pressure at the wing edge can be reduced by the smaller chord length of the airfoil. And the difference at the wing tips can be reduced by designing a wing with wiglets that reduces high pressure slowly.
     - higher aspect ratio of the wing area
 
-## Stability
+# STABILITY
 
-### Longitudinal stability
+## Longitudinal stability
 
-### Lateral stability
+Gliders are designed to be slightly nose heavy in order to improve their longitudinal stability (shown in [@fig:Longitudinal-stability.png]). This causes the glider to tend to nose down during normal flight [@u2013glider]. In other words the center of gravity (CG) must be in front of center of lift (CL).
 
-# Experimentation
+![Increasing longitudinal stability by placing CG infront of CL and negative AOA of horizontal stabilizer.[@u2013glider]](./slike/Longitudinal-stability.png){#fig:Longitudinal-stability.png}
 
-- Identify your problem?
-- Which basic phisical principals apply to your problem?
-- Which factors will you change?
-- Which factors will you try to stay fixed?
-- What you have learned?
+The horizontal stabilizer on the tail is mounted at a slightly negative AOA to offset this tendency. When a dynamically stable glider oscillates, the amplitude of the oscillations should reduce through each cycle and eventually settle down to a speed at which the downward force on the tail exactly offsets the tendency to dive.  
 
-## Lift
-### Wing Area
-### Thickness of profile
-### Aspect Ratio
-### Angle of attack
+## Lateral stability
 
-## Drag
-### Induced drag
-### Parasite drag
+Another type of stability that describes the glider’s tendency to return to wings-level flight following a displacement is lateral stability. This stability is relatively easy to achieve one option is to use dihedral wing planes.
 
-## Stability
-### Longitudinal
-### Lateral (rolling)
+Dihedral is the upward angle of the wings from a horizontal (front/rear view) axis of the plane. In the [@fig:Dihedral-wing.png] case "a" is shoving that setup. However lateral stability can be improved by polyhedral wing setup which is shorn in [@fig:Dihedral-wing.png] case "b". Further more we must mentioned that also the winglets (shown in [@fig:Dihedral-wing.png] - case "c") has similar effect although they are used primarily for reducing the induced drag.
 
-# RULE OF THUMB BUILDING INSTRUCTIONS
-## Main Wing
-A quick tutorial can be found at that [video]( https://www.youtube.com/watch?v=h_RzXO5u3M0 ) (https://www.youtube.com/watch?v=h_RzXO5u3M0).
+![Dihedral wing setup and it's effect in side movement of glider.](./slike/Dihedral-wing.png){#fig:Dihedral-wing.png}
+
+The [@fig:Dihedral-wing.png] - case "d" represent the situation when a glider is rolled in side direction. Glider starts sliding in the direction of the roll and losing altitude. During that action side way upstream airflow is induced which produce greater lift on the wing towards movement.
+
+# BUILDING CHALLENGE
+
+**Build a glider model!**  
+In the process of designing a glider we must to consider a lot of factors. Choose one of the issues listed and put it to the test.  
+
+- Wing Area
+- Thickness of profile
+- Aspect Ratio
+- Angle of attack
+
+- Length of fuselage
+- Taped fuselage
+- Taped wing area
+- Wingtips wing design
+- Dihedral wing design
+
+- Area of horizontal stabilizer
+- Angle of attack of hor. stab.
+- ...
+
+Build a glider and change only one variable. Try out the glider and take the notes whether and what glider's performance improved. Your findings enter in the table to get nicer overall insight.
+
+## Methodology
+
+Shortly describe the plan of your work...
+
+```
+Identify your problem?
+
+
+
+
+```
+
+```
+Which basic physical principals apply to your problem?
+
+
+
+```
+
+```
+Which factors will you change?
+
+
+
+```
+
+```
+Which factors will you try to maintain fixed?
+
+
+
+```
+
+## Results
+
+| Performance of Glider | $A_W$ | $d_{af}$ | $ratio_W$ | $AOA_W$ | $l_F$ | $A_{HS}$ | $AOA_{HS}$ | ... |
+|:---------------------:|-------|----------|-----------|---------|-------|----------|------------|-----|
+|     Gliding ratio     |       |          |           |         |       |          |            |     |
+|          Lift         |       |          |           |         |       |          |            |     |
+|          Drag         |       |          |           |         |       |          |            |     |
+|         Speed         |       |          |           |         |       |          |            |     |
+|   Stability (Long.)   |       |          |           |         |       |          |            |     |
+|    Stability (Lat.)   |       |          |           |         |       |          |            |     |
+|         Weight        |       |          |           |         |       |          |            |     |
+
+
+```
+What have you learned?
+
+
+
+```
+
+# APPENDING
+
+## Building Main Wing
+
+A quick tutorial can be found at that  
+    [video]( https://www.youtube.com/watch?v=h_RzXO5u3M0 ) (https://www.youtube.com/watch?v=h_RzXO5u3M0).
 
 ### Area of the wing
 
-Calculate area of the wing according to [@eq:lift]. Assuming that your glider will travel at speed $v = 4..8 m/s$ and will have mass of cca. $m_{glider}=200..300 g$.
+- Calculate area of the wing according to [@eq:lift].
+- Assuming that your glider will travel at speed $v = 4..8 m/s$ and 
+- it will have a mass of cca. $m_{glider} = 200..300 grams$.
 
 ### Aspect ratio of wing area
 
-The aspect ratio of the wing area for the glider models (homemade) are far from the values of the real gliders. Thus mainly for the practical reasons we choose the aspect ratio between 6..12 values.
+The aspect ratio of the wing area for the glider models (homemade) are far from the values of the real gliders. Thus mainly for the practical reasons we choose the aspect around 6.
+
+$$ Aspect Ratio = \frac{Wing Spam}{Chord Length} \approx 6 $${#eq:aspect-ratio}
 
 ### Airfoil shape
+
 **Symetrical profile:**
 
 - Ceter of Lift is at 25% the cord lenght of the wing 
@@ -155,7 +242,8 @@ The aspect ratio of the wing area for the glider models (homemade) are far from 
 
 ### More instructions on wing build
 - Cut the material from depron sheet  
-- Nice taping technique is described in this [video]( https://youtu.be/PbyVGfB1oCg?t=639 ) (https://youtu.be/PbyVGfB1oCg?t=639)  
+- Nice taping technique is described in this  
+    [video]( https://youtu.be/PbyVGfB1oCg?t=639 ) (https://youtu.be/PbyVGfB1oCg?t=639)  
 - Join two half's of the wing (if needed)  
     [Video]( https://youtu.be/40lgBxxLxyk?t=88 )( https://youtu.be/40lgBxxLxyk?t=88 )
 - Fold the sheets to get airfoil shape  
@@ -169,9 +257,11 @@ The aspect ratio of the wing area for the glider models (homemade) are far from 
 
 ## Fuselage
 
-Basically you will do square tube from a depron sheet. Much like this guy in the [video]( https://www.youtube.com/watch?v=z3Afs3VlaZc )(https://www.youtube.com/watch?v=z3Afs3VlaZc).
+Basically you will do square tube from a depron sheet. Much like this guy in the  
+    [video]( https://www.youtube.com/watch?v=z3Afs3VlaZc )(https://www.youtube.com/watch?v=z3Afs3VlaZc).
 
 The 1°..2° degrees of negative angle on horizontal stabilizer are desired, which can be achieved by several options:  
+
 - the angle of back of the fuselage or
 - gluing it  with some support...
 
