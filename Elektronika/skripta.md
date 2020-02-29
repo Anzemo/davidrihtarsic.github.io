@@ -6,4 +6,4 @@
 
 ---
 
-[ZBIRKA VAJ - Skripte]( ./Skripta/Skripta.pdf )
+[ZBIRKA VAJ - Skripta]( ./Skripta/Skripta.pdf )
