@@ -175,13 +175,54 @@ In the process of designing a glider we must to consider a lot of factors. Choos
 
 Build a glider and change only one variable. Try out the glider and take the notes whether and what glider's performance improved. Your findings enter in the table to get nicer overall insight.
 
+## Materials and technical assets
+
+**Materials**
+
+- Depron sheet (3 mm × 80cm × 120 cm)
+- Depron sheet (5 mm × 80cm × 120 cm)
+- One-sided tape (5 cm of width)
+- Double-sided tape (1 cm of width)
+- Silicon hot glue inserts
+- Sanding paper
+
+**Technical assets**
+
+- Utility knife
+- Metal rule (cca. 50 cm long, with handles)
+- Pencil
+- Silicon glue gun
+- Gloves
+- Protecting goggles
+
+## Safety instructions
+
+**Using an Utility knife**
+
+- Wear safety glasses to protect your eyes in case a blade breaks.
+- Always use a sharp blade. They are safer than a dull blade.
+- Wear cut resistant gloves and sleeves (at least Level 3) to protect your hands and arms.
+- Hand a utility knife to a co-worker with the handle first.
+- Use one of the newer model self-retracting blade knives. The technology has increased the safety of this tool tremendously over the past several years.
+- Ensure the blades are properly positioned in the handle before use.
+- Keep extremities out of the cutting path.
+- Don’t apply too much pressure on the blade.
+- Follow manufacturer’s instructions when changing blades.
+- Don’t use utility knives to pry loose objects.
+- Dispose of dull or broken blades in a puncture-resistant container.
+
+**Using hot glue gun**
+
+- Choose a flat surface to work on. Make sure the surface is large enough to hold the entire project.
+- Wear protecting gloves and if possible, wear long sleeves so if the glue drips it will be caught on the fabric and not your skin.
+- Have all of your craft or project items ready to use before you plug in the gun and turn it on.
+- If you have to step away from your project, turn the gun off.
+
 ## Methodology
 
 Shortly describe the plan of your work...
-
 ```
 Identify your problem?
-
 
 
 
@@ -223,13 +264,13 @@ Enter the findings in the table below. Mark with `0` points if glider's performa
 | Stability (Lat.) |       |          |           |         |       |          |          |      |      |          |            |
 
 ```
-What have you learned?
+What have you learned (sketches prefferd)?
 
 
 
 ```
 
-# APPENDING
+# APPENDIX
 
 ## Building Main Wing
 
