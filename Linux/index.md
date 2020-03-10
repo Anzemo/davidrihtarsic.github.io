@@ -85,11 +85,19 @@ Cool "the best" File manager. Sicer napisan v pythonu, ampak še vedno hiter. Om
 
 ### NEOVIM
 
-**Avtomatsko popravljanje napak**  
+#### Avtomatsko popravljanje napak
+
 najprej si zapomnimo mesto kjer smo `ms`, nato s spell-check-erjem najdemo napako `[s`, iz menuja izberemo 1. predlog `1z=` in skočimo nazaj na masto "s" `'s`  
 
 ```bash
 :normal!  ms[s1z=`s<CR>
+```
+
+#### Save vim session
+Zapimni si vse odprte dokumente:
+
+```bash
+:mksession! ~/.config/nvim/david_session.sav
 ```
 
 ### DMENU
@@ -179,4 +187,9 @@ ARDUINO
 4. ponovno zaženi Arduino IDE in izberi `Tools - Boards - WAVGAT UNO R3`
 
 
+## HP - PRINTERS
 
+Imel sem težave s HP printerjem... rešil sem tako, da sem naložil nazaj:
+
+- HPLIP ( hplip 1:3.19.11-4 ) in 
+- CUPS ( cups 2.3.0-4 )
