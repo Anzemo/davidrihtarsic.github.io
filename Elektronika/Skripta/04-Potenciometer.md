@@ -9,18 +9,14 @@ Delovanje potenciometra si lahko razložimo na dva načina:
 1. Če na priključka A in C priključimo neko napetost, se bo napetostni potencial enakomerno zmanjševal vzdolž uporovne plasti potenciometra. Tako je napetostni potencial na priključku B odvisen od njegove lege.
 2. Lahko si zamislimo, da priključek B razdeli potenciometer na dva upora: (1) $R_{AB}$ in (2) $R_{BC}$. Tako se bo tudi napetost, ki jo bomo priključili na potenciometer razdelila v razmerju teh dveh upornosti.
 
-```vaja
-VAJA: MERJENJE NAPETOSTNEGA POTENCIALA NA POTENCIOMETRU.  
-Priključite potenciometer tako kot je  prikazano na [@fig:35-potenciometer.png]. Na srednji priključek potenciomtra prikljčite V-meter. Preverite kako se napetostni potencila spreminja v pdvisnosti od položaja srednjega priključka potenciomtra.
-```
+> VAJA: MERJENJE NAPETOSTNEGA POTENCIALA NA POTENCIOMETRU.  
+> Priključite potenciometer tako kot je  prikazano na [@fig:35-potenciometer.png]. Na srednji priključek potenciomtra prikljčite V-meter. Preverite kako se napetostni potencila spreminja v pdvisnosti od položaja srednjega priključka potenciomtra.
 
 ![Priključitev potenciometra.](./slike/35-potenciometer.png){#fig:35-potenciometer.png}
 
-```vaja
-VAJA: ODČITAVANJE ANALOGNE NAPETOSTI S KRMILNIKOM  
-Povežite srednji priključek potenciomtra na analogni vhod krmilnika (naprimer na A0) in preizkusite naslednji program. Program lahko najdete tudi v Arduino IDE programu:  
-File -> Examples -> 01. Basics -> AnalogReadSerial.
-```
+> VAJA: ODČITAVANJE ANALOGNE NAPETOSTI S KRMILNIKOM  
+> Povežite srednji priključek potenciomtra na analogni vhod krmilnika (naprimer na A0) in preizkusite naslednji program. Program lahko najdete tudi v Arduino IDE programu:  
+> File -> Examples -> 01. Basics -> AnalogReadSerial.
 
 ```cpp
 void setup() {
@@ -38,17 +34,12 @@ Kot ste verjetno opazili, se vam na ekranu v serijskem oknu izpisujejo številsk
 
 Krmilnik pa bi lahko na ta način (do neke mere) uporabljali tudi kot V-meter.
 
-```vaja
-VAJA: PRETVORBA ADC VREDNOSTI V NAPETOST  
-Z ustrezno linearno funkcijo pretvorite ADC vrednosti v številske vrednosti napetosti. Enačbo funkcije tudi zapišite in priložite kodo programa.
-```
+> VAJA: PRETVORBA ADC VREDNOSTI V NAPETOST  
+> Z ustrezno linearno funkcijo pretvorite ADC vrednosti v številske vrednosti napetosti. Enačbo funkcije tudi zapišite in priložite kodo programa.
 
 Prav tako enostavno pa lahko poskrbimo za grafični prikaz napetosti...
 
-```vaja
-VAJA: VU-METER  
-Program preoblikujte tako, da ko boste s potenciometrom nastavili večjo napetost,naj se vključi vač LED. Podobno kot je to na VU-metru na glasbenih stolpih. Kodo programa tudi priložite.
-```
-
+> VAJA: VU-METER  
+> Program preoblikujte tako, da ko boste s potenciometrom nastavili večjo napetost,naj se vključi vač LED. Podobno kot je to na VU-metru na glasbenih stolpih. Kodo programa tudi priložite.
 
 

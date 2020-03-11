@@ -17,7 +17,7 @@ template: skripta			# [eisvogel, skripta, raw]
 table-use-row-colors: true
 listings: true
 eqnPrefix: ""
-figPrefix: ""
+figPrefix: "sl."
 secPrefix: "pogl."
 codeBlockCaptions: true
 lolTitle: "Kazalo Nalog:"
