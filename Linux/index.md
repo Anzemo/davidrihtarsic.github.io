@@ -143,9 +143,6 @@ PROGRAM UTILS
 |      $     | Konec vrstice                                     |
 |      *     | Predhodni znak se lahko ponovi nikoli ali večkrat |
 
-
-
-
 ### GREP
 
 ### SED

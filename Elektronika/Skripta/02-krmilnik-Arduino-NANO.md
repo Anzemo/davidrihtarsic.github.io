@@ -8,7 +8,7 @@ Krmilnik Arduino Nano je relativno cenovno ugoden (cca. 3-5€) in ker je progra
 
 Preden bomo krmilnik uporabili v našem vezju, ga bomo preizkusili. S programskim orodjem "Arduino IDE" bomo na krmilnik naložili program "blink.ino" in s tem preverili, da vse komponente na krmilniku delujejo pravilno. To je priporočljivo narediti pred vsakim projektom.
 
-> VAJA: PREIZKUS KRMILNIKA ARDUINO NANO.  
+> NALOGA: PREIZKUS KRMILNIKA ARDUINO NANO.  
 > 1. Krmilnik Arduino Nano povežite z računalnikom preko USB povezave,  
 > 2. zaženite program Arduino IDE in ga pravilno nastavite:  
 >   - Tools -> Processor  : Arduino Nano,  
@@ -37,7 +37,7 @@ void loop() {
 
 Krmilnik Arduino Nano lahko vstavimo tudi v prototipno ploščico in ga napajamo z zunanjim napajanjem.
 
-> VAJA: VEZAVA KRMILNIKA ARDUINO NANO NA PROTOTIPNI PLOŠČICI.  
+> NALOGA: VEZAVA KRMILNIKA ARDUINO NANO NA PROTOTIPNI PLOŠČICI.  
 > Vstavite krmilnik Arduino Nano v prototipno ploščico in ga povežite kot prikazuje naslednja shema.  
 > Priključite  tudi upor in LED na priključek `13`.
 
@@ -53,7 +53,7 @@ Vezje bomo preoblikovali tako, da bo delovalo kot semafor na cestnem križišču
 
 ![Ter shema vezave na prototipni ploščici.](./slike/20-model-semaforja-fritzing.png){#fig:20-model-semaforja-fritzing.png}
 
-> VAJA: MODEL SEMAFORJA.  
+> NALOGA: MODEL SEMAFORJA.  
 > Preoblikujte vezje po shemi [@fig:20-Model-semaforja.png] in uporabite naslednji program ter ga ustrezno preoblikujte. Program, ki zagotavlja podobno delovanje, kot pri cestnem semaforju dokumentirajte in komentirajte uporabljene programske stavke (t.j. programske ukaze).
 
 > Vsak programski stavek morate zaključiti s podpičjem **;**.
@@ -99,7 +99,7 @@ $$ I_R = \frac{U_R}{R} $$
 
 > Če ne vemo kolikšno upornost ima element (tako kot je to v primeru LED), si največkrat pomagamo z izračunom toka skozi drug zaporedno vezan element. Kajti v tem primeru je tok isti.
 
-> VAJA: IZRAČUNAJTE ELEKTRIČNI TOK  
+> NALOGA: IZRAČUNAJTE ELEKTRIČNI TOK  
 > Izračunajte kolikšen električni tok teče skozi elemente R1, R2, R3, LED1, LED2 in LED3 ter preverite kakšne so električne omejitve tega elementa.
 > Izračunajte tudi električno moč, ki se troši na tem elementu.
 
