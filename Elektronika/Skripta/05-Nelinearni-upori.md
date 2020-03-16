@@ -44,7 +44,7 @@ Odzivnost senzorja (t.j. sprememba izhodnega napetostnega potenciala ob dani spr
 Iz prejšnje naloge ste verjetno opazili, da je odziv senzorja zelo odvisen od izbire referenčnega upora. Zato poskusimo nastaviti enačbo za izračun le-tega. Če bi iz meritev iz prejšnje naloge narisali graf $\Delta U(R_{Ref})$ bi lahko ugotovili, da ima ta funkcija en maksimum pri $R_{Ref-MAX}$. Za izračun tega upora (določitev maksimuma funkcije) moramo poiskati ničlo odvoda funkcije $\Delta U(R_{Ref})$.
 
 > NALOGA: IZRAČUN REFERENČNEGA UPORA  
-> 1. Nastavite enačbo za izračun izhodne napetosti $U_{IZH}$ pri temperaturi $T_1$m.[^1]  
+> 1. Nastavite enačbo za izračun izhodne napetosti $U_{IZH}$ pri temperaturi $T_1$.[^1]  
 > 2. Nastavite enačbo za izračun izhodne napetosti $U_{IZH}$ pri temperaturi $T_2$.  
 > 3. Nastavite enačbo za $\Delta U$.  
 > 4. Enačbo $\Delta U$ odvajajte po $R_{Ref}$ in jo rešite za $\frac{\partial U_{IZH}}{\partial R_{Ref}}=0$
