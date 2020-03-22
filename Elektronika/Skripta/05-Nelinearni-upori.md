@@ -44,9 +44,9 @@ Odzivnost senzorja (t.j. sprememba izhodnega napetostnega potenciala ob dani spr
 Iz prejšnje naloge ste verjetno opazili, da je odziv senzorja zelo odvisen od izbire referenčnega upora. Zato poskusimo nastaviti enačbo za izračun le-tega. Če bi iz meritev iz prejšnje naloge narisali graf $\Delta U(R_{Ref})$ bi lahko ugotovili, da ima ta funkcija en maksimum pri $R_{Ref-MAX}$. Za izračun tega upora (določitev maksimuma funkcije) moramo poiskati ničlo odvoda funkcije $\Delta U(R_{Ref})$.
 
 > NALOGA: IZRAČUN REFERENČNEGA UPORA  
-> 1. Nastavite enačbo za izračun izhodne napetosti $U_{IZH}$ pri temperaturi $T_1$.[^1]  
+> 1. Nastavite enačbo za izračun izhodne napetosti $U_{IZH}$ pri temperaturi $T_1$.[^051]  
 > 2. Nastavite enačbo za izračun izhodne napetosti $U_{IZH}$ pri temperaturi $T_2$.  
 > 3. Nastavite enačbo za $\Delta U$.  
 > 4. Enačbo $\Delta U$ odvajajte po $R_{Ref}$ in jo rešite za $\frac{\partial U_{IZH}}{\partial R_{Ref}}=0$
 
-[^1]: Upornost termistorja pri temperaturi $T_1$ je različna od uporanosti pti $T_2$, zato jih morate ločiti in označiti drugače, npr.: $R_{NTC-T1}$ in $R_{NTC-T2}$.
+[^051]: Upornost termistorja pri temperaturi $T_1$ je različna od uporanosti pti $T_2$, zato jih morate ločiti in označiti drugače, npr.: $R_{NTC-T1}$ in $R_{NTC-T2}$.
