@@ -1,6 +1,6 @@
 ---
 title: "ELEKTRONIKA - zbirka vaj"
-subtitle: "Ta zbirka vaj je namenjena študentom Pedagoške fakultete, Univerze v Ljubljani."
+subtitle: "Ta zbirka vaj je namenjena študentom 1. stopnje bolonjskega študijskega programa smeri dvopredmetni učitelj, vezave tehnike, matematike, fizike in računalništva na  Pedagoški fakulteti, Univerze v Ljubljani."
 author: "dr. David Rihtaršič"
 date: 2020-02-18 13:11
 classoption: onecolumn 			# [onecolumn, twocolumn]
