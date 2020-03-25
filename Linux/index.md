@@ -239,10 +239,24 @@ ARDUINO
 
 4. ponovno zaženi Arduino IDE in izberi `Tools - Boards - WAVGAT UNO R3`
 
-
-## HP - PRINTERS
+### HP - PRINTERS
 
 Imel sem težave s HP printerjem... rešil sem tako, da sem naložil nazaj:
 
 - HPLIP ( hplip 1:3.19.11-4 ) in 
 - CUPS ( cups 2.3.0-4 )
+
+### INTEL GRAPHIC CARD
+
+Če gre za **tearing** potem ustvari datoteko:
+
+    /etc/X11/xorg.conf.d/20-intel.conf
+
+in v njo daš naslednjo vsebino:
+
+    Section "Device"
+       Identifier  "Intel Graphics"
+       Driver      "intel"
+       Option      "TearFree"    "true"
+    EndSection
+
