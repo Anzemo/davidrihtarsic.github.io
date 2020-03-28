@@ -17,7 +17,7 @@ V času pozitivne napajalne napetosti dioda prevaja električni tok in je na nje
 $$ I_D=\frac{U_G-U_D}{R_{R_1}} $${#eq:tok-skozi-polusmernik}
 
 V primeru negativne periode napajalne napetosti dioda ne prevaja. Skozi
-tokokrog teče zelo majhen zaporni tok I~S~= 25 nA, ki povzroča
+tokokrog teče zelo majhen zaporni tok $I_Z= 25 nA$, ki povzroča
 zanemarljiv padec napetosti na uporu R. Tako na izhodu dobimo le
 enosmerno napetost, čeprav smo na vhod priključili izmenično napetost. V
 našem primeru je enosmerna napetost pozitivna polvalna napetost ...
