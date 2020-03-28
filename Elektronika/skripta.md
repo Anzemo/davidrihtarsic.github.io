@@ -6,6 +6,7 @@
 [4 - Uporaba potenciometra]( ./Skripta/04-Potenciometer.html ) - [PDF]( ./Skripta/04-Potenciometer.pdf )  
 [5 - Nelinearni upori in senzorji]( ./Skripta/05-Nelinearni-upori.html ) - [PDF]( ./Skripta/05-Nelinearni-upori.pdf )  
 [6 - Umeritev senzorja temperature]( ./Skripta/06-Umeritev-senzorja-temperature.html ) - [PDF]( ./Skripta/06-Umeritev-senzorja-temperature.pdf )  
+[7 - Usmerniška dioda]( ./Skripta/07-Polprevodniska_dioda.html ) - [PDF](./Skripta/07-Polprevodniska_dioda.pdf)  
 
 ---
 

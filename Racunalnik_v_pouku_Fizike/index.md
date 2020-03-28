@@ -8,4 +8,4 @@ Opis izvedbe seminarja.
 
 ## Vaje
 
-[vaje]( ./Vaje/index.md )
+[vaje]( ./Vaje/index.html )
