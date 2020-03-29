@@ -1,17 +1,2 @@
-WARNING: no global style definitions found
-         ----- pandoc read -----
-         running
-         ----- style definitions -----
-         no global definitions loaded
-         ----- document style -----
-         no "style" field found, run only pandoc
-         writer:
-           latex
-         ----- template -----
-           skripta
-         ----- run list -----
-           empty
-         ----- pandoc write -----
-         pandoc writing with options:
-           --listings --pdf-engine=pdflatex
-ERROR:     ![WARNING] Missing character: There is no ` in font SourceCodePro-Regular-tlf-ts1!
+[WARNING] Missing character: There is no ` in font SourceCodePro-Bold-tlf-ts1!
+[WARNING] Missing character: There is no ` in font SourceCodePro-Bold-tlf-ts1!

@@ -1,17 +1,14 @@
-LINUX
-=====
+# LINUX
 Na tej strani lahko najdete nekaj napotkov za Linux-e...
 
-![MyLinuxSetup]( ./image.png)
+![MyLinuxSetup]( ./slike/image.png)
 
 - TOC
 {:toc}
 
-INSTALLATION
-==============
+# INSTALLATION
 
-PACMAN
-------
+## PACMAN
 Package manager za ARCH. Nekaj splo/nih ukazov:
 
 |      Akcija | ukaz                                                           |
@@ -23,31 +20,52 @@ Package manager za ARCH. Nekaj splo/nih ukazov:
 
 Nastavitev pacmana najdeš v datoteki: `/etc/pacman.conf`.
 
-TRIZEN
-------
+## AUR HELPRES
+
+### TRIZEN
 Package manager za programe iz AUR repository-ja...
 
-YAY
----
+### YAY
 Še en package manager za AUR in ...
 
-TERMINAL (SHELL & PROGRAMS & COMMANDS)
-========================================
+# SHELL (TERMINALs & UTILITYs & APPLICATIONs)
 
-SHELL
------
+## SHELL
+
+[Dokumentacija za SHELL]( http://tldp.org/LDP/Bash-Beginners-Guide/html/index.html )
 
 ### ZSH
 
-TERMINAL EMULATOR
------------------
+## TERMINAL EMULATOR
+
+### ST
+
+Je sucless program napisan v C-ju, hiter enostaven... nima veliko dodatkov... Luke Smith ga je zbuildal, tako da je ready-to-go:  
 
 ### TERMITE
 
 ### TERMINATOR
 
-PROGRAMS
---------
+## UTILITY PROGRAMS
+
+### GENERAL EXPRESSIONS
+
+| EXPRESSION | Funkcija                                          |
+|:----------:|---------------------------------------------------|
+|    [0-9]   | Številka                                          |
+|    [a-z]   | Mala črka                                         |
+|      .     | Katerikoli znak                                   |
+|      ^     | Začetek vrstice                                   |
+|      $     | Konec vrstice                                     |
+|      *     | Predhodni znak se lahko ponovi nikoli ali večkrat |
+
+### GREP
+
+### SED
+
+### AWK
+
+## APPLICATION PROGRAMS
 
 ### RANGER
 Cool "the best" File manager. Sicer napisan v pythonu, ampak še vedno hiter. Omogoča:
@@ -76,14 +94,6 @@ Zapimni si vse odprte dokumente:
 :mksession! ~/.config/nvim/david_session.sav
 ```
 
-### DMENU
-
-Še en zelo uporaben `SUCKLESS` program. Dmenu je menu, ki prikaže poljuben text, uporabniku nudi izbiro iz menija in izbran text poda kot izhod. Na primer: meni z dvema izbirama bi izgledal takole:
-
-```bash
-echo "Prva moznost\nDruga moznost" | dmenu -l 10
-```
-
 ### PANDOC
 Program za pretvorbo dokumentov. Naveč ga uporabljam za pretvorbo iz `MARKDOWN` dokumentov v `PDF` dokumente. Na primer:  
 
@@ -105,28 +115,7 @@ A je v tem listingsu vsaka vrstica naoisana v novi
 nrstici.
 ```
 
-PROGRAM UTILS
--------------
-
-### GENERAL EXPRESSIONS
-
-| EXPRESSION | Funkcija                                          |
-|:----------:|---------------------------------------------------|
-|    [0-9]   | Številka                                          |
-|    [a-z]   | Mala črka                                         |
-|      .     | Katerikoli znak                                   |
-|      ^     | Začetek vrstice                                   |
-|      $     | Konec vrstice                                     |
-|      *     | Predhodni znak se lahko ponovi nikoli ali večkrat |
-
-### GREP
-
-### SED
-
-### AWK
-
-PROGRAMS (GUI-like)
-===================
+# DESKTOP ENVIRONMENT
 
 Za vsak program lahko določimo v katero katero spada in kako ga zaženemo. Te možnosti programa so zapisane v:  
 `/usr/share/applications/IME_PROGRAMA.desktop`
@@ -138,9 +127,24 @@ katere kategorije so vpisane v vseh programih lahko pogledamo z ukazom:
 grep Categories /usr/share/applications/* | sed 's/^.*=//;s/\;/\n/g' | sort | uniq
 echo "To je test..."
 ```
+## UTILITY PROGRAMS
 
-OFFICE
-------
+### DMENU
+
+Še en zelo uporaben `SUCKLESS` program. Dmenu je menu, ki prikaže poljuben text, uporabniku nudi izbiro iz menija in izbran text poda kot izhod. Na primer: meni z dvema izbirama bi izgledal takole:
+
+```bash
+echo "Prva moznost\nDruga moznost" | dmenu -l 10
+```
+
+## APPLICATION PROGRAMS
+
+### LIBRE OFFICE
+
+### BLENDER
+
+Pozabite na google sketchup...  odličen tutorial z 20 nasveti, ki jih potrebujete za delo z Blenderjem lahko najdemo na tej strani:  
+[Blender tutorial]( https://www.youtube.com/watch?v=_HLMmaQM8Pg )
 
 ### YENKA
 
@@ -198,11 +202,9 @@ vidimo, da file obstaja... Torej, rešiev je:
 
 in Yenka  DELA :)
 
-HARDWARE
-========
+# HARDWARE
 
-ARDUINO
--------
+## ARDUINO
 
 ### ARDUINO WAVGAT
 
@@ -215,14 +217,14 @@ ARDUINO
 
 4. ponovno zaženi Arduino IDE in izberi `Tools - Boards - WAVGAT UNO R3`
 
-### HP - PRINTERS
+## HP - PRINTERS
 
 Imel sem težave s HP printerjem... rešil sem tako, da sem naložil nazaj:
 
 - HPLIP ( hplip 1:3.19.11-4 ) in 
 - CUPS ( cups 2.3.0-4 )
 
-### INTEL GRAPHIC CARD
+## INTEL GRAPHIC CARD
 
 Če gre za **tearing** potem ustvari datoteko:
 
@@ -235,4 +237,12 @@ in v njo daš naslednjo vsebino:
        Driver      "intel"
        Option      "TearFree"    "true"
     EndSection
+
+## KEYBOARD
+
+Keyboard sniffing:  
+```sh
+xev | awk -F'[ )]+' '/^KeyPress/ { a[NR+2] } NR in a { printf "%-3s %s\n", $5, $8 }'
+```
+
 
