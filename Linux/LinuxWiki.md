@@ -39,6 +39,7 @@ Na tej strani lahko najdete nekaj napotkov za Linux-e...
 -  SED
 -  AWK
 - [pandoc](pandoc.md)
+- [ffmpeg](ffmpeg.md)
 
 ## APPLICATION PROGRAMS
 
