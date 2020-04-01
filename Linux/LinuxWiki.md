@@ -9,6 +9,7 @@ Na tej strani lahko najdete nekaj napotkov za Linux-e...
 # INSTALLATION
 
 - [pacman](pacman.md)
+- [pacman](pacman)
 
 ## AUR HELPRES
 
