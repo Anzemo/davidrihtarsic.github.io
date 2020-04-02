@@ -1,3 +1,15 @@
+# ZBIRNIK NALOGA
+
+|               - | Izpolnite tabelo z vašimi podatki |
+|----------------:|----------------------------------:|
+|             Ime |                                   |
+|         Priimek |                                   |
+| Vpisna številka |                                   |
+|    Smer študija |                                   |
+|    Datum oddaje |                                   |
+
+Table: Podatki o oddaji nalog. {#tbl:podatki-oddaje}
+
 \setcounter{chapter}{0}
 
 # Napajanje
@@ -52,9 +64,6 @@
 > ### NALOGA: PRIKLJUČITEV TIPKE NA DIGITALNI VHOD  
 > Priključite tipko po shemi [@fig:30-Tipka-delilnik.png] in preskusite spodnji program.  
 > Nato popravite program tako, bo LED svetila, ko boste tipko pritisnili.
-> POMNI: DIGITALNI VHOD MIKROKRMILNIKA  
-> Priključke mikrokrmilnika lahko uporabimo tudi za odčitavanje napetostnih potencialov v digitalni obliki (ločimo le dva napetostna nivoja). S funkcijo `pinMode(PIN, INPUT);` določimo, da priključek `PIN` lahko opravlja funkcijo digitalnega vhoda s katerim lahko odčitamo vrednost napetostnega potenciala.
-> Funkcija `digitalRead(PIN);` vrne vrednost digitalnega vhoda. Če je na priključku `PIN` napetostni potencial večji od 2.0 V bo funkcija vrnila vrednost 1 (ali HIGH ali TRUE). Če pa je na priključku `PIN` napetostni potencial manjši od 0.8 V pa bo funkcija vrnila vrednost 0 (ali LOW ali FALSE).
 
 ## Priključitev tipke z uporom proti napajanju
 
@@ -143,3 +152,17 @@
 > $R_1=$ __________ $k\Omega$ in  
 > $C_1=$ __________ $\mu F$.
 
+# Zenerjeva dioda
+
+> ### NALOGA: KARAKTERISTIKA ZENERJEVE DIODE  
+> Sestavite vezje, ki je prikazano na [@fig:80-Zener-zaporna.png] in izmerite karakteri stiko I(U) zenerjeve diode v zaporni smeri. Menjajte upor $R_X$ tako, da boste na zenerjevi diodo ustvarili različne napetosti. Nakažite vsaj en izračun električnega toka, ki teče skozi zenerjevo diodo, če merimo le napetost na zenerjevi diodi.  
+> Zabeležite si ključne pdatke (napajalno napetost in nazivno zenerjevo napetost):  
+>
+> $U_{CC}$=_____________ V  
+> $U_{Z0}$= _____________V
+
+> ### NALOGA: DELOVNA TOČKA ZENERJEVE DIODE  
+> Iz grafa na [@fig:zener-karakteristika] odčitajte delovno točko zenerjeve diode. To je točka na I(U) karakteristiki zenerjeve diode, pri kateri teče skozi zenerjevo diodo delovni tok $I_{Z0}$ in je na njej ravno njena nazivna napetost $U_{Z0}$.
+>
+> $I_{Z0}$=_____________ mA  
+> $U_{Z0}$= _____________V

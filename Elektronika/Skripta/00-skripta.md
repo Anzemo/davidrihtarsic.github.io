@@ -3,17 +3,13 @@ title: "ELEKTRONIKA - zbirka vaj"
 subtitle: "Ta zbirka vaj je namenjena študentom 1. stopnje bolonjskega študijskega programa smeri dvopredmetni učitelj, vezave tehnike, matematike, fizike in računalništva na  Pedagoški fakulteti, Univerze v Ljubljani."
 author: "dr. David Rihtaršič"
 date: 2020-02-18 13:11
-classoption: onecolumn 			# [onecolumn, twocolumn]
+classoption: onecolumn
 titlepage: true
-#fontsize: 12pt
-#geometry: "top=1cm, bottom=1cm, left=1cm, right=1cm"
-#numbersections: true
-documentclass: book 		# [article, book, report]
+documentclass: book
 book: true
-#csl: ieee.csl
 bibliography: bibtex.bib
-lang: sl 				# [sl, en-US, us-GB]
-template: skripta			# [eisvogel, skripta, raw] 
+lang: sl
+template: skripta
 table-use-row-colors: true
 listings: true
 eqnPrefix: ""
