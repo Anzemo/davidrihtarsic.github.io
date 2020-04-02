@@ -22,7 +22,7 @@ zanemarljiv padec napetosti na uporu R. Tako na izhodu dobimo le
 enosmerno napetost, čeprav smo na vhod priključili izmenično napetost. V
 našem primeru je enosmerna napetost pozitivna polvalna napetost ...
 
-> NALOGA: POLVALNI USMERNIK  
+> ### NALOGA: POLVALNI USMERNIK  
 > Sestavite vezje na [@fig:70-polvalni-usmernik.svg], ter izmerite potek vhodne napetosti vira - *U_G(t)* in napetost na uporu *U_R1(t)*. Obe krivulji narišite v graf na [@fig:07-Graf-osciloskop.png]
 
 ![Časovna odvisnot izhodne napetosti polvalnega usmernika.](./slike/Graf-osciloskop.png){#fig:07-Graf-osciloskop.png}
@@ -39,7 +39,7 @@ Princip delovanja glajenja lahko razložimo tako, da v času pozitivne periode n
 
 $$ \tau=R_1\ C_1 $${#eq:casovna-konstanta-RC}
 
-> NALOGA: GLAJENJE IZHODNE NAPETOSTI  
+> ### NALOGA: GLAJENJE IZHODNE NAPETOSTI  
 > Izhodno napetost polvalnega usmernika zgladite z dodanim kondenzatorjem s kapacitivnostjo za $C_1=47\mu F$. Nato menjajte različne bremenske upornosti $R_1$ in opazujte kako se spremeni stabilnost izhodne napetosti.  
 > V [@tbl:stabilnost] vpišite meritve povprečne vrednosti izhodnega napetostnega potenciala in vrednosti največje spremembe le tega.  
 > Natu tudi izračunajte stabilnost napetostnega potenciala.
@@ -54,7 +54,7 @@ $$ \tau=R_1\ C_1 $${#eq:casovna-konstanta-RC}
 
 Table: Stabilnost izhodne napetosti pri različnih bremenskih upornostih. {#tbl:stabilnost}
 
-> NALOGA: GLAJENA IZHODNA NAPETOST
+> ### NALOGA: GLAJENA IZHODNA NAPETOST
 > Na graf [@fig:07-Graf-osciloskop.png] dorišite še zglajeno izhodno napetost za en primer iz kombinacije:  
 > $R_1=$ __________ $k\Omega$ in  
 > $C_1=$ __________ $\mu F$.

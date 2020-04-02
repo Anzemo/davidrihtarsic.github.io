@@ -4,7 +4,7 @@ Sestavite vezje, ki je predstavljeno na [@fig:06-AC-R-C.png]. Na levi strni imam
 
 ![Shema priključitve zaporedne vezave upora in kondenzatorja na izmenični vir napetosti.](./slike/06-AC-R-C.png){#fig:06-AC-R-C.png}
 
-> NALOGA: NAPETOSTI V IZMENIČNIH TOKOKROGIH  
+> ### NALOGA: NAPETOSTI V IZMENIČNIH TOKOKROGIH  
 > Sestavite vezje na [@fig:06-AC-R-C.png] in z V-metrom izmerite napetosti na elementih in jih vpišite v tabelo. V shemo vključite tudi priključitev vseh treh V-metrov.
 
 | element | $\Tilde{U} [V]$ |
@@ -14,21 +14,21 @@ Sestavite vezje, ki je predstavljeno na [@fig:06-AC-R-C.png]. Na levi strni imam
 |    C1   |                 |
 Table: Izmerjene efektivne vrednosti napetosti na elementih v izmeničnem tokokrogu. {#tbl:u-efektivna}
 
-> NALOGA: PREVERITE 2. KIRCHHOFFOV IZREK  
+> ### NALOGA: PREVERITE 2. KIRCHHOFFOV IZREK  
 > Kaj lahko ugotovite glede 2. Kirchhoffovega izreka. Ugotovitve zapišite.
 
 Če želimo prikazati časovno odvisnost napetostnega potenciala ($U(t)$) lahko uporabimo merilni inštrument, ki ga imenujemo osciloskop. Priključiti ga moramo tako, kot to prikazuje [@fig:06-OSC.png].
 
 ![Priključitev osciloskopa v vezje.](./slike/06-OSC.png){#fig:06-OSC.png}
 
-> NALOGA: ČASOVNI POTEK NAPETOSTI (osciloskop)  
+> ### NALOGA: ČASOVNI POTEK NAPETOSTI (osciloskop)  
 > V vezje priključite osciloskop, kot kaže [@fig:06-OSC.png].  
 > Nato pravilno nastavite osciloskop (na ekranu naj bo vidna le ena perioda) in odčitajte ter prerišite vse tri poteke napetosti:  
 > 1. Časovni potek napetostnega potenciala, ki ga generira vir napetosti (A).  
 > 2. Časovni potek napetosti na kondenzatorju (B).  
 > 3. Napetost na uporu, ki jo lahko prikažemo z matematično funkcijo A-B.  
 
-> NALOGA: ČASOVNI POTEK NAPETOSTI (simulacija)  
+> ### NALOGA: ČASOVNI POTEK NAPETOSTI (simulacija)  
 > Na isti graf U(t) prikazujte:  
 > 1. Časovni potek napetosti vira,  
 > 2. časovni potek napetosti na kondenzatorju in  
@@ -39,7 +39,7 @@ Table: Izmerjene efektivne vrednosti napetosti na elementih v izmeničnem tokokr
 
 ![Graf čarovne odvisnosti napetosti vira, napetosti na uporu in na kondenzatorju.](./slike/chart-oscilloscope.png){#fig:chart-oscilloscope.png}
 
-> NALOGA: KARAKTERISTIČNE VREDNOSTI IZMENIČNE NAPATOSTI  
+> ### NALOGA: KARAKTERISTIČNE VREDNOSTI IZMENIČNE NAPATOSTI  
 > Iz predhodno izmerjenega grafa odčitajte naslednje količine in jih vpišite v tabelo. Kjer je:  
 > - $\hat{U}$ - amplitudna napetost - največji odmik krivulje od srednje vrednosti in  
 > - $t_{\hat{U}}$ - čas, pri katerem se pojavi amplitudna napetost.  
@@ -70,7 +70,7 @@ Za boljšo predstavitev kako lahko razložimo uporabo kazalčnega diagrama (ali 
 5. Torej, na nek način celotnih $\varphi_0=360^{\circ}$ v tem namišljenem prostoru - predstavlja $t_0=20ms$ v realnem svetu.
 6. In prav tako vsakršna poljubna realna časovna razlika $\Delta t$ ustreza faznemu zamiku $\Delta \varphi$ v kazalčnem diagramu.
 
-> NALOGA: KAZALČNI DIAGRAM  
+> ### NALOGA: KAZALČNI DIAGRAM  
 > Najprej preverite 2. Kirchhoffov izrek, vendar vzemite meritve vseh treh napetosti ob istem času iz [@tbl:u-t-AC ]. Kaj ugotovite? Ugotovitev utemeljite v navezavi z meritvami iz [@tbl:u-efektivna ].  
 > V kazalčni diagram vrišite vse tri vektorje amplitudnih napetosti ($\vec{U_{V_1}}, \vec{U_{R_1}} in\ \vec{U_{C_1}}$) in preverite veljavnost 2. Kirchhoffovega izreka še v tej vektorski obliki. Ugotovitev zapišite.
 

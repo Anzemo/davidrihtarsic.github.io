@@ -4,7 +4,7 @@ Senzor je elektronski element, katerega izhodna električna količina (izhodni s
 
 ![Temperaturni senzor.](./slike/05-senzor-delilnik-1.png){#fig:05-senzor-delilnik.png}
 
-> NALOGA: SENZOR TEMPERATURE - vezje  
+> ### NALOGA: SENZOR TEMPERATURE - vezje [vezje].
 > Sestavite obe vezji iz [@fig:05-senzor-delilnik.png] in preverite kako se izhodna napetost spreminja glede na temperaturo. Ugotovitev zapišite za oba primera.
 
 Premislimo, kako lahko razumemo delovanje senzorja na [@fig:05-senzor-delilnik.png]:  
@@ -15,7 +15,7 @@ Premislimo, kako lahko razumemo delovanje senzorja na [@fig:05-senzor-delilnik.p
 4. Napetost na uporu $R_1$ je enaka napetostnemu potencialu na izhodnemu priključku senzorja.
 5. Zaključimo lahko, da se napetostni potencial na izhodnem priključku poveča, če se je tudi temperatura povečala.
 
-> NALOGA: SENZOR TEMPERATURE - delovanje  
+> ### NALOGA: SENZOR TEMPERATURE - delovanje  
 > Sledite točkam razmišljanja od 1 - 5 in zapišite konkretne vrednosti električnih količin iz vašega vezja.  
 
 | fiz. količina | pri nižji temp. | pri višji temperaturi |
@@ -30,7 +30,7 @@ Premislimo, kako lahko razumemo delovanje senzorja na [@fig:05-senzor-delilnik.p
 
 Odzivnost senzorja (t.j. sprememba izhodnega napetostnega potenciala ob dani spremembi temperature) je zelo odvisna od prave izbire upora $R_1$ iz [@fig:05-senzor-delilnik.png] - desno. Temu uporu rečemo tudi **referenčni upor**.
 
-> NALOGA: DOLOČITEV REFERENČNEGA UPORA  
+> ### NALOGA: DOLOČITEV REFERENČNEGA UPORA  
 > Za različne referenčne upore preverite odziv senzorja. Pri izpeljavi meritev bodite pozorni, da boste temperaturo spremenili vedno v istem območju, npr. vedno iz temperature 10°C na 40°C. Referenčni upori naj bodo v dekadnem razmerju.
 
 | $R_{Ref}[\Omega]$ | $T_1[ ^\circ C]$ | $T_2[ ^\circ C]$ | $U_{IZH}(T_1)[V]$ | $U_{IZH}(T_2)[V]$ | $\Delta U[V]$ |
@@ -43,7 +43,7 @@ Odzivnost senzorja (t.j. sprememba izhodnega napetostnega potenciala ob dani spr
 
 Iz prejšnje naloge ste verjetno opazili, da je odziv senzorja zelo odvisen od izbire referenčnega upora. Zato poskusimo nastaviti enačbo za izračun le-tega. Če bi iz meritev iz prejšnje naloge narisali graf $\Delta U(R_{Ref})$ bi lahko ugotovili, da ima ta funkcija en maksimum pri $R_{Ref-MAX}$. Za izračun tega upora (določitev maksimuma funkcije) moramo poiskati ničlo odvoda funkcije $\Delta U(R_{Ref})$.
 
-> NALOGA: IZRAČUN REFERENČNEGA UPORA  
+> ### NALOGA: IZRAČUN REFERENČNEGA UPORA  
 > 1. Nastavite enačbo za izračun izhodne napetosti $U_{IZH}$ pri temperaturi $T_1$.[^051]  
 > 2. Nastavite enačbo za izračun izhodne napetosti $U_{IZH}$ pri temperaturi $T_2$.  
 > 3. Nastavite enačbo za $\Delta U$.  

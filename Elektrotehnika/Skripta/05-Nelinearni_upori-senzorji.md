@@ -5,14 +5,14 @@ Med nelinearne upore sodijo tudi upori, katerih upornost se spreminja v odvisnos
 - osvetljenosti (npr.: fotoupor).
 - temperature (termistorji)
 
-> NALOGA: FOTOUPOR  
+> ### NALOGA: FOTOUPOR  
 > Sestavite vezje, ki ga prikazuje [@fig:05-LDR-NTC.png] - levo. Nato spreminjajte osvetljenost elementa in opazujte kako se spreminja električni tok skozi element. Ugotovitev tudi napišite.
 >
 > Nato na podlagi teh ugotovitev utemeljite kako se spreminja upornost elementa glede na njegovo osvetljenost.
 
 ![Priključitev fotoupora in termistorja.](./slike/05-LDR-NTC.png){#fig:05-LDR-NTC.png}
 
-> NALOGA: TERMISTOR  
+> ### NALOGA: TERMISTOR  
 > Sestavite vezje, ki ga prikazuje [@fig:05-LDR-NTC.png] - desno. Nato spreminjajte temperaturo elementa in opazujte kako se spreminja električni tok skozi element. Ugotovitev tudi napišite.
 >
 > Nato na podlagi teh ugotovitev utemeljite kako se spreminja upornost elementa glede na njegovo temperaturo.
@@ -31,7 +31,7 @@ Premislimo, kako lahko razumemo delovanje senzorja:
 4. Prav to napetost pa tudi merimo z volt-metrom $VM1$.
 5. Zaključimo lahko, da se napetostni potencial na izhodnem priključku poveča, če se je tudi temperatura povečala.
 
-> NALOGA: UMERITEV SENZORJA TEMPERATURE  
+> ### NALOGA: UMERITEV SENZORJA TEMPERATURE  
 > Sestavite senzor temperature, kot je predstavljen na [@fig:05-Temp-sen.png]. Spreminjajte temperaturo termistorja in beležite izhodno napetost. Meritve uredite tudi v tabeli. Nato iz dobljenih meritev lahko narišete graf $U_{izh}(T)$.
 >
 > Za tem iz dobljenih meritev izračunajte še upornost $R_{NTC}$ za vsako izmerjeno situacijo in narišite graf $R_{NTC}(T)$.

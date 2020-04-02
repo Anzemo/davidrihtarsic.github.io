@@ -4,7 +4,7 @@ Kot smo že omenili so senzorji elektronski elementi, katerih izhodna napetost j
 
 Pred umeritvenim postopkom moramo poznati temperaturno območje, v katerem bomo senzor uporabljali. Zato si zadajmo nalogo, da bomo senzor uporabljali v območje $T=[0^{\circ}C\ ..\ 40^{\circ}C]$.
 
-> NALOGA: SESTAVITE VEZJE  
+> ### NALOGA: SESTAVITE VEZJE  
 > Sestavite senzor temperature kot sledilnik napetosti, v katerem boste uporabili le referenčni upor $R_{REF}$ in NTC termistor $R_{NTC}$. Vezje tudi narišite.  
 > Izhodni napetostni potencial senzorja naj bo večji čim večja je temperatura.  
 > Nenazadnje, določite referenčni upor $R_{REF}$ tako, da bo senzor imel največji odziv v zadanem temperaturnem območju. V ta namen morate poznati upornost termistorja pri:  
@@ -14,7 +14,7 @@ Pred umeritvenim postopkom moramo poznati temperaturno območje, v katerem bomo 
 
 [^061]: Za izračun vzemite izpeljano enačbo iz prejšnje naloge.
 
-> NALOGA: UMERITEV SENZORJA  
+> ### NALOGA: UMERITEV SENZORJA  
 > Pri postopku umeritve morate meriti temperaturo $T$ termistorja in hkrati izhodni napetostni potencial senzorja $U_{IZH}$. Meritve zabeležite v spodnjo tabelo.  
 > Nato podatke vrišite v graf na [@fig:r-ntc.png]
 
@@ -30,7 +30,7 @@ Table: Umeritev senzorja temperature. {#tbl:umeritev-U-T}
 
 ![Graf $U_{IZH}(T)$ temperaturnega senzorja in karakteristika $R_{NTC}(T)$ NTC termistorja.](./slike/MrezaLin10x16.png){#fig:r-ntc.png}
 
-> NALOGA: KARAKTERISTIKA NTC TERMISTORJA  
+> ### NALOGA: KARAKTERISTIKA NTC TERMISTORJA  
 > Izračunajte tudi upornost termistorja. Le-to lahko izračunate glede na napajalno napetost $U_0$, referenčno uporanost $R_{REF}$ in izhodno napetost $U_{IZH}$. Vsaj en izračun tudi dosledno nakažite.  
 > Upornost termistorja $R_{NTC}$ izračunajte pri vsaki umerjeni temperaturi in jo vpišite v [@tbl:umeritev-U-T ].  
 > Nato v isti graf na [@fig:r-ntc.png] vrišite še karakteristika termistorja $R_{NTC}(T)$ tako, da skalo za upornost določite na desni strani grafa.
