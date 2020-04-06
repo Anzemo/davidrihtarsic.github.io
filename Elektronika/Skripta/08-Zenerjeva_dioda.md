@@ -5,8 +5,9 @@ Zenerjeva dioda je v prevodni smeri zelo podobna navadni usmerniški diodi. V za
 ![Merjenje karakretistike zenerjeve diode v zaporni smeri.](./slike/80-Zener-zaporna.png){#fig:80-Zener-zaporna.png}
 
 > ### NALOGA: KARAKTERISTIKA ZENERJEVE DIODE  
-> Sestavite vezje, ki je prikazano na [@fig:80-Zener-zaporna.png] in izmerite karakteri stiko I(U) zenerjeve diode v zaporni smeri. Menjajte upor $R_X$ tako, da boste na zenerjevi diodo ustvarili različne napetosti. Nakažite vsaj en izračun električnega toka, ki teče skozi zenerjevo diodo, če merimo le napetost na zenerjevi diodi.  
-> Zabeležite si ključne pdatke (napajalno napetost in nazivno zenerjevo napetost):  
+> 1. Sestavite vezje, ki je prikazano na [@fig:80-Zener-zaporna.png] in izmerite karakteri stiko I(U) zenerjeve diode v zaporni smeri. Menjajte upor $R_X$ tako, da boste na zenerjevi diodo ustvarili različne napetosti.
+> 2. Nakažite vsaj en izračun električnega toka, ki teče skozi zenerjevo diodo, če merimo le napetost na zenerjevi diodi.
+> 3. Zabeležite si ključne pdatke (napajalno napetost in nazivno zenerjevo napetost):  
 >
 > $U_{CC}$=_____________ V  
 > $U_{Z0}$= _____________V
@@ -26,7 +27,7 @@ Table: Meritve karakteristike zenerjeve diode. {#tbl:zener-karakteristika}
 ![Karakteristika zenerjeve diode I(U) v zaporni smeri.](./slike/MrezaLin-10x-16.png){#fig:zener-karakteristika}
 
 > ### NALOGA: DELOVNA TOČKA ZENERJEVE DIODE  
-> Iz grafa na [@fig:zener-karakteristika] odčitajte delovno točko zenerjeve diode. To je točka na I(U) karakteristiki zenerjeve diode, pri kateri teče skozi zenerjevo diodo delovni tok $I_{Z0}$ in je na njej ravno njena nazivna napetost $U_{Z0}$.
+> 1. Iz grafa na [@fig:zener-karakteristika] odčitajte delovno točko zenerjeve diode. To je točka na I(U) karakteristiki zenerjeve diode, pri kateri teče skozi zenerjevo diodo delovni tok $I_{Z0}$ in je na njej ravno njena nazivna napetost $U_{Z0}$.
 >
 > $I_{Z0}$=_____________ mA  
 > $U_{Z0}$= _____________V

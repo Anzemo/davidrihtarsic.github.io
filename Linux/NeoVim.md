@@ -17,3 +17,7 @@ Zapimni si vse odprte dokumente:
 ## TO-DO
 
 :buffers to dmenu? in nato izvereš v  kateri buffer bi šel...
+
+
+
+

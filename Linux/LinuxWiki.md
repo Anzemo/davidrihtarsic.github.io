@@ -33,12 +33,13 @@ Na tej strani lahko najdete nekaj napotkov za Linux-e...
 
 ## UTILITY PROGRAMS
 
+-  AWK
+- [convert](convert.md) - glavne funkcije na sliki (resize, flip, flop ...)
+- [ffmpeg](ffmpeg.md) - manipulacija multimedijskih vsebin (video zvok convert snemanje)
 - [general_expressions](general_expressions.md)
 - [grep](grep.md)
--  SED
--  AWK
 - [pandoc](pandoc.md)
-- [ffmpeg](ffmpeg.md)
+-  SED
 
 ## APPLICATION PROGRAMS
 
