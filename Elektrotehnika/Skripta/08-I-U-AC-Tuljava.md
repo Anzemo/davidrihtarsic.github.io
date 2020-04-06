@@ -42,7 +42,7 @@ $$ P_d=P_n \cos(\Delta \varphi) $${#eq:delovna_moc}
 
 Kot lahko opazite, se delovna in navidezna moč na tuljavi (in tudi na viru) razlikujeta. Razliko imenujemo jalova moč in jo lahko izračunamo kot vektorsko razliko $\Vec{P_n}-\Vec{P_d}$. Kot med tema dvema vektorjema pa je enak faznemu premiku med napetostjo in tokom $\Delta \varphi$ ali z enačbo [@eq:jalova_moc].
 
-$$ P_j=\sin(\Delta \varphi) $${#eq:jalova_moc}
+$$ P_j=P_n \sin(\Delta \varphi) $${#eq:jalova_moc}
 
 > ### NALOGA: JALOVA MOČ
 > Izračunajte kolikšno jalovo moč lahko pričakujemo na posameznih elementih iz [@fig:08-I-U-AC-tuljava.png] in jo vpišite v [@tbl:U_I_efektivni].
@@ -61,6 +61,8 @@ L = 50 mH
 R = 10 Ohmov
 
 I_v = 264 mA
+Ief = 178 mA
+
 fi = 59.4°
 
 Pn = U*I = 5V * 264 mA /2 = 0.66 W
