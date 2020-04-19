@@ -8,7 +8,8 @@
 [6 - Umeritev senzorja temperature]( ./Skripta/06-Umeritev-senzorja-temperature.html ) - [PDF]( ./Skripta/06-Umeritev-senzorja-temperature.pdf )  
 [7 - Usmerniška dioda]( ./Skripta/07-Polprevodniska_dioda.html ) - [PDF](./Skripta/07-Polprevodniska_dioda.pdf)  
 [8 - Zenerjeva dioda](./Skripta/08-Zenerjeva_dioda.html) - [PDF](./Skripta/08-Zenerjeva_dioda.pdf)  
-
+[9 - Referencni vir z zener diodo](./Skripta/09-Referencni_vir_z_zener_diodo.md) - [PDF](./Skripta/09-Referencni_vir_z_zener_diodo.pdf)  
+[10 - Emitorski sledilnik](./Skripta/10-Emitorski_sledilnik.md) - [PDF](./Skripta/10-Emitorski_sledilnik.pdf)  
 ---
 
 [ZBIRKA VAJ - Skripta]( ./Skripta/Skripta.pdf )

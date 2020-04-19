@@ -95,3 +95,15 @@
 > Nato vzporedno k viru vežite kondenzator za kompenzacijo jalove moči $C_K$ in opazujte:  
 > - Ali se je tok skozi vir spremenil, ča da, kako?  
 > - Ali so se razmere v tokokrogu $U_G - L_1 - R_1$ kaj spremenile, če da, kako?
+
+# Krmiljenje servo-motorjev
+
+## Preskušanje delovanja servo-motorja
+
+> ### NALOGA: PROGRAMSKO KRMILJENJE SERVO-MOTORJA  
+> V programskem okolju ArduinoIDE naložite naslednji program in ga preskusite:
+
+#include <Servo.h>
+
+> ### NALOGA - KRMILENJE SERVOMOTORJA  
+> Preskusite program tako, da premikate srednji priključek potenciometra in spremljajte odziv servo-motorja. Nato z osciloskopom posnemite oba signala (na potenciometru in signal za krmiljenje servo-motorja) in napetostna signala narišite za vsaj __3 različne situacije__.

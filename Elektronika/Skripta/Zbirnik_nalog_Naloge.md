@@ -164,3 +164,23 @@
 >
 > $I_{Z0}$=_____________ mA  
 > $U_{Z0}$= _____________V
+
+# REFERENČNI VIR Z ZENERJEVO DIODO
+
+> ### NALOGA: REFERENČNI VIR Z ZENERJEVO DIODO  
+> Sestavite referenčni vir z zenerjevo diodo, kot prikazuje slika. Upor $R1$ izberite tako, da bo zen. dioda delovala pri njeni delovni točki.  
+> Izračun tudi nakažite.
+
+> ### NALOGA: STABILNOST REFERENČNEGA VIRA.
+> Ustvarite take pogoje, da boste lahko faktor stabilnosti tudi izračunali.  
+> Na primer, da spremenite vhodno napetost za cca 1-2 V. Tako lahko izmerite vse podatke za izračun stabilnosti.
+
+## OBREMENILNI PRESKUS REFERENČNEGA VIRA
+
+> ### NALOGA: OBREMENILNI PRESKUS REFERENČNEGA VIRA  
+> Nato naredite obremenilni preskus referenčnega vira v širokem spektru bremenskih upornosti [10 Ohmov .. 1 Mohm]. Napajalna napetost referenčnega vira naj bo zopet 9 V. Rezultate obremenilnega preskusa grafično predstavite v grafu $U_{IZ}(R_B)$. Graf naj ima vodoravno os v logaritemskem merilu.
+
+# TRANZISTOR
+
+> ### NALOGA: REFERENČNI NAPETOSTNI VIR Z OJAČEVALNIKOM MOČI  
+> Sestavite vezje na sliki 9.1 in izmerite obremenilni preskus referenčnega vira v širokem spektru bremenskih upornosti [10 Ohmov .. 1 Mohm]. Napajalna napetost referenčnega vira naj bo zopet 9 V. Rezultate obremenilnega preskusa grafično predstavite v grafu $U_{IZ}(R_B)$ na isti graf iz prejšnje vaje na [@fig:graf-obremenilni-zener].

@@ -43,25 +43,83 @@ Standardni odklon
 
 [Normalna porazdelitev - GEOGEBRA](https://www.geogebra.org/m/AxtegHsz)
 
+Kolikšna je  verjetnost, da se povprečna vrednost nahaja v nekem območju?  
+
+±1.00σ -> 68.27%
+±1.65σ -> 90.11%
+±2.00σ -> 95.45%
+
 Verjetnost, da se vzorec nahaja v nekem območju X_min -> X_max
 
 ## Standardna napaka ocene pov. vrednosti
+Označimo tudi z oznako SE
 
-## interval zaupanja
-Z 90%
+    =STDDEV(Range)/SQRT(N)
+
+Da izberemo določen interval, moramo poznati vrednost Z. Le to dobimo z enačbo:  
+<!--
+Kako dobimo Z-vrednost v excelu?
+-->
+    =NORM.SINV(verjetnost)
+
+Kjer "verjetnost" predstavlja verjetnost, da se povprečna vrednost nahaja v intervalu od -∞ .. z.
 
 absplutna napaka = z*std.nap.oc.pov.vr.
+
+### Interval zaupanja
+
+    =CONFIDENCE(⍶,σ,N)  
+
+kjer je:
+- N = število vzorcev
+- σ = standardna deviacija
+- ⍶ = verjetnost, da pov. vred. ni v tem območju.
 
 ## Predstavitev podatka
 
 povprečje ± abs.napaka
 
+<!--
+Zaokroževanje:
+- podatka naj bo zaokrožen na mesto, ki ga podaja abs. napaka:  
+    1.23 ± 0.3 nima smisla, saj se spremeni že 2. decimalka  
+    pravilno: 1.2 ± 0.3
+-->
+
 # LINEARIZACIJA 
 
-## naklon
-##prosti člen
-##korelacija
-##standardna napaka ocene pov. prednosti
+## NAKLON
+
+    =SLOPE(y, x)
+
+## PROSTI ČLEN
+
+    =INTERCEPT(y, x)
+
+## KORELACIJA
+
+    =COREL()
+
+## Standardna deivacija
+je podobna σ - kot pri vzorčenju ene vrednosti. Pri linearizaciji pa upoštevamo, da "povprečna" vrednost sledi linearnemu trendu...
+
+    =STEYX(y, x)
+Ampak to je std. odklon Y, če bi imeli konstanten X. Na to "razpršenost" lahko vpliva:  
+- negotovost X-a
+- negotovost k-ja in 
+- negotovost n-ja
+
+## STANDARDNA NAPAKA OCENE LINEARNEGA KOEFICIENTA
+
+    =LINEST(y, x, 1, 1)
+
+| k     | n       |
+| se_k  | se_n    |
+| r²    | st.dev. |
+| F     | df      |
+| SSdif | SSres   |
+
+
 ## Predstavitev podatka
 
 # ANALIZA VIDEA
@@ -71,7 +129,9 @@ povprečje ± abs.napaka
 - kamera miruje
 
 # ANALIZA ZVOKA
-
+## Analiza periodičnih signalov
+## Ton, Zven, Šum, ...
+## Jakost in enota dB
 ## Sinus in FFT
 ## Pravokotni signal in FFT
 

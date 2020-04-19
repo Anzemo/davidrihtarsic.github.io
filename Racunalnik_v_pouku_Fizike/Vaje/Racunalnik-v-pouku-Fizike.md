@@ -653,6 +653,48 @@ void loop() {
   DaqLcd.print(val);
 }
 ```
+## Izpis na LCD z vzporednim vodilom
+
+![Shema vezave LCDja z vzporednim vodilom.](./slike/Arduino_LCD_parallel.png){#fig:Arduino_LCD_parallel.png}
+
+Vezavo žic na LCD si lahko prilagodite in vrednosti priključkov popravite v programski kodi.
+
+```cpp
+#include <LiquidCrystal.h>
+//            lcd(RS, EN, D4,D5,D6,D7);
+LiquidCrystal lcd(8,  9,  10,11,12,13);
+
+void setup() {
+  lcd.begin(16, 2);
+  lcd.print("Voltage:");
+}
+
+void loop() {
+  lcd.setCursor(0, 1);
+  lcd.print(analogRead(A0));
+}
+```
+V program smo vključili knjižnico LiquidCrystal.h, iz katere lahko uporabljamo funkcije kot so:  
+- LiquidCrystal()
+- begin()
+- clear()
+- home()
+- setCursor()
+- write()
+- print()
+- cursor()
+- noCursor()
+- blink()
+- noBlink()
+- display()
+- noDisplay()
+- scrollDisplayLeft()
+- scrollDisplayRight()
+- autoscroll()
+- noAutoscroll()
+- leftToRight()
+- rightToLeft()
+- createChar() 
 
 \newpage
 # Linearizacija meritvenih vrednosti (praznenje kondenzatorja)

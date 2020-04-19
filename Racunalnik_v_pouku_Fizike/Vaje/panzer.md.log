@@ -1,19 +1,4 @@
-WARNING: no global style definitions found
-         ----- pandoc read -----
-         running
-         ----- style definitions -----
-         no global definitions loaded
-         ----- document style -----
-         no "style" field found, run only pandoc
-         writer:
-           latex
-         ----- template -----
-           skripta
-         ----- run list -----
-           empty
-         ----- pandoc write -----
-         pandoc writing with options:
-           --listings --pdf-engine=pdflatex
-ERROR:     !Error producing PDF.
-ERROR:     !! Undefined control sequence.
-ERROR:     !l.607 \frontmatter
+Error producing PDF.
+! Undefined control sequence.
+l.701 \frontmatter
+
