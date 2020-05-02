@@ -124,9 +124,112 @@ Ampak to je std. odklon Y, če bi imeli konstanten X. Na to "razpršenost" lahko
 
 # ANALIZA VIDEA
 
-## Zajem videoposnetka
-- ozadje
-- kamera miruje
+## ZAJEM VIDEOPOSNETKA
+- Video na bo z enobarvnim ozadjem
+- Enako osvetljenost
+- Hitrost zaklopa naj bo velika (čas majhen)
+- Kamera naj miruje - uporabite stojalo
+- Gibanje predmeta naj bo pravokotna na optično os.
+
+## ROČNO VZORČENJE CENTRA MASE
+
+1. Naložimo video (Video -> Import)
+    1. Spodaj nastavimo START in STOP ter
+    2. na koliko skli videa bomo izbrali sličice (50)
+2. Nastavimo merilo
+    1. kliknemo na ikono [+-10-+] New -> Callibration stick
+    2. nato s SHIFT_L_click določimo merilo
+3. Določimo koordinatni sistem
+    1. kliknemo ikono [ -|-+- ] in
+    2. primemo središče koordinatnega sistema in ga namestimo
+    3. koordinatni sistem lahko tudi nagnemo tako da uravnamo x_os
+4. Vrnamo video na "point of interest" z ikono [  ] spodaj
+5. in začnemo vzorčiti tako, da kliknemo:
+    1. [ * ] Create -> Point mass
+    2. in klikamo s SHIFT_L_click
+
+## ANALIZA MERITEV
+
+1. Na desni strani lahko izbiramo:
+    1. Plot - koliko grafov želimo prikazovati
+    2. če kliknemo na y-os lahko spremenimo x, y, v_x, a_x ...
+    3. če kliknemo na belo polje grafa pa dobimo orodje za analizo:
+        1. Analize -> ...
+            1. Statistics : x, m, sd, se ...
+            2. Curve fits (linearizacija)
+            3. furjejeva transf. -> frekvence...
+        2. V analizo lahko izberemo poljubne točke (označimo podatke v tabeli ali v grafu)
+
+## AVTOMATIČNO VZORČENJE
+
+1. Ponovi korake 1. - 4. iz ROČNO VZORČENJE
+2. Nato kliknemo [*] Create -> Point mass
+    1. vendar ne označino predmeta...
+    2. klik na [mass A] -> Autotracker...
+3. ...beri navodila : to create ... shift-control-click
+    1. označimo predmet
+        1. template: kaj bo iskal
+        2. Match: kaj je našel
+        3. išče v pikčaste kvadratu
+        4. [o Search]
+            1. lahko, da ne najde... glej Autotracker Issue?
+
+### Autotracker
+1. Vzorec (krog v katerem se nahajajo primerjalni pixli)
+    1. ta krog lahko povečamo (vendar to opočasni obdelavo)
+    2. ali premaknemo - bolje je iskati robove predmeta kot same ploskve
+    3. vzorec se bo med videom nekoliko spremijal (druga osvetljitev, drugačen kot na kamero) ...  
+        te spremembe lahko upoštevamo z EVOLUTION RATE, ki podaja koliko % novega vzorca naj dodamo k prejšnjemu.
+2. Iskalno polje (pikčast kvadrat)
+    1. autotracker bo preiskal iskalno polje in podal najboljše ujemanje
+    2. če se objekt v naslednjem izbranem framu nahaja zunaj tega polja, ne bomo našli...
+    3. za vsak frame se izračuna "mach score" in privzame rezultat z največjim tem rezultatom.
+        mejo tega rezultata lahko nastavimo v parametru Automark
+3. Tarča: naj bo v težišču
+
+### Autotracker issue
+
+Če Autotracker ne najde ustreznega rezultata, imamo nekaj moćnosti:
+
+1. Potrdimo oredlagano rešitev
+2. Povečamo iskalno polje
+3. SHIFT_L_click in označimo ustrezno mesto
+4. SHIFT_CONTROL_L_click in označimo nov vzorec
+<!-- 
+- za Thinkercad ni pravilnih  linkov do bašega projekta, link naj bo v stilu:
+- https://www.tinkercad.com/things/jurjOWP4751-ardlcdp/editel?sharecode=lrPmEVxD_1P7KHpNwPwGfMgYuxhIGeg5EwdVifrFQP0
+
+tisto vmes izbrišite... 
+- fizikalne enote
+-->
+
+## OBLIKOVANJE FIZIKALNEGA MODELA (izračun x in y)
+
+Pri nanlizi poševnega meta teniške žogice smo izmerili naslednje veličine:
+
+- m: 58g
+- v_x: 1.962 m/s
+- v_y: 4.801 m/s
+- g: 9.97 m/s²
+
+1. [*] Create -> Kinematic model (in vpišemo podatke)
+
+- v_x: 1.962 m/s
+- v_y: 4.801 m/s
+
+- x = v_x0*t + x_0
+- y = ¹/₂ 9.81 m/s²*t² + v_y0*t + y_0
+
+## OBLIKOVANJE DINAMIČNEGA FIZIKALNEGA MODELA (izračun sil)
+
+- t: 0 s
+- x: 0 m
+- y; 0 m
+- v_x: 1.962 m/s
+- v_y: 4.801 m/s
+
+- Fx = 0
+- Fy = m*g
 
 # ANALIZA ZVOKA
 ## Analiza periodičnih signalov
@@ -161,6 +264,11 @@ kaj bo racalo
 
 naloga 
 trakcem ali telefon
+
+# Avtorska pola:
+ávtorska pôla ž, enota osebnega avtorskega dela in podlaga za obračun honorarja, obsega 30.000 znakov (črk, številk, ločil, presledkov) ali približno 16 tipkanih strani. Ena tipkana stran je približno 1875, ena tipkana vrstica pa 62 do 63 znakov. Avtorska pola izhaja iz tiskovne pole, odtisnjene nerazrezane in nepreganjene pole papirja, ki predstavlja 8 listov ali 16 strani v knjigi.
+
+To definicijo priznava tudi Avtorska agencija za Slovenijo, drugače pa je z Društvom znanstvenih in tehniških prevajalcev Slovenije, ki izhaja iz »obračunske strani čistopisa izvirnika«; ta ima samo 1500 znakov, a brez presledkov.
 
 # Analiza zvoka
 

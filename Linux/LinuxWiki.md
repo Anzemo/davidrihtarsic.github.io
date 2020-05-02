@@ -17,12 +17,14 @@ Na tej strani lahko najdete nekaj napotkov za Linux-e...
 
 # SHELL (TERMINALs & UTILITYs & APPLICATIONs)
 
+- [shell processing](shell_processing.md)
 - [general_expressions](general_expressions.md)
 
 ## SHELL
 
 [Dokumentacija za SHELL]( http://tldp.org/LDP/Bash-Beginners-Guide/html/index.html )
 
+- [shell_processing](shell_processing.md)
 - [zsh](zsh.md)
 
 ## TERMINAL EMULATOR
