@@ -182,5 +182,26 @@
 
 # TRANZISTOR
 
+## TRANZISTOR KOT OKJAČEVALNIK MOČI
+
 > ### NALOGA: REFERENČNI NAPETOSTNI VIR Z OJAČEVALNIKOM MOČI  
 > Sestavite vezje na sliki 9.1 in izmerite obremenilni preskus referenčnega vira v širokem spektru bremenskih upornosti [10 Ohmov .. 1 Mohm]. Napajalna napetost referenčnega vira naj bo zopet 9 V. Rezultate obremenilnega preskusa grafično predstavite v grafu $U_{IZ}(R_B)$ na isti graf iz prejšnje vaje na [@fig:graf-obremenilni-zener].
+
+## TRANZISTOR KOT STIKALO
+
+# OPERACIJSKI OJAČEVALNIK
+
+## Komparator napetosti
+
+### Napajanje operacijskih ojačevalnikov
+
+### Izhodna napetost pri komparatorju napetosti
+
+> ### NALOGA: VKLOP ŽARNICE  
+> Sestavite elektronsko vezje, ki bo vključilo žarnico, ko bomo na to vezje posvetili z drugim svetlobnim telesom. Tako vezje bo delovalo kot navadna sveča, ki jo moramo prižgati z vžigalico. To vezje lahko razdelimo na štiri osnovne sestavne dele, ki jih najdete v regulacijskih vezjih:  
+> 1. Senzorski del: v katerem imamo senzor osvetljenosti za detekcijo tujega svetlobnega telesa.  
+> 2. Nastavitveni člen: s katerim nastavimo referenčno napetost na katero se ozira primerjalna logična enota.  
+> 3. Komparator napetosti: ki bo primerjal napetost senzorja z napetostjo nastavitvenega člena.  
+> 4. Močnostna elektronika: ki bo na podlagi izhodnega napetostnega potenciala komparatorja poskrbela za vklop žarnice.  
+>  
+> Vsak sestavni del najprej načrtujte in ga nato realizirajte v fizični obliki. Narišite sheme vsakega sestavnega dela posebej, ga preizkusite in povežite v celoto.

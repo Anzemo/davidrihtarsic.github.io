@@ -1,0 +1,1756 @@
+ELEKTRONIKA - zbirka vaj
+Ta zbirka vaj je namenjena študentom 1. stopnje
+bolonjskega študijskega programa smeri dvopredmetni
+učitelj, vezave tehnike, matematike, fizike in računalništva
+na Pedagoški fakulteti, Univerze v Ljubljani.
+dr. David Rihtaršič
+
+2020-02-18 13:11
+
+Kazalo
+1
+
+Napajanje
+1.0.1 NALOGA: SESTAVITE VEZJE NA PROTOTIPNI PLOŠČICI
+1.1 Napetostni potencial . . . . . . . . . . . . . . . . . . . . . .
+1.1.1
+NALOGA: IZMERITE NAPETOSTNE POTENCIALE . . .
+1.2 Napetost . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+1.2.1 NALOGA: IZRAČUNAJTE NAPETOSTI . . . . . . . . .
+
+.
+.
+.
+.
+.
+
+3
+3
+4
+4
+5
+5
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+7
+7
+8
+8
+9
+10
+11
+12
+13
+
+3 Uporaba tipke
+3.0.1 NALOGA: VEZAVA TIPKE V DELILNIK NAPETOSTI . . . . . . . . . . . . . . . . .
+3.1 Priključitev tipke na digitalni vhod . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3.1.1
+NALOGA: PRIKLJUČITEV TIPKE NA DIGITALNI VHOD . . . . . . . . . . . . . . .
+3.2 Priključitev tipke z uporom proti napajanju . . . . . . . . . . . . . . . . . . . . . . . .
+3.2.1 NALOGA: UPOR VEZAN PROTI NAPAJANJU . . . . . . . . . . . . . . . . . . . .
+3.3 Uporaba uporov vezanih proti napajanju v mikrokrmilniku . . . . . . . . . . . . . . .
+3.3.1 NALOGA: UPORABA UPOROV VEZANIH PROTI NAPAJANJU V MIKROKRMILNIKU
+
+15
+15
+16
+16
+17
+17
+18
+18
+
+4 Uporaba potenciometra
+4.0.1 NALOGA: MERJENJE NAPETOSTNEGA POTENCIALA NA POTENCIOMETRU.
+4.1 Uporaba analognega vhoda na krmilniku . . . . . . . . . . . . . . . . . . . . . .
+4.1.1
+NALOGA: ODČITAVANJE ANALOGNE NAPETOSTI S KRMILNIKOM . . . . .
+4.1.2 NALOGA: PRETVORBA ADC VREDNOSTI V NAPETOST . . . . . . . . . . . .
+
+19
+19
+20
+20
+21
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+2 Krmilnik Arduino Nano
+2.1 Testni program “BLINK.ino” . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+2.1.1
+NALOGA: PREIZKUS KRMILNIKA ARDUINO NANO. . . . . . . . . . . . . .
+2.2 Napajanje krmilnika Arduino Nano . . . . . . . . . . . . . . . . . . . . . . . . .
+2.2.1 NALOGA: VEZAVA KRMILNIKA ARDUINO NANO NA PROTOTIPNI PLOŠČICI.
+2.3 Model semaforja . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+2.3.1 NALOGA: MODEL SEMAFORJA. . . . . . . . . . . . . . . . . . . . . . . . .
+2.4 Analiza vezja . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+2.4.1 NALOGA: IZRAČUNAJTE ELEKTRIČNI TOK . . . . . . . . . . . . . . . . . .
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+1
+
+2020-02-18 13:11
+4.1.3
+
+ELEKTRONIKA - zbirka vaj
+NALOGA: VU-METER . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+5 Nelinearni upori in senzorji
+5.0.1 NALOGA: SENZOR TEMPERATURE - vezje [vezje].
+5.0.2 NALOGA: SENZOR TEMPERATURE - delovanje .
+5.1 Izbira referenčnega upora . . . . . . . . . . . . . . . .
+5.1.1
+NALOGA: DOLOČITEV REFERENČNEGA UPORA .
+5.1.2 NALOGA: IZRAČUN REFERENČNEGA UPORA . .
+
+21
+
+.
+.
+.
+.
+.
+
+23
+23
+24
+24
+24
+25
+
+6 Umiritev senzorja temperature
+6.0.1 NALOGA: SESTAVITE VEZJE . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+6.0.2 NALOGA: UMERITEV SENZORJA . . . . . . . . . . . . . . . . . . . . . . . . . .
+6.0.3 NALOGA: KARAKTERISTIKA NTC TERMISTORJA . . . . . . . . . . . . . . . . . .
+
+27
+27
+27
+28
+
+7 Polprevodniška dioda
+7.1 Pol-valni usmernik . . . . . . . . . . . . . . . . .
+7.1.1
+NALOGA: POLVALNI USMERNIK . . . . . .
+7.2 Glajenje izhodne napetosti . . . . . . . . . . . . .
+7.2.1 NALOGA: GLAJENJE IZHODNE NAPETOSTI
+7.2.2 NALOGA: GLAJENA IZHODNA NAPETOST .
+
+.
+.
+.
+.
+.
+
+31
+31
+32
+33
+34
+34
+
+8 Zenerjeva dioda
+8.0.1 NALOGA: KARAKTERISTIKA ZENERJEVE DIODE . . . . . . . . . . . . . . . . . .
+8.0.2 NALOGA: DELOVNA TOČKA ZENERJEVE DIODE . . . . . . . . . . . . . . . . . .
+
+35
+35
+37
+
+9 REFERENČNI VIR Z ZENERJEVO DIODO
+9.0.1 NALOGA: REFERENČNI VIR Z ZENERJEVO DIODO . . . . .
+9.0.2 NALOGA: STABILNOST REFERENČNEGA VIRA. . . . . . .
+9.1 OBREMENILNI PRESKUS REFERENČNEGA VIRA . . . . . . . . . .
+9.1.1 NALOGA: OBREMENILNI PRESKUS REFERENČNEGA VIRA
+
+.
+.
+.
+.
+
+39
+39
+40
+40
+40
+
+10 TRANZISTOR
+10.0.1 NALOGA: REFERENČNI NAPETOSTNI VIR Z OJAČEVALNIKOM MOČI . . . . . . .
+
+43
+43
+
+11 Dodatki in pogosta vprašanja
+11.1 Barvno kodiranje upornosti . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+45
+45
+
+2
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+dr. David Rihtaršič
+
+1 Napajanje
+
+Vsako električno vezje potrebuje napajanje. Pogosto vezja napajamo z baterijami (prenosne električne
+naprave) ali pa z uporabo omrežnega napajanja. Za današnje vezje bomo uporabili omrežno napajanje.
+S pomočjo 9 V napajalnika in 5 mm napajalnega priključka (J1) dobimo napajalno napetost 9 V. Oba
+napetostna potenciala (+9 V in 0 V) napajalne napetosti priključimo na testno ploščico in od tam
+zgradimo vezje, ki bo zagotavljalo 5 V napajanje za naše nadaljnja vezja.
+
+1.0.1 NALOGA: SESTAVITE VEZJE NA PROTOTIPNI PLOŠČICI
+Izgradite vezje po shemi sl. 1.1.
+
+VCC
+
++5V
+
+IC1
+
+D1
+
+1 IN
+
+OUT 3
+
+1
+
+C1
+
+2
+
+GND
+
+J1
+
+C2
+
+R1
+
+2
+
+LED1
+
+GND
+
+GND
+
+GND
+
+GND
+
+GND
+
+Slika 1.1: Shema napajalnega vezja.
+
+V pomoč bomo uporabili program Fritzing, s katerim lahko učitelj zelo nazorno pokaže kako moramo
+povezati elemente med seboj. S pomočjo Fritzing programa dobimo naslednjo skico realnega vezja.
+
+3
+
+2020-02-18 13:11
+
+ELEKTRONIKA - zbirka vaj
+
+Slika 1.2: Skica realnega vezja.
+
+1.1 Napetostni potencial
+1.1.1 NALOGA: IZMERITE NAPETOSTNE POTENCIALE
+Izmeri napetostne potenciale, ki so vrisani v naslednji shemi sl. 1.3.
+
+Točka v vezju
+
+Nap. potencial [V]
+
+A
+B
+C
+D
+E
+F
+
+4
+
+dr. David Rihtaršič
+
+ELEKTRONIKA - zbirka vaj
+
+2020-02-18 13:11
+
+B
+
+A
+VCC
+
+D1
+
+D
+
+C
++5V
+
+IC1
+1 IN
+
+OUT 3
+
+1
+
+C1
+
+2
+
+GND
+
+J1
+
+C2
+
+E
+
+R1
+
+2
+
+F
+
+GND
+
+LED1
+
+GND
+
+GND
+
+GND
+
+GND
+
+Slika 1.3: Shema električnega vezja 5 V napalajalne napetosti.
+
+1.2 Napetost
+V vezju imamo imamo kar nekaj elektronskih elementov. Na shemi sl. 1.1 so različno označeni, npr.:
+•
+•
+•
+•
+•
+
+polprevodniška dioda - D1,
+elektrolitski kondenzator - C1,
+keramični kondenzator - C2,
+upor - R1,
+svetleča dioda - LED1
+
+1.2.1 NALOGA: IZRAČUNAJTE NAPETOSTI
+Za vse naštete elemente najprej izračunajte kolikšna napetost je na njih, nato pa izračun preverite
+z inštumentom.
+
+Element
+
+Uizr [V]
+
+Uizm [V]
+
+D1
+C1
+C2
+R1
+LED1
+
+dr. David Rihtaršič
+
+5
+
+2020-02-18 13:11
+
+6
+
+ELEKTRONIKA - zbirka vaj
+
+dr. David Rihtaršič
+
+2 Krmilnik Arduino Nano
+Krmilnik Arduino Nano je relativno cenovno ugoden (cca. 3-5€) in ker je programirljiv, ga lahko uporabimo v najrazličnejših aplikacijah. Razporeditev njegovih priključkov pa pa lahko vidimo na naslednji
+sliki sl. 2.1.
+
+Slika 2.1: Razporeditev priključkov na krmilniku Arduino Nano.
+
+2.1 Testni program “BLINK.ino”
+Preden bomo krmilnik uporabili v našem vezju, ga bomo preizkusili. S programskim orodjem “Arduino
+IDE” bomo na krmilnik naložili program “blink.ino” in s tem preverili, da vse komponente na krmilniku
+
+7
+
+2020-02-18 13:11
+
+ELEKTRONIKA - zbirka vaj
+
+delujejo pravilno. To je priporočljivo narediti pred vsakim projektom.
+
+2.1.1 NALOGA: PREIZKUS KRMILNIKA ARDUINO NANO.
+1. Krmilnik Arduino Nano povežite z računalnikom preko USB povezave,
+2. zaženite program Arduino IDE in ga pravilno nastavite:
+
+• Tools -> Processor : Arduino Nano,
+• Tools -> Port : USB2
+
+3. Odprite primer 01-BLINK.ino in
+4. prenesite program na krmilnik.
+Program je napisan v programskem jeziku C++, ki uporablja nekaj funkcij za lažje rokovanje s krmilnikom.
+1
+2
+3
+4
+5
+6
+7
+8
+
+void setup() {
+// initialize digital pin LED_BUILTIN as an output.
+pinMode(LED_BUILTIN, OUTPUT);
+}
+// the loop function runs over and over again forever
+void loop() {
+digitalWrite(LED_BUILTIN, HIGH);
+// turn the LED on (HIGH is the
+voltage level)
+delay(1000);
+// wait for a second
+digitalWrite(LED_BUILTIN, LOW);
+// turn the LED off by making the
+voltage LOW
+delay(1000);
+// wait for a second
+}
+
+9
+10
+11
+12
+
+2.2 Napajanje krmilnika Arduino Nano
+Krmilnik Arduino Nano lahko vstavimo tudi v prototipno ploščico in ga napajamo z zunanjim napajanjem.
+
+8
+
+dr. David Rihtaršič
+
+ELEKTRONIKA - zbirka vaj
+
+2020-02-18 13:11
+
+2.2.1 NALOGA: VEZAVA KRMILNIKA ARDUINO NANO NA PROTOTIPNI PLOŠČICI.
+Vstavite krmilnik Arduino Nano v prototipno ploščico in ga povežite kot prikazuje naslednja shema.
+Priključite tudi upor in LED na priključek 13.
+
+Slika 2.2: Priključitev napajanja in dodatne LED na izhodni priključek.
+
+dr. David Rihtaršič
+
+9
+
+2020-02-18 13:11
+
+ELEKTRONIKA - zbirka vaj
+
+Slika 2.3: Shema vezave krmilnika Arduino Nano na prototipni ploščici.
+
+2.3 Model semaforja
+
+Vezje bomo preoblikovali tako, da bo delovalo kot semafor na cestnem križišču. Uporabili bomo tri
+LED svetila različnih barv in preoblikovali program.
+
+10
+
+dr. David Rihtaršič
+
+ELEKTRONIKA - zbirka vaj
+
+2020-02-18 13:11
+
+Slika 2.4: Shema vezave treh LED na krmilnik Arduino Nano.
+
+Slika 2.5: Ter shema vezave na prototipni ploščici.
+
+2.3.1 NALOGA: MODEL SEMAFORJA.
+Preoblikujte vezje po shemi sl. 2.4 in uporabite naslednji program ter ga ustrezno preoblikujte. Program, ki zagotavlja podobno delovanje, kot pri cestnem semaforju dokumentirajte in komentirajte
+uporabljene programske stavke (t.j. programske ukaze).
+
+dr. David Rihtaršič
+
+11
+
+2020-02-18 13:11
+
+ELEKTRONIKA - zbirka vaj
+
+Vsak programski stavek morate zaključiti s podpičjem ;.
+Preskustite naslednji program in ga ustrezno preoblikujte.
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+
+void setup()
+pinMode(0,
+pinMode(1,
+pinMode(2,
+}
+
+{
+OUTPUT);
+OUTPUT);
+OUTPUT);
+
+void loop() {
+digitalWrite(0,
+digitalWrite(1,
+digitalWrite(2,
+delay(1000);
+digitalWrite(0,
+digitalWrite(1,
+digitalWrite(2,
+delay(1000);
+}
+
+HIGH);
+HIGH);
+HIGH);
+LOW);
+LOW);
+LOW);
+
+2.4 Analiza vezja
+Elektronski elementi so omejeni z njihovo največjo dopustno električno moč. Če to električno moč
+prekoračimo, jih bomo najverjetneje uničili.
+Naprimer: Največja dopustna moč, ki se še lahko troši na uporih, ki jih uporabljate (premer upora
+= 2.4 mm) je 0,25 W.
+Električno moč lahko izračunamo po enačbi:
+
+P = UI
+Pri nekaterih drugih elementih (kot na primer pri LED) pa so omejitveni pogoji postavljeni že s samim
+tokom.
+Na primer za običajne 5mm LED je najpogosteje največji tok, ki lahko teče skoznjo 20 mA.
+Tok skozi element lahko izračunamo po Ohmovem zakonu:
+
+IR =
+
+12
+
+UR
+R
+
+dr. David Rihtaršič
+
+ELEKTRONIKA - zbirka vaj
+
+2020-02-18 13:11
+
+Če ne vemo kolikšno upornost ima element (tako kot je to v primeru LED), si največkrat pomagamo
+z izračunom toka skozi drug zaporedno vezan element. Kajti v tem primeru je tok isti.
+
+2.4.1 NALOGA: IZRAČUNAJTE ELEKTRIČNI TOK
+Izračunajte kolikšen električni tok teče skozi elemente R1, R2, R3, LED1, LED2 in LED3 ter preverite
+kakšne so električne omejitve tega elementa. Izračunajte tudi električno moč, ki se troši na tem
+elementu.
+
+Element
+
+U [V]
+
+I [mA]
+
+P[W]
+
+R1
+R2
+R3
+LED1
+LED2
+LED3
+
+dr. David Rihtaršič
+
+13
+
+2020-02-18 13:11
+
+14
+
+ELEKTRONIKA - zbirka vaj
+
+dr. David Rihtaršič
+
+3 Uporaba tipke
+Tipka je element, ki je podoben stikalu. Prav tako kot pri stikalu, ob pritisku povežemo dva priključka
+med sabo, razlika pa je v tem, da se pri tipki ta povezava razklene ob prenehanju pritiska nanjo.
+
+3.0.1 NALOGA: VEZAVA TIPKE V DELILNIK NAPETOSTI
+Sestavite vezje s tipko, kot ga prikazuje sl. 3.1 (brez črtkane povezave). Tipka naj bo vezana v
+delilnik napetosti in naj bo priključena proti napajanju.
+V tabelo vpišite napetosti na vsakemu elementu posebej. Najprej poskušajte predvideti kolikšna
+je napetost na elementu, nato pa le-to preverite z inštrumentom.
+
+Situacija
+
+Element
+
+U? [V]
+
+Uizm [V]
+
+Razkljenjeno
+Tipka
+Upor
+Slenjeno
+Tipka
+Upor
+
+15
+
+2020-02-18 13:11
+
+ELEKTRONIKA - zbirka vaj
+
+Slika 3.1: Vezava tipke v delilnik napetosti.
+
+3.1 Priključitev tipke na digitalni vhod
+
+Nato srednji priključek delilnika napetosti povežite na digitalni vhod krmilnika Arduino nano na priključek D10, kot prikazuje sl. 3.1 črtkana povezava.
+
+3.1.1 NALOGA: PRIKLJUČITEV TIPKE NA DIGITALNI VHOD
+Priključite tipko po shemi sl. 3.1 in preskusite spodnji program.
+Nato popravite program tako, bo LED svetila, ko boste tipko pritisnili.
+
+16
+
+dr. David Rihtaršič
+
+ELEKTRONIKA - zbirka vaj
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+
+2020-02-18 13:11
+
+void setup() {
+pinMode(0, OUTPUT);
+pinMode(1, OUTPUT);
+pinMode(2, OUTPUT);
+pinMode(10, INPUT);
+}
+void loop() {
+if (digitalRead(10) == LOW){
+digitalWrite(0, HIGH);
+}else{
+digitalWrite(0, LOW);
+}
+}
+
+POMNI: DIGITALNI VHOD MIKROKRMILNIKA
+Priključke mikrokrmilnika lahko uporabimo tudi za odčitavanje napetostnih potencialov v digitalni
+obliki (ločimo le dva napetostna nivoja). S funkcijo pinMode(PIN, INPUT); določimo, da
+priključek PIN lahko opravlja funkcijo digitalnega vhoda s katerim lahko odčitamo vrednost
+napetostnega potenciala. Funkcija digitalRead(PIN); vrne vrednost digitalnega vhoda. Če
+je na priključku PIN napetostni potencial večji od 2.0 V bo funkcija vrnila vrednost 1 (ali HIGH
+ali TRUE). Če pa je na priključku PIN napetostni potencial manjši od 0.8 V pa bo funkcija vrnila
+vrednost 0 (ali LOW ali FALSE).
+
+3.2 Priključitev tipke z uporom proti napajanju
+
+Zamenjajte elementa v delilniku napetosti tako, da bo upor vezan proti napajanju in tipka proti napetostnem potencialu 0 V.
+
+3.2.1 NALOGA: UPOR VEZAN PROTI NAPAJANJU
+Vezje spremenite, kot je opisano v nalogi in narišite shemo vezja.
+Popravite program tako, da bo LED utripala, ko boste tipko držali. Utemeljite zakaj je sedaj napetostni potencial na vhodnem priključku krmilnika D10 enak 5 V, ko tipka ni pritisnjena (Utemeljitev
+podprite z Ohm-ovim zakonom in Kirchoff-ovima izrekoma).
+
+dr. David Rihtaršič
+
+17
+
+2020-02-18 13:11
+
+ELEKTRONIKA - zbirka vaj
+
+3.3 Uporaba uporov vezanih proti napajanju v mikrokrmilniku
+Uporaba vezave uporov proti napajanju je zelo pogosta. Zato le to mikrokrmilniki že vsebujejo v samem
+integriranem vezju na vseh digitalnih vhodih.
+
+3.3.1 NALOGA: UPORABA UPOROV VEZANIH PROTI NAPAJANJU V
+MIKROKRMILNIKU
+Odstranite upor iz vezja kakor veleva shema sl. 3.2 in
+programsko vključite upor vezan proti napajanju na digitalnem vhodu D10.
+
+Slika 3.2: Vezava tipke z notranjim uporom vezanim proti napajanju.
+
+18
+
+dr. David Rihtaršič
+
+4 Uporaba potenciometra
+Potenciometri so upori s tremi priključki, ko je prikazano na sl. 4.1. Upornost potenciometra je fiksna in
+jo merimo med priključkoma A in C. Tretji priključek pa je nastavljiv in drsi po uporovni plati od ene
+skrajne lege do druge skrajne lege potenciometra.
+
+Slika 4.1: Simbol in shema potenciometra.
+
+Delovanje potenciometra si lahko razložimo na dva načina:
+1. Če na priključka A in C priključimo neko napetost, se bo napetostni potencial enakomerno
+zmanjševal vzdolž uporovne plasti potenciometra. Tako je napetostni potencial na priključku B
+odvisen od njegove lege.
+2. Lahko si zamislimo, da priključek B razdeli potenciometer na dva upora: (1) RAB in (2) RBC .
+Tako se bo tudi napetost, ki jo bomo priključili na potenciometer razdelila v razmerju teh dveh
+upornosti.
+
+4.0.1 NALOGA: MERJENJE NAPETOSTNEGA POTENCIALA NA POTENCIOMETRU.
+Priključite potenciometer tako kot je prikazano na sl. 4.2. Na srednji priključek potenciomtra
+prikljčite V-meter. Preverite kako se napetostni potencila spreminja v pdvisnosti od položaja
+srednjega priključka potenciomtra.
+
+19
+
+2020-02-18 13:11
+
+ELEKTRONIKA - zbirka vaj
+
+4.1 Uporaba analognega vhoda na krmilniku
+Na krmilniku imamo možnost odčitavanja analogne napetosti z analognim vhodom. Vsi analogni vhodi
+so na krmilniku označeni s črko “A” in zaporedno številko npr.: A0, A1 .. A7.
+
+Slika 4.2: Priključitev potenciometra.
+
+4.1.1 NALOGA: ODČITAVANJE ANALOGNE NAPETOSTI S KRMILNIKOM
+Povežite srednji priključek potenciomtra na analogni vhod krmilnika (naprimer na A0) in preizkusite naslednji program. Program lahko najdete tudi v Arduino IDE programu:
+File -> Examples -> 01. Basics -> AnalogReadSerial.
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+void setup() {
+Serial.begin(9600);
+}
+void loop() {
+int sensorValue = analogRead(A0);
+Serial.println(sensorValue);
+delay(10);
+}
+
+20
+
+dr. David Rihtaršič
+
+ELEKTRONIKA - zbirka vaj
+
+2020-02-18 13:11
+
+Kot ste verjetno opazili, se vam na ekranu v serijskem oknu izpisujejo številske vrednosti. Te vrednostiso
+v območju od 0..1023, saj je ADC v mikrokrmilniku 10-bitni in je največja možna binarna številka zapisana
+z 10-imi biti prav 1023. Lahko pa te vrednosti prikazujete tudi grafično, v ta namen morate uporabiti
+Serial Plotter.
+Krmilnik pa bi lahko na ta način (do neke mere) uporabljali tudi kot V-meter.
+
+4.1.2 NALOGA: PRETVORBA ADC VREDNOSTI V NAPETOST
+Z ustrezno linearno funkcijo pretvorite ADC vrednosti v številske vrednosti napetosti. Enačbo
+funkcije tudi zapišite in priložite kodo programa.
+Prav tako enostavno pa lahko poskrbimo za grafični prikaz napetosti. . .
+
+4.1.3 NALOGA: VU-METER
+Program preoblikujte tako, da ko boste s potenciometrom nastavili večjo napetost,naj se vključi
+vač LED. Podobno kot je to na VU-metru na glasbenih stolpih. Kodo programa tudi priložite.
+
+dr. David Rihtaršič
+
+21
+
+2020-02-18 13:11
+
+22
+
+ELEKTRONIKA - zbirka vaj
+
+dr. David Rihtaršič
+
+5 Nelinearni upori in senzorji
+Senzor je elektronski element, katerega izhodna električna količina (izhodni signal) je odvisna od neke
+fizikalne količine (temperature, osvetljenisti ...). V našem primeru bomo sestavili senzor temperature.
+V delilnik napetosti bomo vezali termistor in upor s konstantno upornostjo, kot prikazuje sl. 5.1.
+
+Slika 5.1: Temperaturni senzor.
+
+5.0.1 NALOGA: SENZOR TEMPERATURE - vezje [vezje].
+Sestavite obe vezji iz sl. 5.1 in preverite kako se izhodna napetost spreminja glede na temperaturo.
+Ugotovitev zapišite za oba primera.
+Premislimo, kako lahko razumemo delovanje senzorja na sl. 5.1:
+1. Če se temperatura poveča, se bo upornost termistorja RN T C zmanjšala.
+2. Ker se skupna upornost R0 = RN T C + R1 zmanjša, bo tok, ki teče po tem vezju večji I 0 =
+
+VCC
+R0 .
+
+23
+
+2020-02-18 13:11
+
+ELEKTRONIKA - zbirka vaj
+
+3. Ker je sedaj tok skozi vezje večji in le-ta teče tudi skozi upor R1 bo na njem napetost večja
+UR1 = R1 I 0 .
+4. Napetost na uporu R1 je enaka napetostnemu potencialu na izhodnemu priključku senzorja.
+5. Zaključimo lahko, da se napetostni potencial na izhodnem priključku poveča, če se je tudi
+temperatura povečala.
+
+5.0.2 NALOGA: SENZOR TEMPERATURE - delovanje
+Sledite točkam razmišljanja od 1 - 5 in zapišite konkretne vrednosti električnih količin iz vašega
+vezja.
+
+fiz. količina
+
+pri nižji temp.
+
+pri višji temperaturi
+
+temperatura
+RN T C
+I0
+UR1
+UIZHOD
+
+5.1 Izbira referenčnega upora
+Odzivnost senzorja (t.j. sprememba izhodnega napetostnega potenciala ob dani spremembi temperature) je zelo odvisna od prave izbire upora R1 iz sl. 5.1 - desno. Temu uporu rečemo tudi referenčni
+upor.
+
+5.1.1 NALOGA: DOLOČITEV REFERENČNEGA UPORA
+Za različne referenčne upore preverite odziv senzorja. Pri izpeljavi meritev bodite pozorni, da
+boste temperaturo spremenili vedno v istem območju, npr. vedno iz temperature 10°C na 40°C.
+Referenčni upori naj bodo v dekadnem razmerju.
+
+24
+
+dr. David Rihtaršič
+
+ELEKTRONIKA - zbirka vaj
+
+RRef [Ω]
+
+T1 [◦ C]
+
+2020-02-18 13:11
+
+T2 [◦ C]
+
+UIZH (T1 )[V ]
+
+UIZH (T2 )[V ]
+
+∆U [V ]
+
+100
+1k
+10k
+100k
+1M
+
+Iz prejšnje naloge ste verjetno opazili, da je odziv senzorja zelo odvisen od izbire referenčnega upora.
+Zato poskusimo nastaviti enačbo za izračun le-tega. Če bi iz meritev iz prejšnje naloge narisali graf
+∆U (RRef ) bi lahko ugotovili, da ima ta funkcija en maksimum pri RRef −M AX . Za izračun tega upora
+(določitev maksimuma funkcije) moramo poiskati ničlo odvoda funkcije ∆U (RRef ).
+
+5.1.2 NALOGA: IZRAČUN REFERENČNEGA UPORA
+1. Nastavite enačbo za izračun izhodne napetosti UIZH pri temperaturi T1 .a
+2. Nastavite enačbo za izračun izhodne napetosti UIZH pri temperaturi T2 .
+3. Nastavite enačbo za ∆U .
+4. Enačbo ∆U odvajajte po RRef in jo rešite za
+a
+
+∂UIZH
+∂RRef
+
+=0
+
+Upornost termistorja pri temperaturi T1 je različna od uporanosti pti T2 , zato jih morate ločiti in označiti drugače,
+npr.: RN T C−T 1 in RN T C−T 2 .
+
+dr. David Rihtaršič
+
+25
+
+2020-02-18 13:11
+
+26
+
+ELEKTRONIKA - zbirka vaj
+
+dr. David Rihtaršič
+
+6 Umiritev senzorja temperature
+Kot smo že omenili so senzorji elektronski elementi, katerih izhodna napetost je odvisna od neke
+fizikalne količine. Na primer v napšem primeru (senzor temperature) je izhodna napetost odvisna od
+temperature UIZH (T ). Vendar, da bi poznali to funkcijo, moramo senzor umeriti.
+Pred umeritvenim postopkom moramo poznati temperaturno območje, v katerem bomo senzor uporabljali. Zato si zadajmo nalogo, da bomo senzor uporabljali v območje T = [0◦ C .. 40◦ C].
+
+6.0.1 NALOGA: SESTAVITE VEZJE
+Sestavite senzor temperature kot sledilnik napetosti, v katerem boste uporabili le referenčni upor
+RREF in NTC termistor RN T C . Vezje tudi narišite.
+Izhodni napetostni potencial senzorja naj bo večji čim večja je temperatura.
+Nenazadnje, določite referenčni upor RREF tako, da bo senzor imel največji odziv v zadanem
+temperaturnem območju. V ta namen morate poznati upornost termistorja pri:
+- RN T C−20 = __________ kΩ
+- RN T C−40 = __________ kΩ
+RREF = __________ kΩa
+a
+
+Za izračun vzemite izpeljano enačbo iz prejšnje naloge.
+
+6.0.2 NALOGA: UMERITEV SENZORJA
+Pri postopku umeritve morate meriti temperaturo T termistorja in hkrati izhodni napetostni
+potencial senzorja UIZH . Meritve zabeležite v spodnjo tabelo.
+Nato podatke vrišite v graf na sl. 6.1
+
+27
+
+2020-02-18 13:11
+
+ELEKTRONIKA - zbirka vaj
+Tabela 6.1: Umeritev senzorja temperature.
+
+meritve
+
+no. 1
+
+no. 2
+
+no. 3
+
+no. 4
+
+no. 5
+
+no.6
+
+no. 7
+
+no. 8
+
+no. 9
+
+no. 10
+
+T [◦ C]
+UIZH [V ]
+RN T C [kΩ]1
+
+Slika 6.1: Graf UIZH (T ) temperaturnega senzorja in karakteristika RN T C (T ) NTC termistorja.
+
+6.0.3 NALOGA: KARAKTERISTIKA NTC TERMISTORJA
+Izračunajte tudi upornost termistorja. Le-to lahko izračunate glede na napajalno napetost U0 ,
+referenčno uporanost RREF in izhodno napetost UIZH . Vsaj en izračun tudi dosledno nakažite.
+Upornost termistorja RN T C izračunajte pri vsaki umerjeni temperaturi in jo vpišite v tbl. 6.1.
+1
+
+Upornost termistorja ne prepisujte iz programa za simulacijo, le-to morate izračunati v naslednji nalogi.
+
+28
+
+dr. David Rihtaršič
+
+ELEKTRONIKA - zbirka vaj
+
+2020-02-18 13:11
+
+Nato v isti graf na sl. 6.1 vrišite še karakteristika termistorja RN T C (T ) tako, da skalo za upornost
+določite na desni strani grafa.
+
+dr. David Rihtaršič
+
+29
+
+2020-02-18 13:11
+
+30
+
+ELEKTRONIKA - zbirka vaj
+
+dr. David Rihtaršič
+
+7 Polprevodniška dioda
+
+Polprevodnik je monokristalna snov, ki ima brez dovedene energije lastnosti električnega izolatorja, pri
+dovolj veliki dovedeni energiji pa ima lastnosti slabega električnega prevodnika. Od tod tudi njegovo
+ime. Uporabljajo se za izdelavo nelinearnih elektronskih elementov (dioda, tranzistor, integrirano vezje,
+triak,...). Sodobne elektronike si ne moremo zamišljati brez polprevodnikov. Najbolj znan polprevodnik
+v elektroniki je silicij, uporablja pa se tudi germanij [vir: https://sl.wikipedia.org/wiki/Polprevodnik ].
+
+Dioda je elektronski element z dvema priključkoma (anoda in katoda). Sprva so bile diode elektronke.
+Danes so jih skoraj povsem izpodrinile polprevodniške diode, ki so bile tudi prvi polprevodniški elementi. Značilnost diode je nesimetrična in nelinearna tokovno-napetostna karakteristika. V eni smeri
+dioda prepušča električni tok, v drugi (zaporni) smeri pa ne. Zaradi tega je primerna za usmerjanje
+izmeničnih signalov.
+
+7.1 Pol-valni usmernik
+
+Diodo večkrat uporabljamo kot usmerniški element, zaradi svoje preklopne prepustnosti. V vezju na
+sl. 7.1 je na vhod priključen napetostni vir izmenične sinusne napetosti, ki poganja tok skozi diodo in
+upor.
+
+31
+
+2020-02-18 13:11
+
+ELEKTRONIKA - zbirka vaj
+
+D1
+1N4148
+
+U1
+12V@50Hz
+
+R1
+1k
+
+Slika 7.1: Polvalni usmernik s polprevodniško diodo.
+
+V času pozitivne napajalne napetosti dioda prevaja električni tok in je na njej je majhna napetost
+UD = 0.7V , večji del napajalne napetosti pa je na uporu R1 , ki omejuje tok skozi tokokrog. Največji
+tok, ki v našem vezju teče skozi diodo je:
+
+ID =
+
+UG − UD
+RR1
+
+(7.1)
+
+V primeru negativne periode napajalne napetosti dioda ne prevaja. Skozi tokokrog teče zelo majhen
+zaporni tok IZ = 25nA, ki povzroča zanemarljiv padec napetosti na uporu R. Tako na izhodu dobimo
+le enosmerno napetost, čeprav smo na vhod priključili izmenično napetost. V našem primeru je
+enosmerna napetost pozitivna polvalna napetost . . .
+
+7.1.1 NALOGA: POLVALNI USMERNIK
+Sestavite vezje na sl. 7.1, ter izmerite potek vhodne napetosti vira - U_G(t) in napetost na uporu
+U_R1(t). Obe krivulji narišite v graf na sl. 7.2
+
+32
+
+dr. David Rihtaršič
+
+ELEKTRONIKA - zbirka vaj
+
+2020-02-18 13:11
+
+Slika 7.2: Časovna odvisnot izhodne napetosti polvalnega usmernika.
+
+7.2 Glajenje izhodne napetosti
+Ko uporabljamo nek vir napetosti, je v večini primerov zaželena neka konstantna izhodna napetost (s
+časom naj se ne spreminja). V prejšnji vaji pa smo lahko opazil,da je sicer napetostni potencial sicer
+pozitiven, a ni konstanten. Zato moramo ta napetostni potencial še “zgladiti”. Za naš primer bomo
+uporabili najenostavnejšo rešitev in za glajenje uporabili kondenzator tako, da ga vežemo vzporedno k
+bremenu (= porabniku). Tako izboljšamo stabilnost izhodne napetosti in jo lahko izračunamo kot:
+
+σ=
+
+UIZ
+∆UIZ
+
+(7.2)
+
+Kjer je UIZ - povprečna vrednost izhodne napetosti in ∆UIZ - največja sprememba izhodne napetosti.
+Princip delovanja glajenja lahko razložimo tako, da v času pozitivne periode napetostni vir zagotavlja
+
+dr. David Rihtaršič
+
+33
+
+2020-02-18 13:11
+
+ELEKTRONIKA - zbirka vaj
+
+električni tok obena - uporu R1 in kondenzatorju. Kondenzator se ob tem napolni z nabojem in se
+tako na njem pojavi napetost. S časom se napetost vira začne zmanjševati in ko je napetost vira
+manjša od napetosti na kondenzatoju, v tem trenutku tok skozi diodo ne teče več. Tako toka skozi upor
+ne zagotavlja več napetostni vir, pač pa naboj, ki je shranjen na kondenzatorju. Stabilnost izhodne
+napetosti pa bo boljša, čim večja bo časovna konstanta praznjenja:
+(7.3)
+
+τ = R1 C1
+
+7.2.1 NALOGA: GLAJENJE IZHODNE NAPETOSTI
+Izhodno napetost polvalnega usmernika zgladite z dodanim kondenzatorjem s kapacitivnostjo
+za C1 = 47µF . Nato menjajte različne bremenske upornosti R1 in opazujte kako se spremeni
+stabilnost izhodne napetosti.
+V tbl. 7.1 vpišite meritve povprečne vrednosti izhodnega napetostnega potenciala in vrednosti
+največje spremembe le tega.
+Natu tudi izračunajte stabilnost napetostnega potenciala.
+
+Tabela 7.1: Stabilnost izhodne napetosti pri različnih bremenskih upornostih.
+RB [kΩ]
+
+UIZ [V ]
+
+∆UIZ [V ]
+
+σ
+
+1.0kΩ
+
+7.2.2 NALOGA: GLAJENA IZHODNA NAPETOST
+Na graf sl. 7.2 dorišite še zglajeno izhodno napetost za en primer iz kombinacije:
+R1 = __________ kΩ in
+C1 = __________ µF .
+
+34
+
+dr. David Rihtaršič
+
+8 Zenerjeva dioda
+Zenerjeva dioda je v prevodni smeri zelo podobna navadni usmerniški diodi. V zaporni smeri pa ima
+nekoliko drugačne lastnosti. Električni tok začne dobro prevajati šele, ko se na njej pojavi t.i. zenerjeva
+napetost. V elektronskih vezjih jo uporabljamo predvsem v zaporni smeri. Zato bolje spoznajmo njeno
+karakteristiko v zaporni smeri. Izmerimo jo lahko z vezjem, ki ga prikazuje sl. 8.1.
+
+Slika 8.1: Merjenje karakretistike zenerjeve diode v zaporni smeri.
+
+8.0.1 NALOGA: KARAKTERISTIKA ZENERJEVE DIODE
+1. Sestavite vezje, ki je prikazano na sl. 8.1 in izmerite karakteri stiko I(U) zenerjeve diode
+v zaporni smeri. Menjajte upor RX tako, da boste na zenerjevi diodo ustvarili različne
+napetosti.
+2. Nakažite vsaj en izračun električnega toka, ki teče skozi zenerjevo diodo, če merimo le
+napetost na zenerjevi diodi.
+3. Zabeležite si ključne pdatke (napajalno napetost in nazivno zenerjevo napetost):
+UCC =_____________ V
+
+35
+
+2020-02-18 13:11
+
+ELEKTRONIKA - zbirka vaj
+
+UZ0 = _____________V
+
+Tabela 8.1: Meritve karakteristike zenerjeve diode.
+N
+
+RX [kΩ]
+
+UZ [V]
+
+IZ [mA]
+
+N
+
+1
+
+6
+
+2
+
+7
+
+3
+
+8
+
+4
+
+9
+
+5
+
+10
+
+RX [kΩ]
+
+UZ [V ]
+
+IZ [mA]
+
+Slika 8.2: Karakteristika zenerjeve diode I(U) v zaporni smeri.
+
+36
+
+dr. David Rihtaršič
+
+ELEKTRONIKA - zbirka vaj
+
+2020-02-18 13:11
+
+8.0.2 NALOGA: DELOVNA TOČKA ZENERJEVE DIODE
+1. Iz grafa na sl. 8.2 odčitajte delovno točko zenerjeve diode. To je točka na I(U) karakteristiki
+zenerjeve diode, pri kateri teče skozi zenerjevo diodo delovni tok IZ0 in je na njej ravno
+njena nazivna napetost UZ0 .
+IZ0 =_____________ mA
+UZ0 = _____________V
+
+dr. David Rihtaršič
+
+37
+
+2020-02-18 13:11
+
+38
+
+ELEKTRONIKA - zbirka vaj
+
+dr. David Rihtaršič
+
+9 REFERENČNI VIR Z ZENERJEVO DIODO
+Referenčni napetostni vir, naj bi bil vir napetosti, ki bi zagotavljal neko določeno napetost (oz. kar se da
+konstantno). Ker pa je lahko njegovo delovanje odvisno od več spremenljivk (napajanje vira, različni
+porabniki) je lahko stabilnost te napetosti vprašljiva. Kako bi si skonstruirali tak vir, si poglejmo na
+naslednjem primeru. Referenčni vir bomo napajali z 9 V. Zenerjeva dioda je vezana v delilnik napetosti
+z uporom R1 , s katerim nastavimo ustrezne pogoje delovanja zenerjeve diode (glej: delovna točka
+zenerjeve diode iz prejšnje naloge).
+
+R1
+V1
+9V
+
++
+D1
+ZENER
+
+-
+
+Slika 9.1: Referenčni vir z zenerjevo diodo.
+
+9.0.1 NALOGA: REFERENČNI VIR Z ZENERJEVO DIODO
+Sestavite referenčni vir z zenerjevo diodo, kot prikazuje slika. Upor R1 izberite tako, da bo zen.
+dioda delovala pri njeni delovni točki.
+Izračun tudi nakažite.
+Sedaj lahko preverite kako je s stabilnostjo vašega referenčnega vira. Na primer, da se po nekaj urah naš
+akumulator izprazni in namesto 9 V voltov zagotavlja le še 5 V. Če kljub temu na izhodu ne zaznamo znatne spremembe napetosti je vir dober oz. ima velik faktor stabilnosti. Faktor stabilnosti napetostnega
+vira je definirana kot kvocient med relativnima spremembama vhodne in izhoden napetosti:
+
+39
+
+2020-02-18 13:11
+
+ELEKTRONIKA - zbirka vaj
+
+S=
+
+∆UG
+UG
+∆UIZ
+UIZ
+
+=
+
+∆UG UIZ
+UG ∆UIZ
+
+(9.1)
+
+9.0.2 NALOGA: STABILNOST REFERENČNEGA VIRA.
+Ustvarite take pogoje, da boste lahko faktor stabilnosti tudi izračunali.
+Na primer, da spremenite vhodno napetost za cca 1-2 V. Tako lahko izmerite vse podatke za izračun
+stabilnosti.
+
+9.1 OBREMENILNI PRESKUS REFERENČNEGA VIRA
+9.1.1 NALOGA: OBREMENILNI PRESKUS REFERENČNEGA VIRA
+Nato naredite obremenilni preskus referenčnega vira v širokem spektru bremenskih upornosti [10
+Ohmov .. 1 Mohm]. Napajalna napetost referenčnega vira naj bo zopet 9 V. Rezultate obremenilnega preskusa grafično predstavite v grafu UIZ (RB ). Graf naj ima vodoravno os v logaritemskem
+merilu.
+
+Tabela 9.1: Obremenilni preskus referenčnega vira.
+N
+
+40
+
+RB [kΩ]
+
+UIZ [V ]
+
+N
+
+1
+
+6
+
+2
+
+7
+
+3
+
+8
+
+4
+
+9
+
+5
+
+10
+
+RB [kΩ]
+
+UIZ [V ]
+
+dr. David Rihtaršič
+
+ELEKTRONIKA - zbirka vaj
+
+2020-02-18 13:11
+
+Slika 9.2: Graf obremenilnega preskusa.
+
+dr. David Rihtaršič
+
+41
+
+2020-02-18 13:11
+
+42
+
+ELEKTRONIKA - zbirka vaj
+
+dr. David Rihtaršič
+
+10 TRANZISTOR
+V prejšnji vaji smo lahko izmerili, da referenčni vir z zenerjevo diodo zagotavlja stabilno napetost le
+večjim bremenskim upornostim. Ob manjših bremenskih upornostih pa se napetost precej zmanjša,
+saj je izhodna upornost referenčnega vira z zenerjevo diodo precej velika in tako ne more zagotavljati
+potrebnega toka.
+To pomanjkljivost lahko izboljšamo, če izhodu referenčnega vira z zenerjevo diodo dodamo NPN
+tranzistor v funkciji sledilnika napetosti, kot to prikazuje sl. 10.1.
+
+Slika 10.1: Referenčni napetostni vir z ojačevalnikom moči.
+
+10.0.1 NALOGA: REFERENČNI NAPETOSTNI VIR Z OJAČEVALNIKOM MOČI
+Sestavite vezje na sliki 9.1 in izmerite obremenilni preskus referenčnega vira v širokem spektru
+bremenskih upornosti [10 Ohmov .. 1 Mohm]. Napajalna napetost referenčnega vira naj bo zopet 9
+V. Rezultate obremenilnega preskusa grafično predstavite v grafu UIZ (RB ) na isti graf iz prejšnje
+vaje na sl. ??.
+
+43
+
+2020-02-18 13:11
+
+44
+
+ELEKTRONIKA - zbirka vaj
+
+dr. David Rihtaršič
+
+11 Dodatki in pogosta vprašanja
+11.1 Barvno kodiranje upornosti
+Upornosti na uporih so bravno kodirane kot jih prikazuje naslednja slika sl. 11.1
+
+Slika 11.1: Bravno kodiranje vrednosti uporov.
+
+45
+
+

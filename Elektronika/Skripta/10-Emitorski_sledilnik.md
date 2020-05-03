@@ -2,6 +2,8 @@
 
 V prejšnji vaji smo lahko izmerili, da referenčni vir z zenerjevo diodo zagotavlja stabilno napetost le večjim bremenskim upornostim. Ob manjših bremenskih upornostih pa se napetost precej zmanjša, saj je izhodna upornost referenčnega vira z zenerjevo diodo precej velika in tako ne more zagotavljati potrebnega toka.
 
+## TRANZISTOR KOT OKJAČEVALNIK MOČI
+
 To pomanjkljivost lahko izboljšamo, če izhodu referenčnega vira z zenerjevo diodo dodamo NPN tranzistor v funkciji sledilnika napetosti, kot to prikazuje [@fig:ref_npn].
 
 ![Referenčni napetostni vir z ojačevalnikom moči.](./slike/10-ref-zener-npn.png){#fig:ref_npn}
