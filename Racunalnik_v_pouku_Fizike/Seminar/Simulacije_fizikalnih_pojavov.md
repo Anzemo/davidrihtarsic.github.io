@@ -203,6 +203,21 @@ tisto vmes izbrišite...
 - fizikalne enote
 -->
 
+## POŠEVNI MET 
+
+1. nalogžimo videl posevni_met.mp4
+2. video omejimo na 60. in 122. frane ; obdelamo 1x frame (vsak)
+3. dodaj merilo - calibration stick = 1.0m
+4. add coordinate axes (središče v težišču žogice)
+5. Create Point mass A
+6. Autotrack...(potrebno nastaviti na kavču...)
+7. Analiza:
+    - m: 58g
+    - v_x: 1.962 m/s (iz grafa x(t))
+    - v_y: 4.801 m/s (iz grafa v_y(t))
+    - g: 9.97 m/s²   (iz grafa v_y(t))
+
+
 ## OBLIKOVANJE FIZIKALNEGA MODELA (izračun x in y)
 
 Pri nanlizi poševnega meta teniške žogice smo izmerili naslednje veličine:
@@ -214,13 +229,20 @@ Pri nanlizi poševnega meta teniške žogice smo izmerili naslednje veličine:
 
 1. [*] Create -> Kinematic model (in vpišemo podatke)
 
-- v_x: 1.962 m/s
-- v_y: 4.801 m/s
+    PARAMETERS (-> Add):
+    - v_x: 1.962 m/s
+    - v_y: 4.801 m/s
+    - g : 9.84m/s²
 
 - x = v_x0*t + x_0
 - y = ¹/₂ 9.81 m/s²*t² + v_y0*t + y_0
 
 ## OBLIKOVANJE DINAMIČNEGA FIZIKALNEGA MODELA (izračun sil)
+
+Create -> Dinamic —> Cartezian
+
+- m: 0.058kg
+- g: -9.84m/s²
 
 - t: 0 s
 - x: 0 m
@@ -230,6 +252,12 @@ Pri nanlizi poševnega meta teniške žogice smo izmerili naslednje veličine:
 
 - Fx = 0
 - Fy = m*g
+
+> ### NALOGA: ANALIZA IN OBLIKOVANJE FIZ. MODELA
+> Oddajte "tracker" datoteko v kateri boste naredili:
+> 1. Analizo poševnega meta teniške žogice.
+> 2. Oblikovali fizikalni model težišča za katerega izračunate x in y.
+> 3. Oblikovali dinamični fizikalni model za težišče na katerega delujetea Fx in Fy.
 
 # ANALIZA ZVOKA
 ## Analiza periodičnih signalov

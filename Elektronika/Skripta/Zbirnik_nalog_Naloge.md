@@ -191,11 +191,7 @@
 
 # OPERACIJSKI OJAČEVALNIK
 
-## Komparator napetosti
-
-### Napajanje operacijskih ojačevalnikov
-
-### Izhodna napetost pri komparatorju napetosti
+## KOMPARATOR NAPETOSTI
 
 > ### NALOGA: VKLOP ŽARNICE  
 > Sestavite elektronsko vezje, ki bo vključilo žarnico, ko bomo na to vezje posvetili z drugim svetlobnim telesom. Tako vezje bo delovalo kot navadna sveča, ki jo moramo prižgati z vžigalico. To vezje lahko razdelimo na štiri osnovne sestavne dele, ki jih najdete v regulacijskih vezjih:  
@@ -205,3 +201,22 @@
 > 4. Močnostna elektronika: ki bo na podlagi izhodnega napetostnega potenciala komparatorja poskrbela za vklop žarnice.  
 >  
 > Vsak sestavni del najprej načrtujte in ga nato realizirajte v fizični obliki. Narišite sheme vsakega sestavnega dela posebej, ga preizkusite in povežite v celoto.
+
+## INVERTIRAJOČI OJAČEVALNI SISTEM
+
+> ### NALOGA: PRIPRAVA VHODNEGA SIGNALA  
+> Sestavite vezje s katerim boste lahko poljubno nastavljali napetostni signal v območju napetostni, ki ga orisuje [@fig:u_signal_a_open] ($U_{IZ}=\pm 250\ mV$). Vezje je lahko preprost delilnik napetostni s potenciometrom in napajano z bipolarnim napajanjem +9V in -9V.
+> Shemo vezja tudi narišite.
+
+> ### NALOGA: INVERTIRAJOČI OJAČEVALNI SISTEM  
+> Sestavite invertirajoči ojačevalni sistem z ojačanjem $|A'|\approx 50$.  
+> Nato ojačajte napetostni signal prejšnjega vezja in izmerite celotno prenosno funkcijo ($U_2(U_1)$) ojačevalnega sistemai, ki podaja odvisnost izhodne napetosti $U_2$ od vhodne napetosti $U_1$. Ne pozabite izmeriti tudi področje v že nasičenem območju (vsaj 2 meritvi).  
+> Meritve s pozitivnimi vhodnimi napetostmi $U_1$ vpisujte v [@tbl:ui_poz] in meritve z negativnimi vhodnimi napetostmi v [@tbl:ui_neg]...  
+> ...ter rezultate meritev predstavite v grafični obliki $U_2(U_1)$ v grafu na [@fig:prenosna_fun_inv_oj_sis]
+
+> ### NALOGA: NAPETOSTNI PREMIK OPERACIJSKEGA OJAČEVALNIKA  
+> Iz grafa odčitajte in označite napako tega sistema - preostalo napetost $U_{2OFF}$ in izračunajte napako operacijskega ojačevalnika, ki jo imenujemo **napetostni premik** in označimo z $U_{OFF}$.  
+> Izračun tudi predstavite.
+
+> ### NALOGA: UTEMELJITE  
+> Zakaj se izhodna napetost delilnika napetosti zmanjša v trenutku, ko priključek povežemo na vhod invertirajočega ojačevalnega sistema.

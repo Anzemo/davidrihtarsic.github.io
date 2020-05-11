@@ -11,6 +11,7 @@
 [9 - Referencni vir z zener diodo](./Skripta/09-Referencni_vir_z_zener_diodo.md) - [PDF](./Skripta/09-Referencni_vir_z_zener_diodo.pdf)  
 [10 - Emitorski sledilnik](./Skripta/10-Emitorski_sledilnik.md) - [PDF](./Skripta/10-Emitorski_sledilnik.pdf)  
 [12 - Komparator napetosti](./Skripta/12-Operacijski_ojačevalnik.md) - [PDF](./Skripta/12-Operacijski_ojačevalnik.pdf)  
+[13 - Invertirajoči ojačevalni sistem](./Skripta/13-Invert_ojac_sis.md) - [PDF](./Skripta/13-Invert_ojac_sis.pdf)
 
 ---
 
