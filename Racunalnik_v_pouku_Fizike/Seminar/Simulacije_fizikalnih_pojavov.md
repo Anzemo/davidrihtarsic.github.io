@@ -298,8 +298,68 @@ trakcem ali telefon
 
 To definicijo priznava tudi Avtorska agencija za Slovenijo, drugače pa je z Društvom znanstvenih in tehniških prevajalcev Slovenije, ki izhaja iz »obračunske strani čistopisa izvirnika«; ta ima samo 1500 znakov, a brez presledkov.
 
-# Analiza zvoka
+# ANALIZA ZVOKA
+
+## TON
+
+File: Ton 440 Hz
+Select -> Analize -> Plot spectrum
+
+## "BARVA" GLASBILA
+
+file : tone_flute 513Hz
+
+- pri osnovni frekvenci se vzbudijjo tudi višji harmoniki...
+- ki so večkratniki osnovne frekvence n= 1, 2,3,4,5... 
+- frekvence višjih harmonikov sovpadajo s DUR akordom
+
+## PRAVOKOTNI SIGNAL
+
+file: dubstep_sub_bass_line.wav
+
+- kadar opazimo, da frekvenčna analiza podaja le lihe večkratnike 1, 3, 5, 7, 9 osnovne frekvence gre za produciranje pravokotnega sigala...
+
+## UTRIPANJE
+
+- Pogosto pri zvonih
+- Težava je ker, tega pojava iz frekvenčne analize ne ugotovimo, ampak vidimo neposredno iz p(t).
+- f_utripanja = f_1 - f_2
+
+file: bell.waw
 
 
+## POK
+
+- pok je kratka impulzivna sprememba tlaka,
+- vsebuje "vse" frekvence, zato ga s fgtekvenčno analizo ne moremo zaznati...
+
+- uporabimo: Metronom_92bpm.wav
+
+## V-TWIN
+
+https://www.cyclechaos.com/wiki/V-twin
+
+V 4 taktnem bencinskem motorji se zaporedoma izvajajo 4-je procesi (takti): 1 - vsesavanje goriva, 2- kompresija goriva, 3- vžig in delovni takt,  4 - izpuh. Gred motorja se v tem procesu zavrti za 2 vrtljaja in se nato ta proces prične ponavljati. V vsakem tem procesu se gorivo vžge in s tem povzroči malo eksplozijo, kar je močno slišati pri delovanju motorja. Če ima motor dva valja tako slišimo dve taki eksploziji v enem takem ciklu. Časovni intervali med temi eksplozijami pa določajo "barvo" zvoka, ki ga oddaja posamezni motor. Zato so različno konstruirani motorji slišati različno.
+
+Za naslednje zvočne zapise delovanja motorjev:
+- BMW_r18.wav (180)
+- Ducati_Panigale.wav (90)
+- Harley_Davidson_Dyna.wav (60)
+- Triumph_Street_Twin.wav (0, wtf?)
+
+Izmerite:
+- čas enega cikla (t0) (t.j. čas ko se delovanje motorja prične ponavljati) delovanja motorja. 
+- čas med vžigoma (dt) goriva v istem ciklu delovanja motorja, nato opredelite ali ima motor valje razporejene v isti vrsti ali sta valja razporejena pod nekim kotom.
+
+Za tiste, ki vas to področje bolj zanima:
+- Iz t0 izračunajte kako hitro se vrti gred motorja (koliko vrtljajev v min naredi)
+- Iz dt in t0 lahko izračunate pod kakšnim kotom sta nameščena valja v motorju.
+- Triumph_Street_Twin ima sicer valja v isti vrsti, vendar so se konstruktorji potrudili in zamaknili gred ter vžig goriva.
+
+
+Kolikšen je kot cilindrov pri:
+- 2012 Ducati Panigale (90)
+- Harley Davidson Dyna (60)
+- BMW_r18 (180)
 
 # Literatura
