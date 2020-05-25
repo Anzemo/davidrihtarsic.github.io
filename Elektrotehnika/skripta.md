@@ -8,7 +8,7 @@
 [10 - Uporaba dalnovodov](./Skripta/13-Uporaba_transformatorjev_v_daljnovodih.md) - [PDF](./Skripta/13-Uporaba_transformatorjev_v_daljnovodih.pdf)  
 [11 - Krmiljenje koračnega motorja](./Skripta/10-Krmiljenje_koračnih_motorjev.md) - [PDF](./Skripta/10-Krmiljenje_koračnih_motorjev.pdf)  
 [12 - Izkoristek enosmernega motorja](./Skripta/11-Izkoristek_enosmernega_motorja.md) - [PDF](./Skripta/11-Izkoristek_enosmernega_motorja.pdf)  
-
+[13 - Električna inštalacija](./Skripta/17-Električna_inštalacija.md) - [PDF](./Skripta/17-Električna_inštalacija.pdf)
 ---
 
 [ZBIRKA VAJ - Skripta]( ./Skripta/Skripta.pdf )

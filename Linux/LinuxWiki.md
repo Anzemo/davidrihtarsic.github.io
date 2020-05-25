@@ -60,7 +60,9 @@ Na tej strani lahko najdete nekaj napotkov za Linux-e...
 
 - libre office
 - [blender](blender.md)
+[FlightGear](flightgrear.md)
 - [Yenka](Yenka.md)
+
 
 # HARDWARE
 

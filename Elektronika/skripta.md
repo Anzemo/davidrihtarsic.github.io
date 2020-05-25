@@ -12,7 +12,9 @@
 [10 - Emitorski sledilnik](./Skripta/10-Emitorski_sledilnik.md) - [PDF](./Skripta/10-Emitorski_sledilnik.pdf)  
 [12 - Komparator napetosti](./Skripta/12-Operacijski_ojačevalnik.md) - [PDF](./Skripta/12-Operacijski_ojačevalnik.pdf)  
 [13 - Invertirajoči ojačevalni sistem](./Skripta/13-Invert_ojac_sis.md) - [PDF](./Skripta/13-Invert_ojac_sis.pdf)  
-[14 - Elektrometrski ojačevalni sistem](./Skripta/14-Elektrometrski_ojac_sis.md) - [PDF](./Skripta/14-Elektrometrski_ojac_sis.pdf)
+[14 - Elektrometrski ojačevalni sistem](./Skripta/14-Elektrometrski_ojac_sis.md) - [PDF](./Skripta/14-Elektrometrski_ojac_sis.pdf)  
+[15 - Seštevalni in odštevalni sistem](./Skripta/15-Sestevalnik_odstevalnik.md) - [PDF](./Skripta/15-Sestevalnik_odstevalnik.pdf)  
+[16 - Električna sita](./Skripta/16-Elektricna_sita.md) - [PDF](./Skripta/16-Elektricna_sita.pdf)
 
 ---
 

@@ -227,3 +227,25 @@
 > Skonstruirajte (narišite shemo) elektrometrskega ojačevalnega sistema z ojačenjem okoli 2326. Pri tem ojačanju, boste dobili izhodno napetost enako 1/10 $\Delta T$ (npr.: 25$^\circ C$ - 2.5 V). Kot vhodno napetost uporabite napetost termočlena, katero dobite, če oba konca termočlena postavite na različni temperaturi. Umerite cel sistem tako, da boste izmerili temperature obeh spojev in izhodno napetost ter te meritve vpisali v [@tbl:umeritev_termoclena ].  
 > Nato narišite graf na [@fig:u_delta_t] $U_{IZU}(\Delta T)$, kjer je $\Delta T= T_+ - T_{GND}$ temperaturna razlika med obema spojema termočlena.  
 > Iz grafa odčitajte smerni koeficient umeritvene krivulje s katerim lahko izračunate koeficient termoelektrične napetosti za termočlen tipa T. Izračune tudi nakažite.
+
+## SEŠTEVALNI IN ODŠTEVALNI SISTEMI Z OPERACIJSKIM OJAČEVALNIKOM
+
+> ### NALOGA: SEŠTEVALNI SISTEM
+> Skonstruirajte vezje ki bo...
+> Izmerite nekaj vzorčnih primerov meritev, s katerimi lahko pokažete zanesljivo delovanje predlagane rešitve.Meritve vpišite v .
+
+> ### NALOGA: ODŠTEVALNI SISTEM
+> Skonstruirajte vezje ki bo...
+> Izmerite nekaj vzorčnih primerov meritev, s katerimi lahko pokažete zanesljivo delovanje predlagane rešitve.Meritve vpišite v .
+
+# ELEKTRIČNA SITA
+
+## NIZKO PREPUSTNO RC SITO
+
+## KARAKTERISTIKA NIZKO PREPUSTNEGA SITA
+
+> ### NALOGA: KARAKTERISTIKA NIZKO PREPUSTNEGA SITA
+> Skonstruirajte in narišite vezje nizko prepustnega sita, katerega mejna frekvenca naj bo $100 Hz$.  
+> Nato naredite preskus, s katerim boste lahko izmerili podatke za izračun dveh karakteristik sita $g(\nu)$ in $\Delta \phi(\nu)$. Meritve vpišite v [@tbl:meritve_LPF ] in  
+> nato narišite grafa $g(\nu)$ in $\Delta \phi (\nu)$ na [@fig:karakteristika_LPF]. X-os naj bo v logaritemski skali z osnovo 10.  
+> Na karakteristiki $f(\nu)$ označite tudi premico v padajočem delu karakteristike in izračunajte njen smerni koeficient ter nakažite, da je $\nu_0$ ničla te funkcije.
