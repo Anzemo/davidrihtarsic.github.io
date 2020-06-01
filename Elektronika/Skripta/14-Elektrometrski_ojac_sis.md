@@ -26,3 +26,11 @@ Table: Meritve umeritvenega postopka. {#tbl:umeritev_termoclena}
 
 ![Graf umeritve senzorja s termočlenom in elektrometrskim ojačevalnim sistemom.](./slike/Graf-osciloskop.png){#fig:u_delta_t}
 
+<!-- 
+- skonstruirajte vezje
++ ojačanje cca 2326
++ tabela meritev
+
+= upori naj bodo v k Ohm...
+-->
+

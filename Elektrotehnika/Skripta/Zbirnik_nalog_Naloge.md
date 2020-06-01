@@ -108,6 +108,32 @@
 > ### NALOGA - KRMILENJE SERVOMOTORJA  
 > Preskusite program tako, da premikate srednji priključek potenciometra in spremljajte odziv servo-motorja. Nato z osciloskopom posnemite oba signala (na potenciometru in signal za krmiljenje servo-motorja) in napetostna signala narišite za vsaj __3 različne situacije__.
 
+# Krmiljenje koračnih motorjev 
+
+## Uni-/Bi- polarni koračni motorji
+
+## Načini krmiljenja koračnega motorja
+
+> ### NALOGA: DOLOČITEV VEZAVE STATORJA KORAČNEGA MOTORJA  
+> Z uporabo Ohm-metra (merilnika upornosti) ugotovite, kateri konci žic navitja statorja motorja pripadajo istim tuljavam. Skicirajte shemo in jo primerno označite. 
+
+> ### NALOGA: KRMILJENJA KORAČNEGA MOTORJA  
+> Povežite koračni motor na krmilnik in preskusite spodnji program. Po potrebi popravite vezavo motorja, saj ne morete vedeti za smer vezave tuljave v motorju.
+
+> ### NALOGA: KRMILJENJE V POLNO- IN POL- KORAČNEM NAČINU  
+> Nato program dopolnite tako, da boste lahko motor krmilili v:  
+> - __polno-koračnen__ načinu in nato še v  
+> - __pol-koračnen__ načinu.
+>
+> Priložite obe programski kodi.
+
+# ENOSMERNI MOTOR
+
+## KONSTANTA MOTORJA
+
+> ### NALOGA: KONSTANTA MOTORJA  
+> Za več različnih DC motorjev izmerite potrebne meritve, da boste lahko določili konstanto motorja $k_M$. Potrebne meritve vpišite v [@tbl:k_motorja ] in jih označite z \* tako, da se bodo izmerjene vrednosti ločile od izračunanih. Račune tudi nakažite vsaj za en primer motorja.
+
 # ELEKTRIČNI DALJNOVODI 
 
 ## DALJNOVOD brez uporabe transformatorja
@@ -119,3 +145,25 @@
 
 > ### NALOGA: IZKORISTEK DALJNOVODA S TRANSFORMATORSKO POSTAJO.  
 > Izračunajte izkoristek daljnovoda po enačbi [@eq:izk_dal_no_tr] (kot v prejšnji nalogi). Izkoristke izračunajte za primere različno dolgih daljnovodov tako, da dolžino daljnovoda simulirate z različnimi upori daljnovodih žic $R_D$. Rezultate vpišite v [@tbl:tbl_with_tr ] in izkoristek daljnovoda v odvisnosti od te upornosti (razdalje) vrišite v istigraf na [@fig:gr_izkor], ter jih primerjajte.
+
+# ELEKTRIČNA INŠTALACIJA
+
+## VKLOP LUČI
+
+> ### NALOGA: VKLOP LUČI IZ ENEGA MESTA
+> Zvežite navadno stikalo za vklop luči iz enega mesta po naslednji enopolni shemi na [@fig:bulb_sw] in dorišite elektrotehniško shemo.
+
+## VEZAVA SERIJSKEGA STIKALA
+
+> ### NALOGA: SERIJSKO STIKALO
+> Povežite serijsko stikalo za vklop luči in vključitev fazne napetosti v vtičnici kopalnice, kor prikazuje [@fig:kopalnica].
+
+## VKLOP LUČI IZ DVEH MEST
+
+> ### NALOGA: VKLOP LUČI IZ DVEH MEST
+> Povežite električno inštalacijo v otroški sobi, kot jo prikazuje enopolna shema na [@fig:otroska]. V tej sobi je mogoče vključiti luč iz dveh mest z dvema menjalnima stikaloma.
+
+## VKLOP LUČI IZ TREH ALI VEČ MEST
+
+> ### NALOGA: VKLOP LUČI IZ TREH ALI VEČ MEST
+> Povežite električno inštalacijo za primer spalnice, kjer je luč možno vključiti in izključiti iz treh mest kot prikazuje shema na [@fig:spalnica].
