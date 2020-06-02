@@ -231,12 +231,13 @@
 ## SEŠTEVALNI IN ODŠTEVALNI SISTEMI Z OPERACIJSKIM OJAČEVALNIKOM
 
 > ### NALOGA: SEŠTEVALNI SISTEM
-> Skonstruirajte vezje ki bo...
-> Izmerite nekaj vzorčnih primerov meritev, s katerimi lahko pokažete zanesljivo delovanje predlagane rešitve.Meritve vpišite v .
+> Skonstruirajte vezje, ki bo izračunalo povprečno vrednost 3-h senzorjev temperature (npr.: v avtomobilski kabini). Prenosna funkcija tega vezja mora ustrezati [@eq:povprecje_T]  
+> $$ U_2 = \frac{1}{3} (U_{T_1}+U_{T_2}+U_{T_3}). $${#eq:povprecje_T}
+> Izmerite nekaj vzorčnih primerov meritev, s katerimi lahko pokažete zanesljivo delovanje predlagane rešitve.Meritve vpišite v [@tbl:meritve_sestevalnega_sistema ].
 
 > ### NALOGA: ODŠTEVALNI SISTEM
-> Skonstruirajte vezje ki bo...
-> Izmerite nekaj vzorčnih primerov meritev, s katerimi lahko pokažete zanesljivo delovanje predlagane rešitve.Meritve vpišite v .
+> Skonstruirajte vezje, ki bo merilo napetosti posamezne akumulatorske celice v katerem so zaporedno vezane tri celice - 3S. Vezje naj ima 4 vhodne priključke $U_{S_x}$ (GND, S1, S2 in S3) in 3 izhodne priključke $U_{S_y}$ na katerih lahko izmerimo napetostni potencial, ki ustreza napetosti posamezne celice. Torej napetosti na celici S1, napetost na S2 in S3.
+> Izmerite nekaj vzorčnih primerov meritev, s katerimi lahko pokažete zanesljivo delovanje predlagane rešitve.Meritve vpišite v [@tbl:meritve_sestevalnega_sistema ].
 
 # ELEKTRIČNA SITA
 
